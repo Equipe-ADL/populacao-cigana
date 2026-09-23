@@ -1,0 +1,243 @@
+.st0,
+.st1,
+.st2,
+.st3,
+.st4,
+.st5,
+.st6,
+.st7,
+.st8,
+.st9,
+.st10,
+.st11,
+.st12,
+.st13,
+.st14 {
+	fill: none;
+}
+
+.st15 {
+	fill: #b7b6b6;
+}
+
+.st16 {
+	fill: #dfdfdf;
+}
+
+.st1,
+.st3,
+.st4,
+.st5,
+.st6,
+.st7,
+.st8,
+.st9,
+.st17,
+.st11,
+.st18,
+.st19,
+.st12 {
+	stroke-miterlimit: 10;
+}
+
+.st1,
+.st3,
+.st5,
+.st17,
+.st11,
+.st19 {
+	stroke-width: 2px;
+}
+
+.st1,
+.st3,
+.st11 {
+	stroke: #212120;
+}
+
+.st2,
+.st8,
+.st10,
+.st12,
+.st13,
+.st14 {
+	stroke-linecap: round;
+}
+
+.st2,
+.st10,
+.st13,
+.st14 {
+	stroke-linejoin: round;
+}
+
+.st2,
+.st13 {
+	stroke: #6496bc;
+	stroke-width: 5px;
+}
+
+.st3 {
+	stroke-dasharray: 8.1 5.1;
+}
+
+.st20 {
+	fill: #ce6619;
+}
+
+.st4,
+.st8,
+.st17,
+.st19 {
+	stroke: #fff;
+}
+
+.st5 {
+	stroke: #b7b6b6;
+	stroke-dasharray: 8 5;
+}
+
+.st6,
+.st10 {
+	stroke: #d66124;
+	stroke-width: 4px;
+}
+
+.st21 {
+	fill: #6496bc;
+}
+
+.st22 {
+	fill: #d76223;
+}
+
+.st23 {
+	fill: #1d1d1b;
+}
+
+.st7,
+.st24 {
+	opacity: .5;
+}
+
+.st7,
+.st9,
+.st12 {
+	stroke: #000;
+}
+
+.st25 {
+	fill: #fff;
+}
+
+.st24 {
+	fill: #9d9d9d;
+}
+
+.st8,
+.st12 {
+	stroke-width: 6px;
+}
+
+.st26,
+.st19 {
+	fill: #558bb4;
+}
+
+.st27,
+.st18 {
+	fill: #e8511d;
+}
+
+.st17,
+.st28 {
+	fill: #98955c;
+}
+
+.st11 {
+	stroke-dasharray: 8 5;
+}
+
+.st18 {
+	stroke: #723318;
+}
+
+.st29 {
+	fill: #59aadd;
+}
+
+.st30 {
+	fill: #ddd786;
+}
+
+.st31 {
+	fill: #4eb6ea;
+}
+
+.st32 {
+	fill: #f0843b;
+}
+
+.st33 {
+	clip-path: url(#clippath);
+}
+
+.st13 {
+	stroke-dasharray: 8;
+}
+
+.st14 {
+	stroke: #f6a31b;
+}
+
+#aula3-info1 .bts {
+	animation: move 1s ease-out infinite alternate;
+}
+
+#aula3-info1 .bts:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+
+#aula3-info1 a:focus .bts {
+	animation: none;
+	transform: translateY(-5px);
+}
+
+#aula3-info1 a:focus .bts circle {
+	stroke: #293653;
+	stroke-width: 5px;
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px rgba(11, 41, 39, 0.5));
+	}
+
+	to {
+		transform: translateY(-20px);
+		filter: drop-shadow(0 10px 4px rgba(11, 41, 39, 0.5));
+	}
+}
+
+/* Adiciona uma borda visível de destaque ao focar com a tecla TAB */
+#aula3-info1 .info-btn:hover {
+	text-decoration: none;
+}
+
+#aula3-info1 .info-btn:focus {
+	outline: 3px solid #0056b3;
+	outline-offset: 2px;
+}
+
+/* Altera o cursor para pointer para indicar elemento clicável */
+#aula3-info1 .info-btn {
+	cursor: pointer;
+}
+
+/* Ajusta o traço da linha da seta no fundo azul */
+#aula3-info1 #seta2 {
+	stroke-linecap: butt; fill: none;
+}

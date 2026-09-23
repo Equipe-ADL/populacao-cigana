@@ -1,0 +1,157 @@
+/* CSS INFO MODULO 3 - AULA 1 */
+
+#aula1-info1 .st0,
+#aula1-info1 .st1,
+#aula1-info1 .st2 {
+	fill: none;
+}
+
+#aula1-info1 .st3 {
+	fill: #d06718;
+}
+
+#aula1-info1 .st4 {
+	fill: #c17c4d;
+	fill-rule: evenodd;
+}
+
+#aula1-info1 .st5 {
+	opacity: .2;
+}
+
+#aula1-info1 .st5,
+#aula1-info1 .st6 {
+	mix-blend-mode: multiply;
+}
+
+#aula1-info1 .st1,
+#aula1-info1 .st7 {
+	stroke: #d06718;
+	stroke-miterlimit: 10;
+	stroke-width: 3px;
+}
+
+#aula1-info1 .st6,
+#aula1-info1 .st8 {
+	isolation: isolate;
+}
+
+#aula1-info1 .st9 {
+	clip-path: url(#clippath-1);
+}
+
+#aula1-info1 .st10 {
+	fill: #375651;
+}
+
+#aula1-info1 .st11,
+#aula1-info1 .st12,
+#aula1-info1 .st13,
+#aula1-info1 .st2 {
+	stroke: #ece7dc;
+	stroke-width: 1.5px;
+}
+
+#aula1-info1 .st11,
+#aula1-info1 .st14 {
+	fill: #cd9f80;
+}
+
+#aula1-info1 .st12 {
+	fill: #55857f;
+}
+
+#aula1-info1 .st15 {
+	font-family: Montserrat-ExtraBold, Montserrat;
+	font-size: 47px;
+	font-weight: 700;
+}
+
+#aula1-info1 .st15,
+#aula1-info1 .st7 {
+	fill: #fff;
+}
+
+#aula1-info1 .st16 {
+	fill: #d7d396;
+}
+
+#aula1-info1 .st17 {
+	fill: #b76915;
+}
+
+#aula1-info1 .st18 {
+	fill: #558bb4;
+}
+
+#aula1-info1 .st19 {
+	opacity: .7;
+}
+
+#aula1-info1 .st13 {
+	fill: #7595b9;
+}
+
+#aula1-info1 .st20 {
+	fill: #7596ba;
+}
+
+#aula1-info1 .st21 {
+	clip-path: url(#clippath);
+}
+
+#aula1-info1 .st7 {
+	opacity: .6;
+}
+
+#aula1-info1 .bts {
+	animation: move 1s ease-out infinite alternate;
+}
+
+#aula1-info1 .bts:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+
+#aula1-info1 a:focus .bts {
+	animation: none;
+	transform: translateY(-5px);
+}
+
+#aula1-info1 a:focus .bts circle {
+	stroke: #477bea;
+	stroke-width: 5px;
+}
+
+#aula1-info1 #bt-regiao1:hover #bt1 .st18,
+#aula1-info1 #bt-regiao1:hover #N-S:hover .st13 {
+	fill: #87add6;
+}
+
+#aula1-info1 #bt-regiao2:hover #bt2 .st17,
+#aula1-info1 #bt-regiao2:hover #NE-CO:hover .st11 {
+	fill: #ea904b;
+}
+
+#aula1-info1 #bts-regioes:hover #bt3 circle.st3 {
+	fill: #E7555F;
+}
+
+#aula1-info1 #bts-regioes:hover #bt3 circle.st7 {
+	stroke: #E7555F;
+	stroke-miterlimit: 10;
+	stroke-width: 3px;
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px rgba(11, 41, 39, 0.5));
+	}
+
+	to {
+		transform: translateY(-20px);
+		filter: drop-shadow(0 10px 4px rgba(11, 41, 39, 0.5));
+	}
+}

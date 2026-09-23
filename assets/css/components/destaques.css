@@ -1,0 +1,205 @@
+/* --- DESTAQUES --- */
+
+/*** Destaque Olho de texto - Baixa ênfase ***/
+.olho-de-texto {
+	padding: var(--fio-sys-size-padding-xl) 0;
+	text-align: center;
+}
+/* .olho-de-texto p:first-child::before {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width:80px;
+	height:80px;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, -45%);
+}  */
+
+.olho-de-texto p:last-child::after {
+	content: url('../../../media/templates/destaque-graphism.svg');
+	display: block;
+	width: 180px;
+	height: auto;
+	position:relative;
+	left:50%;
+	transform: translate(-50%, 20%);
+}
+
+.olho-de-texto p {
+	font-family: var(--fio-sys-typography-family-primary-medium);
+	font-size: var(--fio-sys-typography-size-2);
+	line-height: var(--fio-sys-typography-height-125);
+	color: var(--fio-sys-color-accent-normal);
+}
+
+@media (min-width: 768px) {
+	.olho-de-texto {
+		padding: var(--fio-sys-size-padding-xl);
+		text-align: center;
+	}
+}
+
+/*** Destaque Box Cor - Média ênfase ***/
+.box-cor {
+	--_destaque-box-cor-title-color:var(--fio-sys-color-primary-30);
+	--_destaque-box-cor-text-color:var(--fio-sys-color-primary-30);
+	--_destaque-box-cor-border-color: var(--fio-sys-color-primary-30);
+	--_destaque-box-size-border-radius: var(--fio-sys-size-radius-sm);
+
+	background: linear-gradient(0deg, rgba(234, 233, 220, 0.2), rgba(234, 233, 220, 0.8)), url(../../../media/templates/bg-box-cor.png) no-repeat center;
+	border-radius: var(--_destaque-box-size-border-radius);
+}
+
+.box-cor .box-cor__base {
+	background-color: var(--_destaque-box-cor-background);
+	background-image: var(--_destaque-box-cor-background-image);
+	/* background-image: none; */
+    background-repeat: no-repeat;
+    background-position: 20% 0;
+    background-size: 250%;
+	padding: var(--fio-sys-size-padding-xl);
+	border-radius: var(--fio-sys-size-radius-sm);
+	border: none;
+}
+
+.box-cor .box-cor__base .base-header span {
+	font-size: var(--fio-sys-typography-size-2);
+    font-family: var(--fio-sys-typography-family-primary);
+    font-weight: 700;
+    color: var(--_destaque-box-cor-title-color);
+}
+
+.box-cor .box-cor__base .base-header h4,
+.box-cor .box-cor__base .base-header .h4,
+.box-cor .box-cor__base .base-header h5,
+.box-cor .box-cor__base .base-header .h5, 
+.box-cor .box-cor__base .base-body h4,
+.box-cor .box-cor__base .base-body .h4,
+.box-cor .box-cor__base .base-body h5,
+.box-cor .box-cor__base .base-body .h5 {
+	color: var(--_destaque-box-cor-title-color);
+}
+
+.box-cor .box-cor__base .base-body p.olho-texto {
+	font-family: var(--fio-sys-typography-family-primary-medium);
+    font-size: var(--fio-sys-typography-size-1);
+    color: var(--_destaque-box-cor-text-color);
+}
+
+@media(min-width:768px) {
+	.box-cor .box-cor__base {
+		background-position: 0 0;
+		background-size: 100%;
+		/* padding: calc(var(--fio-sys-size-padding-xxl)*2.5) calc(var(--fio-sys-size-padding-xxl)*1.5) calc(var(--fio-sys-size-padding-xxl)*1.5); */
+		padding: var(--fio-sys-size-padding-xxl) var(--fio-sys-size-padding-xxl) var(--fio-sys-size-padding-xxl);
+	}
+}
+
+.box-cor .base-header {
+	border-bottom-width: var(--fio-sys-size-stroke-sm);
+	border-bottom-style: solid;
+	border-color: var(--_destaque-box-cor-border-color);
+	padding-bottom: var(--fio-sys-size-padding-lg);
+}
+.box-cor .base-header p {
+	color: var(--fio-sys-color-neutral-normal);
+}
+
+.box-cor .base-body {
+	padding: var(--fio-sys-size-padding-lg) 0;
+}
+
+.box-cor .base-footer {
+	gap: 30px;
+}
+.box-cor .base-footer button {
+	width: 100%;
+}
+.box-cor .base-footer button[aria-expanded='true'] {
+	background-color: var(--fio-sys-color-accent-medium);
+	color: var(--fio-sys-color-primary-normal-contrast);
+}
+
+@media (max-width: 572px){
+	.box-cor .box-cor__base {
+		background-position: 20% -20px;
+		background-size: 150%;
+	}
+}
+
+@media (min-width: 768px) {
+	.napratica .base-footer button {
+		width: 100%;
+		max-width: 200px;
+	}
+}
+
+/*** Destaque Parallax - Alta ênfase ***/
+
+.destaque-parallax {
+	--_destaque-divisor-background: var(--fio-sys-color-accent-contrast);
+	--_destaque-background-image:url('../../../media/templates/bg-destaque.jpg');
+	--destaque-background-gradient: linear-gradient(0deg, rgba(252, 236, 230, 0.3), rgba(223, 247, 236, 0.9));
+	--_destaque-background-color: var(--fio-sys-color-accent-contrast);
+	--_destaque-background-size: cover;
+	--_destaque-background-position: center;
+	--_destaque-background-attachment: fixed;
+	--_destaque-margin:var(--fio-sys-size-margin-xxl) 0;
+	--_destaque-color: var(--fio-sys-color-primary-background-dark);
+
+	/* background: linear-gradient(0deg, rgba(0, 48, 102, 0.7), rgba(0, 48, 102, 0.7)), url('../../../media/templates/bg-destaque.jpg'); */
+	background-image: var(--destaque-background-gradient), var(--_destaque-background-image);
+	background-size: var(--_destaque-background-size);
+	background-position: var(--_destaque-background-position);
+	background-attachment: var(--_destaque-background-attachment);
+	background-color: var(--_destaque-background-color);
+	margin: var(--_destaque-margin);
+	padding: calc(var(--fio-sys-size-padding-xl)*2);
+}
+
+@media (max-width: 572px){
+	.destaque-parallax {
+		padding: var(--fio-sys-size-padding-lg);
+	}
+}
+
+.destaque-parallax p, 
+.destaque-parallax li, 
+.destaque-parallax .list .list-group .list-group-item {
+	color: var(--fio-sys-color-primary-20);
+	font-size: var(--fio-sys-typography-size-1);
+}
+
+.destaque-parallax .list .list-group .list-group-item::before {
+	color:var(--fio-sys-color-primary-20);
+}
+
+
+.destaque-parallax span {
+	color: var(--_destaque-color);
+}
+
+
+.destaque-parallax a {
+	color: var(--fio-sys-color-neutral-100)!important;
+	background-color: var(--fio-sys-color-primary-40);
+}
+
+.destaque-parallax a.fio-button-primary {
+	background-color:var(--_button-color-primary);
+}
+
+.destaque-parallax a.fio-button-primary:hover {
+	background-color:var(--_background-color--hover) !important;
+	color:var(--_text-color--hover) !important;
+}
+
+.destaque-parallax a:hover {
+	background-color: var(--fio-sys-color-primary-30)!important;
+}
+
+.destaque-parallax .card p {
+	color:var(--fio-sys-color-primary-30);
+	font-size: var(--fio-sys-typography-size-0);
+}
+

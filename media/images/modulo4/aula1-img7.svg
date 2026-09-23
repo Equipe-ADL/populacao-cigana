@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 200">
+  <!-- Generator: Adobe Illustrator 30.5.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        fill: #308882;
+      }
+
+      .st2 {
+        fill: #41aaa0;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2">
+    <rect class="st0" width="200" height="200"/>
+    <g id="Layer_21" data-name="Layer_2">
+      <g id="sun">
+        <circle class="st2" cx="100" cy="97" r="47.4"/>
+        <rect class="st1" x="92.4" y="8.5" width="15.2" height="34" rx="4.6" ry="4.6"/>
+        <rect class="st1" x="56.6" y="18.1" width="15.2" height="34" rx="4.6" ry="4.6" transform="translate(-8.9 36.8) rotate(-30)"/>
+        <rect class="st1" x="30.5" y="44.2" width="15.2" height="34" rx="4.6" ry="4.6" transform="translate(-34 63.6) rotate(-60)"/>
+        <rect class="st1" x="11.5" y="89.4" width="34" height="15.2" rx="4.6" ry="4.6"/>
+        <rect class="st1" x="21.1" y="125.2" width="34" height="15.2" rx="4.6" ry="4.6" transform="translate(-61.3 36.8) rotate(-30)"/>
+        <rect class="st1" x="47.2" y="151.3" width="34" height="15.2" rx="4.6" ry="4.6" transform="translate(-105.5 135.1) rotate(-60)"/>
+        <rect class="st1" x="92.4" y="151.5" width="15.2" height="34" rx="4.6" ry="4.6"/>
+        <rect class="st1" x="128.1" y="141.9" width="15.2" height="34" rx="4.6" ry="4.6" transform="translate(-61.3 89.2) rotate(-30)"/>
+        <rect class="st1" x="154.3" y="115.7" width="15.2" height="34" rx="4.6" ry="4.6" transform="translate(-34 206.6) rotate(-60)"/>
+        <rect class="st1" x="154.5" y="89.4" width="34" height="15.2" rx="4.6" ry="4.6"/>
+        <rect class="st1" x="144.9" y="53.7" width="34" height="15.2" rx="4.6" ry="4.6" transform="translate(-8.9 89.2) rotate(-30)"/>
+        <rect class="st1" x="118.7" y="27.5" width="34" height="15.2" rx="4.6" ry="4.6" transform="translate(37.5 135.1) rotate(-60)"/>
+      </g>
+    </g>
+  </g>
+</svg>

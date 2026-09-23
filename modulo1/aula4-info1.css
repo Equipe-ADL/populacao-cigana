@@ -1,0 +1,258 @@
+/* CSS INFO MODULO 1 - AULA 4 */
+
+#aula4-info1 .transparent {
+	fill: transparent
+}
+
+#aula4-info1 .st7,
+#aula4-info1 .st8,
+#aula4-info1 .st9,
+#aula4-info1 .st10,
+#aula4-info1 .st11,
+#aula4-info1 .st12,
+#aula4-info1 .st13,
+#aula4-info1 .st14,
+#aula4-info1 .st15,
+#aula4-info1 .st16,
+#aula4-info1 .st17,
+#aula4-info1 .st18 {
+	fill: none;
+}
+
+#aula4-info1 .st19 {
+	opacity: .5;
+}
+
+#aula4-info1 .st19,
+#aula4-info1 .st8,
+#aula4-info1 .st9,
+#aula4-info1 .st10,
+#aula4-info1 .st11,
+#aula4-info1 .st12,
+#aula4-info1 .st13,
+#aula4-info1 .st20,
+#aula4-info1 .st14,
+#aula4-info1 .st21,
+#aula4-info1 .st22,
+#aula4-info1 .st23,
+#aula4-info1 .st15,
+#aula4-info1 .st24,
+#aula4-info1 .st25,
+#aula4-info1 .st16,
+#aula4-info1 .st26,
+#aula4-info1 .st27,
+#aula4-info1 .st28,
+#aula4-info1 .st29,
+#aula4-info1 .st17,
+#aula4-info1 .st30,
+#aula4-info1 .st18 {
+	stroke-miterlimit: 10;
+}
+
+#aula4-info1 .st19,
+#aula4-info1 .st9,
+#aula4-info1 .st13,
+#aula4-info1 .st20,
+#aula4-info1 .st21,
+#aula4-info1 .st22,
+#aula4-info1 .st31,
+#aula4-info1 .st23,
+#aula4-info1 .st24,
+#aula4-info1 .st25,
+#aula4-info1 .st32,
+#aula4-info1 .st26,
+#aula4-info1 .st27,
+#aula4-info1 .st28,
+#aula4-info1 .st29,
+#aula4-info1 .st18 {
+	stroke: #fff;
+}
+
+#aula4-info1 .st19,
+#aula4-info1 .st20,
+#aula4-info1 .st22,
+#aula4-info1 .st25,
+#aula4-info1 .st33 {
+	fill: #558680;
+}
+
+#aula4-info1 .st34,
+#aula4-info1 .st30 {
+	fill: #80b7af;
+}
+
+#aula4-info1 .st8 {
+	stroke: #558680;
+}
+
+#aula4-info1 .st8,
+#aula4-info1 .st11,
+#aula4-info1 .st12,
+#aula4-info1 .st20,
+#aula4-info1 .st14,
+#aula4-info1 .st15,
+#aula4-info1 .st24,
+#aula4-info1 .st16,
+#aula4-info1 .st32,
+#aula4-info1 .st17,
+#aula4-info1 .st18 {
+	stroke-width: 2px;
+}
+
+#aula4-info1 .st8,
+#aula4-info1 .st11,
+#aula4-info1 .st12,
+#aula4-info1 .st14,
+#aula4-info1 .st15,
+#aula4-info1 .st16,
+#aula4-info1 .st17 {
+	stroke-dasharray: 5;
+}
+
+#aula4-info1 .st10 {
+	stroke: #5fb7af;
+}
+
+#aula4-info1 .st10,
+#aula4-info1 .st31 {
+	stroke-width: .8px;
+}
+
+#aula4-info1 .st11 {
+	stroke: #496d68;
+}
+
+#aula4-info1 .st12 {
+	stroke: #99c0dd;
+}
+
+#aula4-info1 .st13,
+#aula4-info1 .st23,
+#aula4-info1 .st27 {
+	stroke-width: .5px;
+}
+
+#aula4-info1 .st35 {
+	fill: #fff;
+}
+
+#aula4-info1 .st14 {
+	stroke: #637c93;
+}
+
+#aula4-info1 .st21,
+#aula4-info1 .st23,
+#aula4-info1 .st26,
+#aula4-info1 .st27,
+#aula4-info1 .st36,
+#aula4-info1 .st29 {
+	fill: #71ade2;
+}
+
+#aula4-info1 .st21,
+#aula4-info1 .st29 {
+	stroke-width: .2px;
+}
+
+#aula4-info1 .st37 {
+	opacity: 0;
+}
+
+#aula4-info1 .st31,
+#aula4-info1 .st38,
+#aula4-info1 .st32 {
+	fill: #99c0dd;
+}
+
+#aula4-info1 .st31,
+#aula4-info1 .st32 {
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+#aula4-info1 .st39 {
+	fill: #7596ba;
+}
+
+#aula4-info1 .st15 {
+	stroke: #7596ba;
+}
+
+#aula4-info1 .st24,
+#aula4-info1 .st40,
+#aula4-info1 .st28 {
+	fill: #637c93;
+}
+
+#aula4-info1 .st25 {
+	opacity: .6;
+}
+
+#aula4-info1 .st16 {
+	stroke: #71ade2;
+}
+
+#aula4-info1 .st26 {
+	stroke-width: .2px;
+}
+
+#aula4-info1 .st26,
+#aula4-info1 .st27,
+#aula4-info1 .st29 {
+	fill-rule: evenodd;
+}
+
+#aula4-info1 .st28 {
+	stroke-width: .7px;
+}
+
+#aula4-info1 .st41 {
+	fill: #496d68;
+}
+
+#aula4-info1 .st17,
+#aula4-info1 .st30 {
+	stroke: #80b7af;
+}
+
+#aula4-info1 .bts {
+	animation: move 1s ease-out infinite alternate;
+}
+
+#aula4-info1 .bts:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+
+#aula4-info1 a:focus .bts {
+	animation: none;
+	transform: translateY(-5px);
+}
+
+#aula4-info1 a:focus .bts circle {
+	stroke: #293653;
+	stroke-width: 5px;
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px rgba(11, 41, 39, 0.5));
+	}
+
+	to {
+		transform: translateY(-20px);
+		filter: drop-shadow(0 10px 4px rgba(11, 41, 39, 0.5));
+	}
+}
+
+/* Adiciona uma borda visível de destaque ao focar com a tecla TAB */
+#aula4-info1 .info-btn:focus {
+    outline: 3px solid #0056b3;
+    outline-offset: 2px;
+}
+/* Altera o cursor para pointer para indicar elemento clicável */
+#aula4-info1 .info-btn {
+    cursor: pointer;
+}

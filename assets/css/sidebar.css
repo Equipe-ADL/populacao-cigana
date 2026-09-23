@@ -1,0 +1,440 @@
+/* --- SIDEBAR --- */
+
+#hidebar-button {
+	--_hidebar-button-border: none;
+	--_hidebar-icon-close: "left_panel_close";
+	--_hidebar-icon-open: "left_panel_open";
+	--_hidebar-background: var(--fio-sys-color-primary-30);
+
+	display: none;
+}
+
+#sidebar {
+	--_sidebar-mobile-size: 100%;
+	--_sidebar-mobile-course-name-color: white;
+	--_sidebar-mobile-toggle-close: var(--fio-sys-color-neutral-100);
+
+	--_sidebar-desktop-size: 380px;
+	--_sidebar-background-color: var(--fio-sys-color-primary-30);
+	--_sidebar-border: none;
+
+	--_sidebar-module-btn--active: var(--fio-sys-color-primary-20);
+	--_sidebar-module-btn--hover: white;
+	--_sidebar-module-btn-color: var(--fio-sys-color-neutral-100);
+
+	--_sidebar-lesson-btn--active: var(--fio-sys-color-primary-20);
+	--_sidebar-lesson-btn--hover: white;
+	--_sidebar-lesson-btn-color: white;
+	--_sidebar-lesson-content-background-color: var(--fio-sys-color-primary-10);
+
+	--_sidebar-link-item--active: var(--fio-sys-color-primary-20);
+	--_sidebar-link-item--hover: white;
+	--_sidebar-link-item-color: white;
+	--_sidebar-line-height: var(--fio-sys-typography-height-125);
+
+	/* --_sidebar-link-item--active: rgba(255, 255, 255, 0.2); */
+
+	/* float: left; */
+	max-width: 100%;
+	min-height: 100vh;
+	will-change: min-height;
+	width: var(--_sidebar-mobile-size);
+	z-index: 102;
+	max-height: 100%;
+	/* left: -100%; */
+	overflow: scroll;
+	position: fixed;
+	transition: 0.5s ease-in-out;
+	transform: translateX(-100%);
+	scrollbar-width: none;
+}
+
+/* #modulo1 #sidebar {
+	--_sidebar-module-custom-color: var(--fio-sys-color-secondary1-normal);
+	--_sidebar-lesson-custom-color: var(--fio-sys-color-secondary1-dark);
+}
+#modulo2 #sidebar {
+	--_sidebar-module-custom-color: var(--fio-sys-color-secondary2-normal);
+	--_sidebar-lesson-custom-color: var(--fio-sys-color-secondary2-dark);
+}
+#modulo3 #sidebar {
+	--_sidebar-module-custom-color: var(--fio-sys-color-secondary3-normal);
+	--_sidebar-lesson-custom-color: var(--fio-sys-color-secondary3-dark);
+}
+#modulo4 #sidebar {
+	--_sidebar-module-custom-color: var(--fio-sys-color-secondary4-normal);
+	--_sidebar-lesson-custom-color: var(--fio-sys-color-secondary4-dark);
+	--_sidebar-module-btn-color: black;
+	--_sidebar-lesson-btn-color: black;
+	--_sidebar-link-item-color: black;
+}
+#modulo5 #sidebar {
+	--_sidebar-module-custom-color: var(--fio-sys-color-secondary5-normal);
+	--_sidebar-lesson-custom-color: var(--fio-sys-color-secondary5-dark);
+} */
+
+#sidebar .sidebar__inner {
+	background-color: var(--_sidebar-background-color);
+	min-height: 100vh;
+	padding: 0 0 16px 0;
+	position: relative;
+	transform: translate(0, 0);
+	transform: translate3d(0, 0, 0);
+	will-change: position, transform;
+}
+#sidebar .sidebar__section {
+	padding: 16px;
+}
+
+/* SIdebar Header - course's name and close button */
+
+#sidebar .sidebar__section .sidebar__section-header {
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 16px 8px;
+}
+#sidebar .sidebar__section .sidebar__section-header .course-name {
+	flex-basis: max-content;
+}
+#sidebar .sidebar__section .sidebar__section-header .course-name h2 {
+	color: var(--_sidebar-mobile-course-name-color);
+	font-size: 32px;
+}
+
+/* Close button */
+
+/* #sidebar .mobile-toggle-close:focus {
+	background-color: var(--primary-color-dark);
+	border-radius: 12px;
+} */
+#sidebar .mobile-toggle-close .mobile-toggle__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	background: none;
+}
+#sidebar .mobile-toggle-close .mobile-toggle__button:hover {
+	background: none;
+	color: inherit;
+	text-decoration: none;
+}
+#sidebar .mobile-toggle-close .mobile-toggle__button .icon {
+	font-size: 32px;
+	color: var(--_sidebar-mobile-toggle-close);
+	line-height: 100%;
+	transform: rotateY(180deg);
+}
+
+/* Section accordion */
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item .accordion-header {
+	margin-bottom: 0;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item .accordion-button {
+	align-items: center;
+	background: transparent;
+	border: none;
+	border-radius: 8px;
+	box-shadow: none;
+	color: var(--_sidebar-module-btn-color);
+	display: flex;
+	font-size: 16px;
+	font-weight: 600;
+	gap: 16px;
+	line-height: var(--_sidebar-line-height);
+	outline: 0;
+	padding: 1rem 1.25rem;
+	text-align: left;
+	text-transform: none;
+	width: 100%;
+}
+#sidebarAccordion {
+	gap: 16px;
+}
+.accordion {
+	gap: 8px;
+	display: flex;
+	flex-direction: column;
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item {
+	background: transparent;
+	border: none;
+	border-radius: 8px;
+}
+
+/* #sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item.accordion-module .list-group-item:not(:last-child) {
+	margin-bottom: 16px;
+} */
+/* #sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item.accordion-lesson .list-group-item:not(:last-child) {
+	margin-bottom: 8px;
+} */
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item:has(.accordion .accordion-button) {
+	background-color: transparent;
+}
+/* #sidebar .sidebar__section .sidebar__section-accordion .accordion .accordion-item:has(.accordion-header .accordion-button) {
+	background-color: #872912;
+} */
+
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-header .accordion-button::after {
+	content: none;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-header .accordion-button::before {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	content: "";
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform 0.2s ease-in-out;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-header .accordion-button:not(.collapsed)::before {
+	transform: rotate(-180deg);
+	color: var(--_sidebar-module-btn-color);
+}
+#sidebar .accordion .accordion-item .accordion-header .accordion-button:hover {
+	outline: 1px solid var(--_sidebar-module-btn--hover);
+	color: var(--_sidebar-module-btn-color);
+}
+#sidebar .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+	background-color: var(--_sidebar-module-btn--active);
+	color: var(--_sidebar-module-btn-color);
+	line-height: var(--_sidebar-line-height);
+}
+#sidebar .accordion .accordion-item .accordion-collapse {
+	background-color: var(--fio-sys-color-primary-40);
+	/* background-color: var(--fio-sys-color-accent-medium); */
+	/* margin-top: 8px; */
+	border: none;
+	border-radius: 8px 8px 0 0;
+	border-bottom: 1px solid var(--fio-sys-color-primary-50);
+}
+
+#sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button {
+	text-transform: none;
+	font-weight: 400;
+	color: white;
+	line-height: var(--_sidebar-line-height);
+}
+#sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:hover {
+	outline: 1px solid var(--_sidebar-lesson-btn--hover);
+}
+#sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:not(.collapsed) {
+	background-color: var(--_sidebar-lesson-btn--active);
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group {
+	padding: 16px 1px 16px 20px;
+	gap: 16px;
+	background-color: transparent;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item {
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	text-align: left;
+	padding: 20px;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item::before,
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item::before {
+	font-family: "Material Symbols Rounded";
+	vertical-align: bottom;
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item.module-link {
+	background: transparent;
+	color: #fff;
+	font-weight: 800;
+	border: none;
+	border-radius: 8px;
+	font-family: "Open Sans Regular";
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item.active {
+	background-color: var(--_sidebar-module-btn--active);
+	color: white;
+	line-height: var(--_sidebar-line-height);
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item:hover {
+	outline: 1px solid var(--_sidebar-link-item--hover);
+	border-radius: 8px;
+	text-decoration: none;
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item.active {
+	/* background-color: var(--_sidebar-link-item--active); */
+	color: var(--_sidebar-link-item-color);
+	border-radius: 8px;
+	background-color: var(--_sidebar-link-item--active);
+}
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group .list-group-item.active::before {
+	.material-symbols-rounded {
+		font-variation-settings: "FILL" 1;
+	}
+}
+
+.icon-welcome::before {
+	content: "flag"; /* ou use um SVG ou font icon */
+	margin-right: 5px;
+}
+
+.icon-lesson::before {
+	content: "book";
+	margin-right: 5px;
+}
+.icon-autor::before {
+	content: "account_circle";
+	margin-right: 5px;
+}
+
+.icon-activity::before {
+	content: "checklist";
+	margin-right: 5px;
+}
+
+.icon-closing::before {
+	content: "sports_score";
+	margin-right: 5px;
+}
+
+/* Menu from header */
+
+#sidebar .header-nav {
+	padding: 0;
+}
+#sidebar .header-nav .nav-item {
+	flex: 1;
+}
+#sidebar .header-nav .nav-item .nav-link {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Open Sans Light";
+	font-size: 14px;
+	padding: 16px;
+}
+/* #sidebar .header-nav .nav-item .nav-link:focus {
+	background-color: var(--primary-color-dark);
+	border-radius: 16px;
+} */
+#sidebar .header-nav .nav-link .icon {
+	display: block;
+	margin-bottom: 16px;
+	font-size: 18px;
+}
+
+/* Open and Close Sidebar  */
+.sidebar-show {
+	translate: 100%;
+}
+.prevent-scroll {
+	height: 100%;
+	overflow: hidden;
+}
+.html-overflow {
+	overflow: hidden;
+}
+
+.touch-enable {
+	touch-action: inherit;
+}
+.touch-disable {
+	touch-action: none;
+	filter: blur(4px);
+}
+/* ------------------------ */
+
+/* Sidebar Desktop */
+
+@media (min-width: 992px) {
+	#sidebar {
+		float: left;
+		/* display: inline-block; */
+		font-size: 1rem;
+		width: 380px;
+		min-height: 100vh;
+		will-change: min-height, margin-left;
+		z-index: 99;
+		position: relative;
+		transform: none;
+		overflow: visible;
+		box-shadow: 4px 0 0 0 var(--_sidebar-border);
+		transition: margin-left 0.25s ease-out;
+	}
+	#sidebar .sidebar__inner {
+		padding: 120px 0 16px 0;
+		position: relative;
+		transform: translate(0, 0);
+		transform: translate3d(0, 0, 0);
+		will-change: position, transform;
+		min-height: 100vh;
+		transition: left 0.25s ease-out;
+	}
+
+	/* Section hidebar */
+
+	#hidebar-button {
+		position: fixed;
+		left: 380px;
+		top: 100px;
+		background-color: var(--_hidebar-background);
+        border-radius: 0;
+		border-top-right-radius: 12px;
+		border-bottom-right-radius: 12px;
+		border: none;
+		box-shadow:
+			4px 0 0 0 var(--_hidebar-button-border),
+			0 4px 0 0 var(--_hidebar-button-border),
+			0 -4px 0 0 var(--_hidebar-button-border);
+		padding: 12px;
+		padding-left: 6px;
+		z-index: 99;
+		transition: left 0.25s ease-out;
+		width: 60px;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+        font-weight: 400;
+	}
+	#hidebar-button:hover {
+		--_hidebar-button-border: var(--_sidebar-module-btn--hover);
+		box-shadow:
+			4px 0 0 0 var(--_hidebar-button-border),
+			0 4px 0 0 var(--_hidebar-button-border),
+			0 -4px 0 0 var(--_hidebar-button-border);
+		text-decoration: none;
+	}
+	#hidebar-button:before {
+		content: "left_panel_close";
+		font-family: "Material Symbols Rounded";
+		font-size: 32px;
+		color: white;
+	}
+
+	#hidebar-button.hidebar-button--close:before {
+		content: var(--_hidebar-icon-open);
+	}
+
+	.hidebar-page--close {
+		margin-left: 0 !important;
+	}
+
+	.sidebar__topic-list .sidebar__list-item {
+		position: relative;
+		display: flex;
+		align-items: flex-start;
+		color: #ffffff;
+		font-size: 16px;
+	}
+}
+@media (min-width: 1200px) {
+	#sidebar {
+		max-width: 380px;
+	}
+}

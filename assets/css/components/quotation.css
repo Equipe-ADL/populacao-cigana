@@ -1,0 +1,74 @@
+/* --- QUOTATION --- */
+
+.quotation blockquote {
+	background: linear-gradient(-90deg, rgba(28, 130, 130, 0.2), rgba(210, 164, 64, 0.3));
+	border-radius: calc(var(--fio-sys-size-radius-xl)*1.5);
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	font-family: var(--fio-sys-typography-family-primary);
+	font-size: var(--fio-sys-typography-size-0);
+	font-weight: 400;
+	line-height: var(--fio-sys-typography-height-125);
+	margin: 0;
+	padding: var(--fio-sys-size-padding-xl);
+	padding-top: 100px;
+	position: relative;
+}
+
+@media(max-width:767px) {
+	.quotation blockquote {
+		padding: 100px var(--fio-sys-size-padding-md) var(--fio-sys-size-padding-xl);
+	}
+}
+
+.quotation blockquote:before {
+	content: "";
+    background-image: url(../../../media/templates/quotation-marks.svg);
+    background-repeat: no-repeat;
+    width: 150%;
+    height: 100px;
+    transform: translate(-50px, -25px);
+    position: absolute;
+	top: 0;
+}
+
+.quotation .card {
+	border-color: var(--fio-sys-color-primary-50);
+	background-color: var(--fio-sys-color-primary-90);
+}
+
+.quotation blockquote span.material-symbols-rounded {
+	font-variation-settings: "FILL" 1;
+	color: var(--fio-sys-color-primary-50);
+	font-size: 3rem;
+	padding: 0 30px 0 0;
+}
+.quotation blockquote .quotation-body {
+	/* border-left: 2px solid var(--fio-sys-color-primary-50); */
+	/* border-left:2px solid #D06719; */
+	border-left: transparent;
+	font-family: var(--fio-sys-typography-family-primary);
+	padding-left: 30px;
+}
+
+.quotation blockquote .quotation-body p {
+	color: var(--fio-sys-color-primary-40);
+    font-family: var(--fio-sys-typography-family-primary);
+    font-size: var(--fio-sys-typography-size-2);
+    font-style: normal;
+	line-height: var(--fio-sys-typography-height-150);
+}
+
+@media(min-width:1400px) {
+	.quotation blockquote .quotation-body p {
+		padding: 0 calc(var(--fio-sys-size-padding-xl)*1.2);
+	}
+}
+
+.quotation blockquote .quotation-autor {
+	color: #996633;
+	font-family: var(--fio-sys-typography-family-primary);
+	font-size: var(--fio-sys-typography-size--1);
+	float: right;
+}

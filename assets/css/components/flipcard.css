@@ -1,0 +1,240 @@
+/* --- FLIPCARD --- */
+
+.flipcard .flip-card {
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	height: 500px;
+	border: none;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.flipcard .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.8s;
+	transition: -webkit-transform 0.8s;
+	transition: transform 0.8s;
+	transition:
+		transform 0.8s,
+		-webkit-transform 0.8s;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.flipcard .flip-card .card > div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-width: 0;
+	word-wrap: break-word;
+}
+
+/* Desabilito o Hover (assim só vira se clicar no botão)
+  .flip-card2:hover .flip-card-inner2 {
+   -webkit-transform:rotateY(180deg);
+   transform:rotateY(180deg)
+  } */
+
+/*Esconde o input*/
+.flipcard .flip-card .more {
+	display: none;
+}
+
+/*Ao marcar o input, flipa o card*/
+.flipcard .flip-card .more:checked ~ .flip-card-inner {
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+/*Acerta a área de texto*/
+.flipcard .flip-card .card-text {
+	line-height: 1.5 !important;
+	text-align: left;
+	margin-bottom: 10px;
+	/* height: 190px; */
+}
+
+.flipcard .flip-card .card-text ul li ul {
+	list-style: circle;
+}
+
+/*Configurações gerais da frente e do verso*/
+.flipcard .flip-card-front,
+.flipcard .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	padding: var(--fio-sys-size-padding-xl) 0;
+}
+
+/*Configuração da frente*/
+.flipcard .flip-card-front {
+	border-radius: 10px;
+	/* -webkit-box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3); */
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/*Aqui colocamos um efeito fundo degradê para o card da frente*/
+.flipcard .flip-card-front::before {
+	border-radius: 10px;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/* background: linear-gradient(180deg, rgba(227, 247, 255, 1) 0%, rgba(227, 247, 255, 0.18) 50%, rgb(255, 255, 255) 100%); */
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flipcard .flip-card-front .card-body {
+	padding: 1rem;
+	color: var(--fio-sys-color-neutral-100);
+}
+
+.flipcard .flip-card-front .card-body p {
+	color: var(--fio-sys-color-neutral-100);
+}
+
+.flipcard .flip-card-front .card-title {
+	/* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65) !important; */
+	text-align: center;
+	color: var(--fio-sys-color-primary-30);
+	line-height: var(--fio-sys-typography-head-md-line-height);
+}
+
+.flip-card-front .card-footer,
+.flipcard .flip-card-back .card-footer {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background: none;
+	border: none;
+	text-align: center;
+}
+
+.flipcard .flip-card-front .card-footer .fio-button,
+.flipcard .flip-card-back .card-footer .fio-button {
+	margin: 0 auto;
+	border: transparent;
+	background: var(--fio-sys-color-primary-40);
+}
+
+.flipcard .flip-card-front .card-footer .fio-button:hover {
+	background-color: var(--fio-sys-color-primary-30);
+}
+
+.flipcard .flip-card-front .card-footer label {
+	margin-bottom: 0;
+}
+
+/*Tamanho do ícone do botão da frente*/
+.flipcard .flip-card-front .card-footer .fio-button svg {
+	fill: #fff;
+	width: 2rem;
+}
+
+.flipcard .flip-card-front.item1 .card-footer .fio-button:hover svg {
+	fill: var(--white) !important;
+}
+
+/*Fundos para flipcard*/
+.flipcard .flip-card .fundo1 {
+	background-image: url(../../../sources/recursos-visuais/images/fundo-flipcard.png);
+	background-size: cover;
+	background-color: var(--fio-sys-color-primary-70);
+	border-color: var(--fio-sys-color-primary-70);
+}
+
+/*Configuração do verso*/
+.flipcard .flip-card-back {
+	background-color: var(--fio-sys-color-neutral-100);
+	border-radius: 10px;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.flipcard .flip-card-back .card-body {
+	padding-top: 0;
+	height: calc(100% - var(--fio-sys-size-padding-xl) * 2);
+}
+
+.flipcard .flip-card-back .card-footer {
+	background-color: #fff;
+	border-top: transparent;
+}
+
+.flipcard .flip-card-back .card-footer .fio-button {
+	border-color: var(--fio-sys-color-primary-40);
+	border-width: 2px;
+	border-style: solid;
+	color: var(--fio-sys-color-primary-40);
+	/* background:  var(--fio-sys-color-primary-40); */
+	background: transparent;
+}
+
+/* .flipcard .flip-card-back .card-footer .fio-button:focus, */
+.flipcard .flip-card-back .card-footer .fio-button:hover {
+	background-color: transparent;
+	color: var(--fio-sys-color-primary-10);
+	border-color: var(--fio-sys-color-primary-10);
+}
+
+/* .flipcard .flip-card-back .card-footer .fio-button:focus {
+	background-color: var(--fio-sys-color-accent-light);
+} */
+
+/*Habilita o Scroll*/
+.flipcard .flip-card .flip-card-front .scrollable {
+	overflow-y: hidden;
+	color: var(--fio-sys-typography-paragraph-family);
+}
+
+.flipcard .flip-card .flip-card-back .scrollable {
+	text-align: left;
+	overflow-y: scroll;
+	font-size: 1rem;
+	padding-right: 10px;
+}
+
+/* Customização do scroll: Para Firefox e edge*/
+.flipcard .flip-card .card-text {
+	scrollbar-width: thin;
+	scrollbar-color: var(--fio-sys-color-accent-light) #f1f1f1;
+}
+
+/* Customização do scroll: Para Chrome e Safari*/
+.flipcard .flip-card .card-text::-webkit-scrollbar {
+	width: 5px;
+}
+
+.flipcard .flip-card .card-text::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+.flipcard .flip-card .card-text::-webkit-scrollbar-thumb {
+	background: var(--fio-sys-color-primary-40);
+}
+
+.flipcard .flip-card .card-text::-webkit-scrollbar-thumb:hover {
+	background: var(--fio-sys-color-accent-light);
+}
+
+@media (max-width: 1300) {
+	.flipcard .flip-card-front .card-title {
+		letter-spacing: -0.033em;
+	}
+}

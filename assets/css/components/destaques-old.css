@@ -1,0 +1,43 @@
+/* --- DESTAQUES --- */
+
+/*** Destaque Parallax - Alta ênfase ***/
+
+.destaque-parallax {
+	background: linear-gradient(0deg, rgba(224, 70, 0, 0.9), rgba(224, 70, 0, 0.2)), url(../../../sources/recursos-visuais/images/bg-destaque.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: var(--fio-sys-color-primary-medium);
+	padding: calc(var(--fio-sys-spacing-padding-xl) * 2) 0;
+	margin-bottom: calc(var(--fio-sys-spacing-margin-xl) * 2);
+}
+
+.destaque-parallax span:first-child {
+	display: block;
+	margin-bottom: var(--fio-sys-spacing-margin-xl);
+}
+
+.destaque-parallax span:first-child,
+.destaque-parallax p,
+.destaque-parallax li {
+	color: var(--fio-sys-color-neutral-100);
+}
+
+.destaque-parallax p {
+	font-size: var(--fio-sys-typography-head-x-size);
+}
+
+.destaque-parallax p:last-child {
+	margin-bottom: 0;
+}
+
+.destaque-parallax a {
+	color: var(--fio-sys-color-accent-dark-contrast);
+}
+
+.destaque-parallax {
+	background-color: transparent;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}

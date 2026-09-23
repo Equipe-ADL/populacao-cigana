@@ -1,0 +1,139 @@
+/* Google Material Symbols */
+
+@font-face {
+	font-family: "Material Symbols Rounded";
+	font-style: normal;
+	font-weight: 100 1000;
+	font-display: swap;
+	src: url("../../sources/fonts/MaterialSymbolsRounded[FILL\,GRAD\,opsz\,wght].woff2") format("truetype-variations");
+}
+.material-symbols-rounded {
+	font-family: "Material Symbols Rounded";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "liga";
+	vertical-align: text-bottom;
+	font-variation-settings:
+		"FILL" 0,
+		"GRAD" 0,
+		"opsz" 48;
+}
+/* Bootstrap Icons */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+@font-face {
+	font-family: bootstrapIcon;
+	src: url(../fonts/bootstrap-icons.woff);
+}
+
+/* Livvic */
+
+@font-face {
+	font-family: "Livvic Light";
+	font-style: normal;
+	font-weight: 100;
+	src: url("../../sources/fonts/Livvic-Light.ttf");
+}
+@font-face {
+	font-family: "Livvic Light Italic";
+	font-style: italic;
+	font-weight: 100;
+	src: url("../../sources/fonts/Livvic-LightItalic.ttf");
+}
+@font-face {
+	font-family: "Livvic Regular";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../../sources/fonts/Livvic-Regular.ttf");
+}
+@font-face {
+	font-family: "Livvic Italic";
+	font-style: italic;
+	font-weight: 300;
+	src: url("../../sources/fonts/Livvic-Italic.ttf");
+}
+@font-face {
+	font-family: "Livvic SemiBold";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../../sources/fonts/Livvic-SemiBold.ttf");
+}
+@font-face {
+	font-family: "Livvic Bold";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../../sources/fonts/Livvic-Bold.ttf");
+}
+@font-face {
+	font-family: "Livvic Bold Italic";
+	font-style: italic;
+	font-weight: 600;
+	src: url("../../sources/fonts/Livvic-BoldItalic.ttf");
+}
+@font-face {
+	font-family: "Livvic Black";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../../sources/fonts/Livvic-ExtraBold.ttf");
+}
+@font-face {
+	font-family: "Livvic Black Italic";
+	font-style: italic;
+	font-weight: 900;
+	src: url("../../sources/fonts/Livvic-ExtraBoldItalic.ttf");
+} 
+
+/* Livvic */
+
+@font-face {
+	font-family: "Livvic";
+	font-style: normal;
+	/* font-weight: 400; */
+	src: url("../../sources/fonts/Livvic-Regular.ttf");
+}
+@font-face {
+	font-family: "Livvic Italic";
+	font-style: italic;
+	/* font-weight: 700; */
+	src: url("../../sources/fonts/Livvic-Italic.ttf");
+}
+
+
+/* Open Sans */
+
+@font-face {
+	font-family: "OpenSans";
+	font-style: normal;
+	/* font-weight: 400; */
+	src: url("../../sources/fonts/OpenSans--Regular.ttf");
+}
+@font-face {
+	font-family: "OpenSans Italic";
+	font-style: italic;
+	/* font-weight: 700; */
+	src: url("../../sources/fonts/OpenSans-Italic.ttf");
+}
+@font-face {
+	font-family: "OpenSans Bold";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../../sources/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+	font-family: "OpenSans Bold Italic";
+	font-style: italic;
+	font-weight: 600;
+	src: url("../../sources/fonts/OpenSans-BoldItalic.ttf");
+}

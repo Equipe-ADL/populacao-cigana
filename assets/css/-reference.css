@@ -1,0 +1,46 @@
+/* REFERENCE VARIABLES */
+
+:root {
+	/* --- KEY COLORS - HSL format --- */
+
+	--fio-ref-color-primary: 359, 39%; /* hue, saturation% */
+	--fio-ref-color-secondary: 155, 58%;
+	--fio-ref-color-tertiary: 44, 89%;
+	--fio-ref-color-neutral: 279, 11%;
+	--fio-ref-color-text: 279, 11;
+	--fio-ref-color-success: 135, 60%;
+	--fio-ref-color-warning: 50, 100%;
+	--fio-ref-color-attention: 30, 100%;
+	--fio-ref-color-error: 5, 80%;
+	--fio-ref-color-extra: 0, 0%;
+
+	/* --- SIZE --- */
+
+	--fio-ref-size-base: 16px;
+
+	--fio-ref-size-0: 0;
+	--fio-ref-size-1: calc(var(--fio-ref-size-base) * 0.0625); /* 1px */
+	--fio-ref-size-2: calc(var(--fio-ref-size-base) * 0.125); /* 2px */
+	--fio-ref-size-3: calc(var(--fio-ref-size-base) * 0.1875); /* 3px */
+	--fio-ref-size-4: calc(var(--fio-ref-size-base) * 0.25); /* 4px */
+	--fio-ref-size-8: calc(var(--fio-ref-size-base) * 0.5); /* 8px */
+	--fio-ref-size-12: calc(var(--fio-ref-size-base) * 0.75); /* 12px */
+	--fio-ref-size-16: calc(var(--fio-ref-size-base) * 1); /* 16px */
+	--fio-ref-size-20: calc(var(--fio-ref-size-base) * 1.25); /* 20px */
+	--fio-ref-size-24: calc(var(--fio-ref-size-base) * 1.5); /* 24px */
+	--fio-ref-size-28: calc(var(--fio-ref-size-base) * 1.75); /* 28px */
+	--fio-ref-size-32: calc(var(--fio-ref-size-base) * 2); /* 32px */
+	--fio-ref-size-36: calc(var(--fio-ref-size-base) * 2.25); /* 36px */
+	--fio-ref-size-40: calc(var(--fio-ref-size-base) * 2.5); /* 40px */
+	--fio-ref-size-48: calc(var(--fio-ref-size-base) * 3); /* 48px */
+	--fio-ref-size-64: calc(var(--fio-ref-size-base) * 4); /* 64px */
+	--fio-ref-size-80: calc(var(--fio-ref-size-base) * 5); /* 80px */
+	--fio-ref-size-96: calc(var(--fio-ref-size-base) * 6); /* 96px */
+	--fio-ref-size-128: calc(var(--fio-ref-size-base) * 8); /* 128px */
+	--fio-ref-size-160: calc(var(--fio-ref-size-base) * 10); /* 160px */
+
+	/* --- TYPOGRAPHY --- */
+
+	--fio-ref-typography-family-primary: Livvic;
+	--fio-ref-typography-family-secondary: Open Sans;
+}

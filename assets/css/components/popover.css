@@ -1,0 +1,64 @@
+/* --- POPOVER --- */
+
+a[data-bs-toggle="popover"]:not([href]):not([class]),
+a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
+	color: var(--fio-sys-color-primary-30);
+	text-decoration: none;
+}
+
+.popover {
+	background-color: var(--fio-sys-color-neutral-100);
+	border: var(--fio-sys-size-stroke-sm) solid var(--fio-sys-color-primary-80);
+	border-radius: var(--fio-sys-size-radius-sm);
+	box-shadow: var(--fio-sys-size-shadow-lg);
+	font-size: var(--fio-sys-typography-size-0);
+	max-width: 500px;
+}
+
+.popover-header {
+	color: var(--fio-sys-color-primary-30);
+	padding: 0.5rem 1rem;
+	margin-bottom: 0;
+	font-size: var(--fio-sys-typography-size-0);
+	background-color: var(--fio-sys-color-primary-80);
+	border-bottom: none;
+	border-top-left-radius: var(--fio-sys-size-radius-sm);
+	border-top-right-radius: var(--fio-sys-size-radius-sm);
+}
+
+.popover ul li {
+	color: var(--fio-sys-color-primary-30);
+	font-family: var(--fio-sys-typography-family-primary);
+	font-size: var(--fio-sys-typography-size-0);
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: var(--fio-sys-size-margin-xs);
+}
+
+.bs-popover-auto[data-popper-placement^="top"] > .popover-arrow::after,
+.bs-popover-top > .popover-arrow::after {
+	bottom: 1px;
+	border-width: 0.5rem 0.5rem 0;
+	border-top-color: var(--fio-sys-color-primary-50);
+}
+
+.bs-popover-auto[data-popper-placement^="right"] > .popover-arrow::after,
+.bs-popover-end > .popover-arrow::after {
+	left: 1px;
+	border-width: 0.5rem 0.5rem 0.5rem 0;
+	border-right-color: var(--fio-sys-color-primary-50);
+	border-color: transparent;
+	border-right-color: var(--fio-sys-color-primary-50);
+}
+
+.bs-popover-auto[data-popper-placement^="bottom"] > .popover-arrow::after,
+.bs-popover-bottom > .popover-arrow::after {
+	top: 1px;
+	border-width: 0 0.5rem 0.5rem 0.5rem;
+	border-bottom-color: var(--fio-sys-color-primary-50);
+}
+
+.bs-popover-auto[data-popper-placement^="right"] > .popover-arrow::before,
+.bs-popover-end > .popover-arrow::before {
+	border-right-color: transparent;
+}

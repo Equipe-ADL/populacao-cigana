@@ -1,0 +1,20 @@
+/* --- OLHO DE TEXTO --- */
+
+.olho-de-texto {
+	padding: var(--fio-sys-sizepadding-xl) 0;
+	text-align: center;
+}
+
+.olho-de-texto p {
+	font-family: var(--fio-sys-typography-family-primary);
+	font-size: var(--fio-sys-typography-size-2);
+	line-height: var(--fio-sys-typography-height-150);
+	color: var(--fio-sys-color-primary-40);
+}
+
+@media (min-width: 768px) {
+	.olho-de-texto {
+		padding: var(--fio-sys-size-padding-xl);
+		text-align: center;
+	}
+}

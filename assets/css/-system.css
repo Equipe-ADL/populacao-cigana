@@ -1,0 +1,232 @@
+/* ---------- SIZE ---------- */
+
+/* SYSTEM UI VARIABLES */
+
+@import "-reference.css";
+
+:root {
+	/* --- COLOR --- */
+
+	/* Palettes */
+
+	--fio-sys-color-primary-0: hsl(var(--fio-ref-color-primary), 0%);
+	--fio-sys-color-primary-10: hsl(var(--fio-ref-color-primary), 15%);
+	--fio-sys-color-primary-20: hsl(var(--fio-ref-color-primary), 25%);
+	--fio-sys-color-primary-30: hsl(var(--fio-ref-color-primary), 35%);
+	--fio-sys-color-primary-40: hsl(var(--fio-ref-color-primary), 45%);
+	--fio-sys-color-primary-50: hsl(var(--fio-ref-color-primary), 54%);
+	--fio-sys-color-primary-60: hsl(var(--fio-ref-color-primary), 60%);
+	--fio-sys-color-primary-70: hsl(var(--fio-ref-color-primary), 70%);
+	--fio-sys-color-primary-80: hsl(var(--fio-ref-color-primary), 80%);
+	--fio-sys-color-primary-90: hsl(var(--fio-ref-color-primary), 90%);
+	--fio-sys-color-primary-95: hsl(var(--fio-ref-color-primary), 95%);
+	--fio-sys-color-primary-99: hsl(var(--fio-ref-color-primary), 99%);
+	--fio-sys-color-primary-100: hsl(var(--fio-ref-color-primary), 100%);
+
+	--fio-sys-color-secondary-0: hsl(var(--fio-ref-color-secondary), 0%);
+	--fio-sys-color-secondary-10: hsl(var(--fio-ref-color-secondary), 10%);
+	--fio-sys-color-secondary-20: hsl(var(--fio-ref-color-secondary), 20%);
+	--fio-sys-color-secondary-30: hsl(var(--fio-ref-color-secondary), 32%);
+	--fio-sys-color-secondary-40: hsl(var(--fio-ref-color-secondary), 42%);
+	--fio-sys-color-secondary-50: hsl(var(--fio-ref-color-secondary), 42%);
+	--fio-sys-color-secondary-60: hsl(var(--fio-ref-color-secondary), 60%);
+	--fio-sys-color-secondary-70: hsl(var(--fio-ref-color-secondary), 70%);
+	--fio-sys-color-secondary-80: hsl(var(--fio-ref-color-secondary), 80%);
+	--fio-sys-color-secondary-90: hsl(var(--fio-ref-color-secondary), 90%);
+	--fio-sys-color-secondary-95: hsl(var(--fio-ref-color-secondary), 95%);
+	--fio-sys-color-secondary-99: hsl(var(--fio-ref-color-secondary), 99%);
+	--fio-sys-color-secondary-100: hsl(var(--fio-ref-color-secondary), 100%);
+
+	--fio-sys-color-tertiary-0: hsl(var(--fio-ref-color-tertiary), 0%);
+	--fio-sys-color-tertiary-10: hsl(var(--fio-ref-color-tertiary), 10%);
+	--fio-sys-color-tertiary-20: hsl(var(--fio-ref-color-tertiary), 20%);
+	--fio-sys-color-tertiary-30: hsl(var(--fio-ref-color-tertiary), 30%);
+	--fio-sys-color-tertiary-40: hsl(var(--fio-ref-color-tertiary), 40%);
+	--fio-sys-color-tertiary-50: hsl(var(--fio-ref-color-tertiary), 50%);
+	--fio-sys-color-tertiary-60: hsl(var(--fio-ref-color-tertiary), 60%);
+	--fio-sys-color-tertiary-70: hsl(var(--fio-ref-color-tertiary), 70%);
+	--fio-sys-color-tertiary-80: hsl(var(--fio-ref-color-tertiary), 80%);
+	--fio-sys-color-tertiary-90: hsl(var(--fio-ref-color-tertiary), 90%);
+	--fio-sys-color-tertiary-95: hsl(var(--fio-ref-color-tertiary), 95%);
+	--fio-sys-color-tertiary-99: hsl(var(--fio-ref-color-tertiary), 99%);
+	--fio-sys-color-tertiary-100: hsl(var(--fio-ref-color-tertiary), 100%);
+
+	--fio-sys-color-neutral-0: hsl(var(--fio-ref-color-neutral), 0%);
+	--fio-sys-color-neutral-10: hsl(var(--fio-ref-color-neutral), 10%);
+	--fio-sys-color-neutral-20: hsl(var(--fio-ref-color-neutral), 20%);
+	--fio-sys-color-neutral-30: hsl(var(--fio-ref-color-neutral), 30%);
+	--fio-sys-color-neutral-40: hsl(var(--fio-ref-color-neutral), 40%);
+	--fio-sys-color-neutral-50: hsl(var(--fio-ref-color-neutral), 50%);
+	--fio-sys-color-neutral-60: hsl(var(--fio-ref-color-neutral), 60%);
+	--fio-sys-color-neutral-70: hsl(var(--fio-ref-color-neutral), 70%);
+	--fio-sys-color-neutral-80: hsl(var(--fio-ref-color-neutral), 80%);
+	--fio-sys-color-neutral-90: hsl(var(--fio-ref-color-neutral), 90%);
+	--fio-sys-color-neutral-95: hsl(var(--fio-ref-color-neutral), 95%);
+	--fio-sys-color-neutral-99: hsl(var(--fio-ref-color-neutral), 99%);
+	--fio-sys-color-neutral-100: hsl(var(--fio-ref-color-neutral), 100%);
+
+	--fio-sys-color-text-dark: hsl(var(--fio-ref-color-text), 10%);
+	--fio-sys-color-text-medium: hsl(var(--fio-ref-color-text), 50%);
+	--fio-sys-color-text-light: hsl(var(--fio-ref-color-text), 35%);
+
+	--fio-sys-color-success-0: hsl(var(--fio-ref-color-success), 0%);
+	--fio-sys-color-success-10: hsl(var(--fio-ref-color-success), 10%);
+	--fio-sys-color-success-20: hsl(var(--fio-ref-color-success), 20%);
+	--fio-sys-color-success-30: hsl(var(--fio-ref-color-success), 30%);
+	--fio-sys-color-success-40: hsl(var(--fio-ref-color-success), 40%);
+	--fio-sys-color-success-50: hsl(var(--fio-ref-color-success), 50%);
+	--fio-sys-color-success-60: hsl(var(--fio-ref-color-success), 60%);
+	--fio-sys-color-success-70: hsl(var(--fio-ref-color-success), 70%);
+	--fio-sys-color-success-80: hsl(var(--fio-ref-color-success), 80%);
+	--fio-sys-color-success-90: hsl(var(--fio-ref-color-success), 90%);
+	--fio-sys-color-success-95: hsl(var(--fio-ref-color-success), 95%);
+	--fio-sys-color-success-99: hsl(var(--fio-ref-color-success), 99%);
+	--fio-sys-color-success-100: hsl(var(--fio-ref-color-success), 100%);
+
+	--fio-sys-color-warning-0: hsl(var(--fio-ref-color-warning), 0%);
+	--fio-sys-color-warning-10: hsl(var(--fio-ref-color-warning), 10%);
+	--fio-sys-color-warning-20: hsl(var(--fio-ref-color-warning), 20%);
+	--fio-sys-color-warning-30: hsl(var(--fio-ref-color-warning), 30%);
+	--fio-sys-color-warning-40: hsl(var(--fio-ref-color-warning), 40%);
+	--fio-sys-color-warning-50: hsl(var(--fio-ref-color-warning), 50%);
+	--fio-sys-color-warning-60: hsl(var(--fio-ref-color-warning), 60%);
+	--fio-sys-color-warning-70: hsl(var(--fio-ref-color-warning), 70%);
+	--fio-sys-color-warning-80: hsl(var(--fio-ref-color-warning), 80%);
+	--fio-sys-color-warning-90: hsl(var(--fio-ref-color-warning), 90%);
+	--fio-sys-color-warning-95: hsl(var(--fio-ref-color-warning), 95%);
+	--fio-sys-color-warning-99: hsl(var(--fio-ref-color-warning), 99%);
+	--fio-sys-color-warning-100: hsl(var(--fio-ref-color-warning), 100%);
+
+	--fio-sys-color-error-0: hsl(var(--fio-ref-color-error), 0%);
+	--fio-sys-color-error-10: hsl(var(--fio-ref-color-error), 10%);
+	--fio-sys-color-error-20: hsl(var(--fio-ref-color-error), 20%);
+	--fio-sys-color-error-30: hsl(var(--fio-ref-color-error), 30%);
+	--fio-sys-color-error-40: hsl(var(--fio-ref-color-error), 40%);
+	--fio-sys-color-error-50: hsl(var(--fio-ref-color-error), 50%);
+	--fio-sys-color-error-60: hsl(var(--fio-ref-color-error), 60%);
+	--fio-sys-color-error-70: hsl(var(--fio-ref-color-error), 70%);
+	--fio-sys-color-error-80: hsl(var(--fio-ref-color-error), 80%);
+	--fio-sys-color-error-90: hsl(var(--fio-ref-color-error), 90%);
+	--fio-sys-color-error-95: hsl(var(--fio-ref-color-error), 95%);
+	--fio-sys-color-error-99: hsl(var(--fio-ref-color-error), 99%);
+	--fio-sys-color-error-100: hsl(var(--fio-ref-color-error), 100%);
+
+	/* --- SIZE --- */
+
+	/* Vertical size */
+	--fio-sys-size-vertical-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-vertical-0: var(--fio-ref-size-0);
+	--fio-sys-size-vertical-xs: var(--fio-ref-size-8);
+	--fio-sys-size-vertical-sm: var(--fio-ref-size-12);
+	--fio-sys-size-vertical-md: var(--fio-ref-size-20);
+	--fio-sys-size-vertical-lg: var(--fio-ref-size-40);
+	--fio-sys-size-vertical-xl: var(--fio-ref-size-80);
+	--fio-sys-size-vertical-xxl: var(--fio-ref-size-160);
+
+	/* Padding */
+	--fio-sys-size-padding-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-padding-0: var(--fio-ref-size-0);
+	--fio-sys-size-padding-xxs: var(--fio-ref-size-4);
+	--fio-sys-size-padding-xs: var(--fio-ref-size-8);
+	--fio-sys-size-padding-sm: var(--fio-ref-size-16);
+	--fio-sys-size-padding-md: var(--fio-ref-size-24);
+	--fio-sys-size-padding-lg: var(--fio-ref-size-32);
+	--fio-sys-size-padding-xl: var(--fio-ref-size-40);
+	--fio-sys-size-padding-xxl: var(--fio-ref-size-48);
+
+	/* Margin */
+	--fio-sys-size-margin-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-margin-0: var(--fio-ref-size-0);
+	--fio-sys-size-margin-xxs: var(--fio-ref-size-4);
+	--fio-sys-size-margin-xs: var(--fio-ref-size-8);
+	--fio-sys-size-margin-sm: var(--fio-ref-size-16);
+	--fio-sys-size-margin-md: var(--fio-ref-size-24);
+	--fio-sys-size-margin-lg: var(--fio-ref-size-32);
+	--fio-sys-size-margin-xl: var(--fio-ref-size-40);
+	--fio-sys-size-margin-xxl: var(--fio-ref-size-48);
+
+	/* Border radius */
+	--fio-sys-size-radius-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-radius-0: var(--fio-ref-size-0);
+	--fio-sys-size-radius-xs: var(--fio-ref-size-4);
+	--fio-sys-size-radius-sm: var(--fio-ref-size-8);
+	--fio-sys-size-radius-md: var(--fio-ref-size-12);
+	--fio-sys-size-radius-lg: var(--fio-ref-size-16);
+	--fio-sys-size-radius-xl: var(--fio-ref-size-24);
+	--fio-sys-size-radius-full: 999px;
+
+	/* Border width */
+	--fio-sys-size-stroke-multiplier: 1; /* Caso necessário */
+
+	--fio-sys-size-stroke-0: var(--fio-ref-size-0);
+	--fio-sys-size-stroke-xs: var(--fio-ref-size-1);
+	--fio-sys-size-stroke-sm: var(--fio-ref-size-2);
+	--fio-sys-size-stroke-md: var(--fio-ref-size-3);
+	--fio-sys-size-stroke-lg: var(--fio-ref-size-4);
+	--fio-sys-size-stroke-xl: var(--fio-ref-size-8);
+
+	/* Shadow */
+	--fio-sys-shadow-color: hsla(var(--fio-ref-color-neutral), 30%, 40%);
+
+	--fio-sys-size-shadow-0: 0;
+	--fio-sys-size-shadow-sm: 0 var(--fio-ref-size-2) var(--fio-ref-size-4) var(--fio-sys-shadow-color);
+	--fio-sys-size-shadow-md: 0 var(--fio-ref-size-4) var(--fio-ref-size-8) var(--fio-sys-shadow-color);
+	--fio-sys-size-shadow-lg: 0 var(--fio-ref-size-8) var(--fio-ref-size-16) var(--fio-sys-shadow-color);
+	--fio-sys-size-shadow-xl: 0 var(--fio-ref-size-16) var(--fio-ref-size-32) var(--fio-sys-shadow-color);
+
+	/* ---------- TYPOGRAPHY ---------- */
+
+	/* Family */
+	--fio-sys-typography-family-primary: var(--fio-ref-typography-family-primary);
+	--fio-sys-typography-family-primary-italic: var(--fio-ref-typography-family-primary) italic;
+	--fio-sys-typography-family-secondary: var(--fio-ref-typography-family-primary);
+	--fio-sys-typography-family-secondary-italic: var(--fio-ref-typography-family-primary) italic;
+
+	/* Size */
+	--fio-sys-typography-multiplier: 1; /* Caso necessário */
+
+	/* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1440,20,1.25,6,2,1200-1366-1440&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+	/* Step -2: 12.5px → 12.8px */
+	--fio-sys-typography-size--2: clamp(0.7813rem, 0.7759rem + 0.0268vi, 0.8rem);
+	/* Step -1: 15px → 16px */
+	--fio-sys-typography-size--1: clamp(0.9375rem, 0.9196rem + 0.0893vi, 1rem);
+	/* Step 0: 18px → 20px */
+	--fio-sys-typography-size-0: clamp(1.125rem, 1.0893rem + 0.1786vi, 1.25rem);
+	/* Step 1: 21.6px → 25px */
+	--fio-sys-typography-size-1: clamp(1.35rem, 1.2893rem + 0.3036vi, 1.5625rem);
+	/* Step 2: 25.92px → 31.25px */
+	--fio-sys-typography-size-2: clamp(1.62rem, 1.5248rem + 0.4759vi, 1.9531rem);
+	/* Step 3: 31.104px → 39.0625px */
+	--fio-sys-typography-size-3: clamp(1.944rem, 1.8019rem + 0.7106vi, 2.4414rem);
+	/* Step 4: 37.3248px → 48.8281px */
+	--fio-sys-typography-size-4: clamp(2.3328rem, 2.1274rem + 1.0271vi, 3.0518rem);
+	/* Step 5: 44.7898px → 61.0352px */
+	--fio-sys-typography-size-5: clamp(2.9rem, 2.9093rem + 1.8vi, 4.8147rem);
+	/* Step 6: 53.7477px → 76.2939px */
+	--fio-sys-typography-size-6: clamp(3.3592rem, 2.9566rem + 2.0131vi, 4.7684rem);
+
+	/* Line height */
+	--fio-sys-typography-height-100: 1;
+	--fio-sys-typography-height-110: 1.1;
+	--fio-sys-typography-height-125: 1.25;
+	--fio-sys-typography-height-150: 1.5;
+
+	/* Font weight */
+	--fio-sys-typography-weight-thin: 200;
+	--fio-sys-typography-weight-light: 300;
+	--fio-sys-typography-weight-normal: 400;
+	--fio-sys-typography-weight-bold: 700;
+	--fio-sys-typography-weight-black: 900;
+
+	/* Letter Spacing */
+	--fio-sys-typography-spacing-dense: -4px;
+	--fio-sys-typography-spacing-normal: 0;
+	--fio-sys-typography-spacing-small: 2px;
+	--fio-sys-typography-spacing-wide: 4px;
+	--fio-sys-typography-spacing-wider: 8px;
+}

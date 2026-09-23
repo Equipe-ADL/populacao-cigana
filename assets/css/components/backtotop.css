@@ -1,0 +1,40 @@
+#back-to-top {
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+
+	width: 60px;
+	height: 60px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 100%;
+
+	opacity: 0;
+	visibility: hidden;
+
+	transition: all 0.3s ease;
+
+	z-index: 1050;
+}
+
+#back-to-top.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+@media (max-width: 768px) {
+	.back-to-top {
+		bottom: 2rem;
+	}
+}
+
+/* Some e aparece caso a sidebar esteja aberta no mobile */
+
+#back-to-top.hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
