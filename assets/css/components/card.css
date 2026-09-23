@@ -13,12 +13,12 @@
 	--_card-header-padding-y: var(--fio-sys-size-padding-sm);
 	--_card-header-padding-x: var(--fio-sys-size-padding-sm);
 
-	--_card-header-background: var(--fio-sys-color-primary-90);
+	--_card-header-background: var(--fio-sys-color-primary-95);
 	--_card-header-family: var(--fio-sys-typography-family-primary);
 	--_card-header-tracking: var(--fio-sys-typography-spacing-normal);
 	--_card-header-line-height: var(--fio-sys-typography-height-125);
 	--_card-header-size: var(--fio-sys-typography-size-0);
-	--_card-header-color: var(--fio-sys-color-primary-40);
+	--_card-header-color: var(--fio-sys-color-primary-30);
 	--_card-header-border-color: var(--fio-sys-color-primary-light);
 	--_card-header-border-width: 0;
 
@@ -40,7 +40,7 @@
 }
 	
 .card.card-primary {
-	background-color: var(--_card-background-primary);
+	background-color: var(--_card-background-secondary);
 	border-color: var(--_card-border-color-primary);
 }
 

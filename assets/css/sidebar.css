@@ -4,32 +4,32 @@
 	--_hidebar-button-border: none;
 	--_hidebar-icon-close: "left_panel_close";
 	--_hidebar-icon-open: "left_panel_open";
-	--_hidebar-background: var(--fio-sys-color-primary-30);
+	--_hidebar-background: var(--fio-sys-color-primary-90);
 
 	display: none;
 }
 
 #sidebar {
 	--_sidebar-mobile-size: 100%;
-	--_sidebar-mobile-course-name-color: white;
-	--_sidebar-mobile-toggle-close: var(--fio-sys-color-neutral-100);
+	--_sidebar-mobile-course-name-color: var(--fio-sys-color-primary-30);
+	--_sidebar-mobile-toggle-close: var(--fio-sys-color-neutral-90);
 
 	--_sidebar-desktop-size: 380px;
-	--_sidebar-background-color: var(--fio-sys-color-primary-30);
+	--_sidebar-background-color: var(--fio-sys-color-primary-90);
 	--_sidebar-border: none;
 
-	--_sidebar-module-btn--active: var(--fio-sys-color-primary-20);
-	--_sidebar-module-btn--hover: white;
-	--_sidebar-module-btn-color: var(--fio-sys-color-neutral-100);
+	--_sidebar-module-btn--active: var(--fio-sys-color-primary-80);
+	--_sidebar-module-btn--hover: var(--fio-sys-color-primary-60);
+	--_sidebar-module-btn-color: var(--fio-sys-color-primary-40);
 
-	--_sidebar-lesson-btn--active: var(--fio-sys-color-primary-20);
-	--_sidebar-lesson-btn--hover: white;
-	--_sidebar-lesson-btn-color: white;
-	--_sidebar-lesson-content-background-color: var(--fio-sys-color-primary-10);
+	--_sidebar-lesson-btn--active: var(--fio-sys-color-primary-40);
+	--_sidebar-lesson-btn--hover: var(--fio-sys-color-primary-90);
+	--_sidebar-lesson-btn-color: var(--fio-sys-color-primary-60);
+	--_sidebar-lesson-content-background-color: var(--fio-sys-color-primary-30);
 
-	--_sidebar-link-item--active: var(--fio-sys-color-primary-20);
-	--_sidebar-link-item--hover: white;
-	--_sidebar-link-item-color: white;
+	--_sidebar-link-item--active: var(--fio-sys-color-primary-80);
+	--_sidebar-link-item--hover: var(--fio-sys-color-primary-60);
+	--_sidebar-link-item-color:  var(--fio-sys-color-primary-40);
 	--_sidebar-line-height: var(--fio-sys-typography-height-125);
 
 	/* --_sidebar-link-item--active: rgba(255, 255, 255, 0.2); */
@@ -206,18 +206,18 @@
 	line-height: var(--_sidebar-line-height);
 }
 #sidebar .accordion .accordion-item .accordion-collapse {
-	background-color: var(--fio-sys-color-primary-40);
+	background-color: var(--fio-sys-color-primary-95);
 	/* background-color: var(--fio-sys-color-accent-medium); */
 	/* margin-top: 8px; */
 	border: none;
 	border-radius: 8px 8px 0 0;
-	border-bottom: 1px solid var(--fio-sys-color-primary-50);
+	border-bottom: 1px solid var(--fio-sys-color-primary-40);
 }
 
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button {
 	text-transform: none;
-	font-weight: 400;
-	color: white;
+	font-weight: 600;
+	color: var(--fio-sys-color-primary-40);
 	line-height: var(--_sidebar-line-height);
 }
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:hover {
@@ -234,7 +234,7 @@
 }
 #sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item {
 	background-color: transparent;
-	color: #fff;
+	color: var(--fio-sys-color-primary-40);
 	border: none;
 	text-align: left;
 	padding: 20px;
@@ -414,7 +414,7 @@
 		content: "left_panel_close";
 		font-family: "Material Symbols Rounded";
 		font-size: 32px;
-		color: white;
+		color: var(--fio-sys-color-primary-40);
 	}
 
 	#hidebar-button.hidebar-button--close:before {

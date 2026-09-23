@@ -5,7 +5,7 @@
 	padding: var(--fio-sys-size-padding-xl) 0;
 	text-align: center;
 }
-/* .olho-de-texto p:first-child::before {
+.olho-de-texto p:first-child::before {
 	content: url('../../../media/templates/destaque-graphism.svg');
 	display: block;
 	width:80px;
@@ -13,13 +13,13 @@
 	position:relative;
 	left:50%;
 	transform: translate(-50%, -45%);
-}  */
+}  
 
 .olho-de-texto p:last-child::after {
 	content: url('../../../media/templates/destaque-graphism.svg');
 	display: block;
-	width: 180px;
-	height: auto;
+	width:80px;
+	height:80px;
 	position:relative;
 	left:50%;
 	transform: translate(-50%, 20%);
@@ -46,7 +46,7 @@
 	--_destaque-box-cor-border-color: var(--fio-sys-color-primary-30);
 	--_destaque-box-size-border-radius: var(--fio-sys-size-radius-sm);
 
-	background: linear-gradient(0deg, rgba(234, 233, 220, 0.2), rgba(234, 233, 220, 0.8)), url(../../../media/templates/bg-box-cor.png) no-repeat center;
+	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212)), url(../../../media/templates/bg-box-cor.png) no-repeat center;
 	border-radius: var(--_destaque-box-size-border-radius);
 }
 
@@ -139,7 +139,7 @@
 .destaque-parallax {
 	--_destaque-divisor-background: var(--fio-sys-color-accent-contrast);
 	--_destaque-background-image:url('../../../media/templates/bg-destaque.jpg');
-	--destaque-background-gradient: linear-gradient(0deg, rgba(252, 236, 230, 0.3), rgba(223, 247, 236, 0.9));
+	--destaque-background-gradient: linear-gradient(0deg, rgba(244, 213, 212, 0.6), rgba(204, 237, 212, 0.9));
 	--_destaque-background-color: var(--fio-sys-color-accent-contrast);
 	--_destaque-background-size: cover;
 	--_destaque-background-position: center;

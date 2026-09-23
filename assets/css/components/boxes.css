@@ -49,7 +49,7 @@
 	/* background:
 		linear-gradient(0deg, rgba(28, 130, 130, 0.2), rgba(210, 164, 64, 0.3)),
 		url(../../../media/templates/bg-box-atencao.svg) no-repeat right !important; */
-	background:linear-gradient(0deg, rgba(28, 130, 130, 0.2), rgba(210, 164, 64, 0.3)), url(../../../media/templates/bg-box-atencao.svg) no-repeat right!important;
+	background:linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212)), url(../../../media/templates/bg-box-atencao.svg) no-repeat right!important;
 }
 
 #box-atention.box .card p {
@@ -131,7 +131,7 @@
 .saiba-mais {
     /* background-color: var(--fio-sys-color-secondary-80); */
     padding: var(--fio-sys-size-padding-md);
-    background: linear-gradient(0deg, rgba(28, 130, 130, 0.2), rgba(210, 164, 64, 0.3)), url('../../../sources/recursos-visuais/images/bg-destaque.jpg') no-repeat 0 0 !important;
+    background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
     border-radius: var(--fio-sys-size-radius-sm);
     text-align: center;
 }

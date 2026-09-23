@@ -2,7 +2,7 @@
 
 #breadcrumb {
 	--_breadcrumb-color: var(--fio-sys-color-neutral-100);
-	--_breadcrumb-background-color: var(--fio-sys-color-primary-30);
+	--_breadcrumb-background-color: var(--fio-sys-color-primary-40);
 
 	position: fixed;
 	left: 10px;

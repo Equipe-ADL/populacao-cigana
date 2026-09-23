@@ -30,9 +30,23 @@
 	background-color: var(--fio-sys-color-primary-90);
 }
 
+
 .accordion p {
 	font-size: var(--fio-sys-typography-size-0);
 }
+
+#page-content 
+.accordion .accordion-body {
+	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
+}
+
+#page-content 
+.accordion p {
+	color:  var(--fio-sys-color-primary-30);
+	font-weight: 200;
+}
+
+#page-content 
 .accordion-item:first-of-type .accordion-button {
 	border-top-left-radius: var(--fio-sys-size-radius-lg);
 	border-top-right-radius: var(--fio-sys-size-radius-lg);

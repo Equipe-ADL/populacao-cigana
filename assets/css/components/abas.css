@@ -1,7 +1,7 @@
 /* --- ABAS --- */
 
 .aba {
-	--_tab-background-color: var(--fio-sys-color-primary-80);
+	--_tab-background-color: var(--fio-sys-color-primary-90);
 	--_tab-color: var(--fio-sys-color-primary-10);
 	--_tab-border-color: var(--fio-sys-color-primary-80);
 	--_tab-border-width: var(--fio-sys-size-stroke-sm);
@@ -54,6 +54,7 @@
 }
 
 .aba .tab-content {
+	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
 	background-color: var(--_content-background-color);
 	border-color: var(--_content-border-color);
 	border-width: var(--fio-sys-size-stroke-sm);

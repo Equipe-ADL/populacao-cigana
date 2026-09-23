@@ -1,0 +1,276 @@
+/* CSS INFO MODULO 4 - AULA 2 INFO 1 */
+
+#aula2-info1 .st0,
+#aula2-info1 .st1,
+#aula2-info1 .st2,
+#aula2-info1 .st3,
+#aula2-info1 .st4,
+#aula2-info1 .st5,
+#aula2-info1 .st6,
+#aula2-info1 .st7,
+#aula2-info1 .st8,
+#aula2-info1 .st9,
+#aula2-info1 .st10 {
+	fill: none;
+}
+
+#aula2-info1 .st11 {
+	fill: #f7c7c7;
+}
+
+#aula2-info1 .st12 {
+	fill: #0073ff;
+}
+
+#aula2-info1 .st13 {
+	fill: #526154;
+}
+
+#aula2-info1 .st14 {
+	fill: #f7d2d2;
+	stroke: #f26b6b;
+}
+
+#aula2-info1 .st14,
+#aula2-info1 .st1,
+#aula2-info1 .st2,
+#aula2-info1 .st15,
+#aula2-info1 .st3,
+#aula2-info1 .st4,
+#aula2-info1 .st5,
+#aula2-info1 .st6,
+#aula2-info1 .st7,
+#aula2-info1 .st8,
+#aula2-info1 .st9,
+#aula2-info1 .st16,
+#aula2-info1 .st10,
+#aula2-info1 .st17 {
+	stroke-miterlimit: 10;
+}
+
+#aula2-info1 .st14,
+#aula2-info1 .st15,
+#aula2-info1 .st3,
+#aula2-info1 .st4,
+#aula2-info1 .st10,
+#aula2-info1 .st17 {
+	stroke-width: 3px;
+}
+
+#aula2-info1 .st18 {
+	fill: #f99191;
+}
+
+#aula2-info1 .st19 {
+	fill: #680707;
+}
+
+#aula2-info1 .st20 {
+	mix-blend-mode: multiply;
+	opacity: .2;
+}
+
+#aula2-info1 .st21 {
+	fill: #510b0b;
+}
+
+#aula2-info1 .st22 {
+	fill: #8c0712;
+}
+
+#aula2-info1 .st23 {
+	fill: #d10909;
+}
+
+#aula2-info1 .st24,
+#aula2-info1 .st1 {
+	opacity: .7;
+}
+
+#aula2-info1 .st24,
+#aula2-info1 .st25 {
+	fill: #9ad9fd;
+}
+
+#aula2-info1 .st26 {
+	fill: #ffeae9;
+}
+
+#aula2-info1 .st27 {
+	fill: #f49076;
+}
+
+#aula2-info1 .st1,
+#aula2-info1 .st7 {
+	stroke: #fe0000;
+}
+
+#aula2-info1 .st28 {
+	fill: #a83333;
+}
+
+#aula2-info1 .st2 {
+	stroke: #ffd4d4;
+}
+
+#aula2-info1 .st2,
+#aula2-info1 .st16 {
+	stroke-width: 2px;
+}
+
+#aula2-info1 .st29 {
+	isolation: isolate;
+}
+
+#aula2-info1 .st30 {
+	fill: #b80d30;
+}
+
+#aula2-info1 .st31 {
+	clip-path: url(#clippath-1);
+}
+
+#aula2-info1 .st15 {
+	stroke: #fc696a;
+}
+
+#aula2-info1 .st15,
+#aula2-info1 .st16,
+#aula2-info1 .st32,
+#aula2-info1 .st17 {
+	fill: #ffebea;
+}
+
+#aula2-info1 .st33 {
+	fill: #fff;
+}
+
+#aula2-info1 .st34 {
+	fill: #a04242;
+}
+
+#aula2-info1 .st3 {
+	stroke: #ea7171;
+}
+
+#aula2-info1 .st3,
+#aula2-info1 .st4,
+#aula2-info1 .st8 {
+	stroke-linecap: round;
+}
+
+#aula2-info1 .st35 {
+	fill: #fe0000;
+}
+
+#aula2-info1 .st4 {
+	stroke: #a00707;
+}
+
+#aula2-info1 .st36 {
+	fill: #d7d396;
+}
+
+#aula2-info1 .st5,
+#aula2-info1 .st10 {
+	stroke: #000;
+}
+
+#aula2-info1 .st37 {
+	fill: #f25422;
+}
+
+#aula2-info1 .st38 {
+	fill: #ff6e6e;
+}
+
+#aula2-info1 .st6 {
+	stroke: #ff2432;
+	stroke-width: 1.1px;
+}
+
+#aula2-info1 .st39 {
+	fill: #ff2432;
+}
+
+#aula2-info1 .st40 {
+	fill: #8c0a15;
+}
+
+#aula2-info1 .st8 {
+	stroke: #d3d1d1;
+	stroke-width: 5px;
+}
+
+#aula2-info1 .st41 {
+	fill: #f44242;
+}
+
+#aula2-info1 .st42 {
+	fill: #ea9f8b;
+	opacity: .6;
+}
+
+#aula2-info1 .st43 {
+	fill: #a80c0c;
+}
+
+#aula2-info1 .st9 {
+	stroke: #009cfc;
+}
+
+#aula2-info1 .st16 {
+	stroke: #fc6665;
+}
+
+#aula2-info1 .st44 {
+	fill: #aa2315;
+}
+
+#aula2-info1 .st45 {
+	clip-path: url(#clippath);
+}
+
+#aula2-info1 .st17 {
+	stroke: #fd8888;
+}
+
+#aula2-info1 .st46 {
+	fill: #7c0404;
+}
+
+#aula2-info1 .bts {
+	animation: move 1s ease-out infinite alternate;
+}
+
+#aula2-info1 a:hover.bts {
+	cursor: pointer;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+
+#aula2-info1 a:hover.bts circle {
+	fill: red;
+}
+
+#aula2-info1 a:focus.bts {
+	animation: none;
+	transform: translateY(-5px);
+}
+
+#aula2-info1 a:focus.bts circle {
+	stroke: #293653;
+	stroke-width: 5px;
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px rgba(11, 41, 39, 0.5));
+	}
+
+	to {
+		transform: translateY(-20px);
+		filter: drop-shadow(0 10px 4px rgba(11, 41, 39, 0.5));
+	}
+}

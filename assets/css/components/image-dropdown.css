@@ -8,8 +8,8 @@
 	--_image-dropdown-header-size: var(--fio-sys-typography-size-0);
 
 	/* Content */
-	--_image-dropdown-background: var(--fio-sys-color-neutral-100);
-	--_image-dropdown-border-color: var(--fio-sys-color-primary-light);
+	--_image-dropdown-background: var(--fio-sys-color-secondary-95);
+	--_image-dropdown-border-color: var(--fio-sys-color-secondary-40);
 	--_image-dropdown-border-width: var(--fio-sys-size-stroke-xs);
 	--_image-dropdown-border-radius: var(--fio-sys-size-radius-sm);
 	--_image-dropdown-shadow: var(--fio-sys-size-shadow-lg);

@@ -1,0 +1,173 @@
+/* CSS INFO MODULO 4 - AULA 3 INFO 1 */
+
+#aula3-info1 .st0 {
+	fill: none;
+}
+
+#aula3-info1 .st1 {
+	fill: url(#linear-gradient2);
+}
+
+#aula3-info1 .st2 {
+	fill: url(#linear-gradient1);
+}
+
+#aula3-info1 .st3 {
+	fill: url(#linear-gradient3);
+}
+
+#aula3-info1 .st4 {
+	fill: url(#linear-gradient5);
+}
+
+#aula3-info1 .st5 {
+	fill: url(#linear-gradient4);
+}
+
+#aula3-info1 .st6 {
+	opacity: .2;
+}
+
+#aula3-info1 .st6,
+#aula3-info1 .st7,
+#aula3-info1 .st8 {
+	mix-blend-mode: multiply;
+}
+
+#aula3-info1 .st9 {
+	fill: #6496bc;
+}
+
+#aula3-info1 .st10 {
+	fill: url(#linear-gradient);
+}
+
+#aula3-info1 .st11 {
+	fill: #2f8680;
+}
+
+#aula3-info1 .st12 {
+	isolation: isolate;
+}
+
+#aula3-info1 .st13 {
+	fill: #5e6d51;
+}
+
+#aula3-info1 .st14 {
+	fill: url(#Degradado_sin_nombre_1114);
+}
+
+#aula3-info1 .st15 {
+	fill: url(#Degradado_sin_nombre_1111);
+}
+
+#aula3-info1 .st16 {
+	fill: url(#Degradado_sin_nombre_1116);
+}
+
+#aula3-info1 .st17 {
+	fill: url(#Degradado_sin_nombre_1113);
+}
+
+#aula3-info1 .st18 {
+	fill: url(#Degradado_sin_nombre_1115);
+}
+
+#aula3-info1 .st19 {
+	fill: url(#Degradado_sin_nombre_1112);
+}
+
+#aula3-info1 .st20 {
+	fill: url(#Degradado_sin_nombre_1125);
+}
+
+#aula3-info1 .st21 {
+	fill: url(#Degradado_sin_nombre_1124);
+}
+
+#aula3-info1 .st22 {
+	fill: url(#Degradado_sin_nombre_1121);
+}
+
+#aula3-info1 .st23 {
+	fill: url(#Degradado_sin_nombre_1126);
+}
+
+#aula3-info1 .st24 {
+	fill: url(#Degradado_sin_nombre_1123);
+}
+
+#aula3-info1 .st25 {
+	fill: url(#Degradado_sin_nombre_1122);
+}
+
+#aula3-info1 .st26 {
+	clip-path: url(#clippath-1);
+}
+
+#aula3-info1 .st27 {
+	fill: #fff;
+}
+
+#aula3-info1 circle.st27 {
+	fill: transparent;
+}
+
+#aula3-info1 .st28 {
+	fill: url(#Degradado_sin_nombre_111);
+}
+
+#aula3-info1 .st29 {
+	fill: url(#Degradado_sin_nombre_112);
+}
+
+#aula3-info1 .st30 {
+	opacity: .2;
+}
+
+#aula3-info1 .st31 {
+	fill: #a9662b;
+}
+
+#aula3-info1 .st32 {
+	fill: #9e9a75;
+}
+
+#aula3-info1 .st33 {
+	fill: #eb6702;
+}
+
+#aula3-info1 .st34 {
+	fill: #d7d397;
+}
+
+#aula3-info1 .st35 {
+	clip-path: url(#clippath);
+}
+
+#aula3-info1 .st8 {
+	fill: #7c8970;
+}
+
+#aula3-info1 .bts {
+	animation: move 1s ease-out infinite alternate;
+}
+
+#aula3-info1 .bts:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+	filter: drop-shadow(0 4px 4px #ababab);
+}
+
+@keyframes move {
+	from {
+		transform: translateY(0);
+		filter: drop-shadow(0 1px 1px rgba(11, 41, 39, 0.5));
+	}
+
+	to {
+		transform: translateY(-20px);
+		filter: drop-shadow(0 10px 4px rgba(11, 41, 39, 0.5));
+	}
+}

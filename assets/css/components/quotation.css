@@ -1,7 +1,7 @@
 /* --- QUOTATION --- */
 
 .quotation blockquote {
-	background: linear-gradient(-90deg, rgba(28, 130, 130, 0.2), rgba(210, 164, 64, 0.3));
+	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
 	border-radius: calc(var(--fio-sys-size-radius-xl)*1.5);
 	align-items: center;
 	display: flex;
@@ -67,7 +67,7 @@
 }
 
 .quotation blockquote .quotation-autor {
-	color: #996633;
+	color: var(--fio-sys-color-secondary-40);
 	font-family: var(--fio-sys-typography-family-primary);
 	font-size: var(--fio-sys-typography-size--1);
 	float: right;
