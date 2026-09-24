@@ -13,8 +13,8 @@
 	--fio-sys-color-primary-10: hsl(var(--fio-ref-color-primary), 15%);
 	--fio-sys-color-primary-20: hsl(var(--fio-ref-color-primary), 25%);
 	--fio-sys-color-primary-30: hsl(var(--fio-ref-color-primary), 35%);
-	--fio-sys-color-primary-40: hsl(var(--fio-ref-color-primary), 45%);
-	--fio-sys-color-primary-50: hsl(var(--fio-ref-color-primary), 54%);
+	--fio-sys-color-primary-40: hsl(var(--fio-ref-color-primary), 44%);
+	--fio-sys-color-primary-50: hsl(var(--fio-ref-color-primary), 49%);
 	--fio-sys-color-primary-60: hsl(var(--fio-ref-color-primary), 60%);
 	--fio-sys-color-primary-70: hsl(var(--fio-ref-color-primary), 70%);
 	--fio-sys-color-primary-80: hsl(var(--fio-ref-color-primary), 80%);
