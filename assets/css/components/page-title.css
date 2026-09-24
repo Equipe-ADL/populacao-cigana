@@ -32,19 +32,19 @@
 }
 
 #page-title.mod1 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 100%), url(../../../media/images/page-title-background-m1.jpg);
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m1.jpg);
 }
 #page-title.mod2 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 25%), url(../../../media/images/page-title-background-m2.jpg);
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m2.jpg);
 }
 #page-title.mod3 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 25%), url(../../../media/images/page-title-background-m3.jpg);
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m3.jpg);
 }
 #page-title.mod4 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 25%), url(../../../media/images/page-title-background-m4.jpg);
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m4.jpg);
 }
 #page-title.mod5 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 25%), url(../../../media/images/page-title-background-m5.jpg);
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m5.jpg);
 }
 
 #page-title .container,
