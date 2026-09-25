@@ -3,15 +3,26 @@ window.addEventListener('DOMContentLoaded', () => AOS.init());
 
 // Stick Header
 
-window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    const titleHeight = document.querySelector(".header").scrollHeight;
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("#menu-global");
+    const logoBlack = header.querySelector(".logo-black");
+    const logoWhite = header.querySelector(".logo-white");
 
-    if (window.scrollY > 150) {
-        header.classList.add("header--sticky");
-    } else {
-        header.classList.remove("header--sticky");
-    }
+    // Garante o estado inicial das logos
+    logoBlack.style.display = "block";
+    logoWhite.style.display = "none";
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 150) {
+            header.classList.add("header--sticky");
+            logoBlack.style.display = "none";
+            logoWhite.style.display = "block";
+        } else {
+            header.classList.remove("header--sticky");
+            logoBlack.style.display = "block";
+            logoWhite.style.display = "none";
+        }
+    });
 });
 
 // (function () {

@@ -2,7 +2,7 @@
 
 .header {
 	--_background-color: color-mix(in srgb, var(--fio-sys-color-neutral-80) 65%, transparent);
-	--_mobile-toggle-color: var(--fio-sys-color-neutral-100);
+	--_mobile-toggle-color: var(--fio-sys-color-neutral-30);
 	--_bar-color: var(--_mobile-toggle-color);
 	--_title-color: var(--_mobile-toggle-color);
 	--_nav-link-color: var(--_mobile-toggle-color);
@@ -143,6 +143,9 @@
 /* Sticky */
 
 .header.header--sticky {
+	--_mobile-toggle-color: var(--fio-sys-color-neutral-100);
+	--_title-color: var(--_mobile-toggle-color);
+
 	height: 60px;
 	background: var(--_background-color-sticky);
 	box-shadow: var(--fio-sys-size-shadow-sm);
