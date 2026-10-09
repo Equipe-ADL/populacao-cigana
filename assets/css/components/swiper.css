@@ -75,7 +75,7 @@
 /* SWIPER NAVIGATION */
 .swiper--navigation .swiper-slide .card-body {
 	/* padding:calc(var(--fio-sys-size-padding-xl) * 1.5) calc(var(--fio-sys-size-padding-xl) * 2.25); */
-	padding: calc(var(--fio-sys-size-padding-xl) * 1.5) var(--fio-sys-size-padding-xl);
+	padding: calc(var(--fio-sys-size-padding-xl) * 1.5) calc(var(--fio-sys-size-padding-xl)*1.75);
 }
 
 /*SWIPER VERTICAL*/

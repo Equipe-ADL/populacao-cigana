@@ -455,7 +455,7 @@ section {
 	}
 
 	#course-program {
-		padding: var(--fio-sys-size-vertical-xxl) 0;
+		padding: var(--fio-sys-size-vertical-xxl) 0 0;
 	}
 
 	#course-program .modulo-grupo .modulo-item {
