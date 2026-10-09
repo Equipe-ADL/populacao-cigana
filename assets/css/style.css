@@ -49,10 +49,11 @@
 	outline-offset: 5px;
 	outline-color: blue !important;
 	outline-style: solid !important;
-	outline-width: 4px !important       ;
+	outline-width: 4px !important;
 	border-radius: inherit, var(--fio-sys-size-radius-md);
 	box-shadow: none;
 }
+
 /* *:focus,
 button:focus,
 .btn-close:focus {
@@ -154,6 +155,7 @@ body {
 		transition: margin 0.25s ease-out;
 	}
 }
+
 @media (max-width: 991px) {
 	.main .content .container {
 		/* padding-left: var(--fio-sys-spacing-padding-lg);
@@ -166,7 +168,7 @@ section {
 	padding: 40px 0;
 }
 
-.row > div > *:last-child {
+.row>div>*:last-child {
 	margin-bottom: 0;
 }
 
@@ -406,6 +408,82 @@ section .page-nav .fio-button {
 	.mobile-only {
 		display: none;
 	}
+}
+
+/* Estilização do Box de Objetivos */
+.box-objetivos {
+	background-color: #fdfbfb;
+	background-image: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
+	border: var(--fio-sys-size-stroke-sm) solid var(--fio-sys-color-primary-50);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px 0;
+	box-shadow: 0 4px 12px rgba(136, 56, 61, 0.08);
+}
+
+.box-objetivos-header {
+	background-color: var(--fio-sys-color-primary-30);
+	color: #ffffff;
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.box-objetivos-header span {
+	margin: 0;
+	color: var(--fio-sys-color-primary-100);
+	padding-left: var(--fio-sys-size-padding-sm);
+	vertical-align: middle;
+	font-weight: 500;
+}
+
+.box-objetivos-icon {
+	width: 22px;
+	height: 22px;
+	fill: #ffffff;
+}
+
+.box-objetivos-content {
+	padding: 18px 24px;
+	color: #4a4a4a;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.box-objetivos-content p {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-weight: 600;
+	color: #2c2c2c;
+}
+
+.box-objetivos-lista {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.box-objetivos-lista li {
+	position: relative;
+	padding-left: 22px;
+	margin-bottom: 10px;
+}
+
+.box-objetivos-lista li:last-child {
+	margin-bottom: 0;
+}
+
+/* Marcador personalizado no tom da identidade */
+.box-objetivos-lista li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 9px;
+	width: 8px;
+	height: 8px;
+	background-color: #88383d;
+	border-radius: 50%;
 }
 
 /* ACESSIBILIDADE */
