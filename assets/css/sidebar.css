@@ -12,7 +12,7 @@
 #sidebar {
 	--_sidebar-mobile-size: 100%;
 	--_sidebar-mobile-course-name-color: var(--fio-sys-color-primary-30);
-	--_sidebar-mobile-toggle-close: var(--fio-sys-color-neutral-90);
+	--_sidebar-mobile-toggle-close: var(--fio-sys-color-neutral-10);
 
 	--_sidebar-desktop-size: 380px;
 	--_sidebar-background-color: var(--fio-sys-color-primary-90);
@@ -29,7 +29,7 @@
 
 	--_sidebar-link-item--active: var(--fio-sys-color-primary-80);
 	--_sidebar-link-item--hover: var(--fio-sys-color-primary-60);
-	--_sidebar-link-item-color:  var(--fio-sys-color-primary-40);
+	--_sidebar-link-item-color: var(--fio-sys-color-primary-40);
 	--_sidebar-line-height: var(--fio-sys-typography-height-125);
 
 	/* --_sidebar-link-item--active: rgba(255, 255, 255, 0.2); */
@@ -382,7 +382,7 @@
 		left: 380px;
 		top: 100px;
 		background-color: var(--_hidebar-background);
-        border-radius: 0;
+		border-radius: 0;
 		border-top-right-radius: 12px;
 		border-bottom-right-radius: 12px;
 		border: none;
@@ -400,7 +400,7 @@
 		justify-content: center;
 		align-items: center;
 		text-decoration: none;
-        font-weight: 400;
+		font-weight: 400;
 	}
 	#hidebar-button:hover {
 		--_hidebar-button-border: var(--_sidebar-module-btn--hover);

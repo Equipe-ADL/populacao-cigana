@@ -125,7 +125,7 @@ figcaption.figure-caption {
 /* --- LAYOUT INTERNAL PAGES --- */
 
 body {
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 	font-family: var(--fio-sys-typography-family-primary);
 }
 
@@ -142,6 +142,10 @@ body {
 	position: absolute;
 	z-index: 100;
 } */
+
+#page {
+	overflow: hidden;
+}
 
 @media (min-width: 992px) {
 	#page {
@@ -407,17 +411,17 @@ section .page-nav .fio-button {
 /* ACESSIBILIDADE */
 /* Esconde o link da tela inicialmente */
 #links-acessibilidade .skip-link {
-    position: absolute;
-    top: -1000px;
-    left: -1000px;
-    background: #ffffff;
-    color: #000000;
-    padding: 10px;
-    z-index: 99999;
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	background: #ffffff;
+	color: #000000;
+	padding: 10px;
+	z-index: 99999;
 }
 
 /* Exibe o link no topo caso o usuário aperte a tecla 'TAB' */
 #links-acessibilidade .skip-link:focus {
-    top: 10px;
-    left: 10px;
+	top: 10px;
+	left: 10px;
 }

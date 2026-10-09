@@ -2,7 +2,7 @@
 
 .quotation blockquote {
 	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
-	border-radius: calc(var(--fio-sys-size-radius-xl)*1.5);
+	border-radius: calc(var(--fio-sys-size-radius-xl) * 1.5);
 	align-items: center;
 	display: flex;
 	flex-direction: row;
@@ -16,7 +16,7 @@
 	position: relative;
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
 	.quotation blockquote {
 		padding: 100px var(--fio-sys-size-padding-md) var(--fio-sys-size-padding-xl);
 	}
@@ -24,12 +24,12 @@
 
 .quotation blockquote:before {
 	content: "";
-    background-image: url(../../../media/templates/quotation-marks.svg);
-    background-repeat: no-repeat;
-    width: 150%;
-    height: 100px;
-    transform: translate(-50px, -25px);
-    position: absolute;
+	background-image: url(../../../media/templates/quotation-marks.svg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100px;
+	transform: translate(-50px, -25px);
+	position: absolute;
 	top: 0;
 }
 
@@ -54,15 +54,15 @@
 
 .quotation blockquote .quotation-body p {
 	color: var(--fio-sys-color-primary-40);
-    font-family: var(--fio-sys-typography-family-primary);
-    font-size: var(--fio-sys-typography-size-2);
-    font-style: normal;
+	font-family: var(--fio-sys-typography-family-primary);
+	font-size: var(--fio-sys-typography-size-2);
+	font-style: normal;
 	line-height: var(--fio-sys-typography-height-150);
 }
 
-@media(min-width:1400px) {
+@media (min-width: 1400px) {
 	.quotation blockquote .quotation-body p {
-		padding: 0 calc(var(--fio-sys-size-padding-xl)*1.2);
+		padding: 0 calc(var(--fio-sys-size-padding-xl) * 1.2);
 	}
 }
 

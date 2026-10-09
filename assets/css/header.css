@@ -46,7 +46,7 @@
 }
 .header .mobile-toggle-open .mobile-toggle__button .icon {
 	font-size: 32px;
-	color: var(--fio-sys-color-primary-100);
+	color: var(--fio-sys-color-primary-10);
 }
 
 .header .brand {
@@ -159,6 +159,9 @@
 		/* .fio-button-text-primary {
 			color: var(--fio-sys-color-secondary-accent-dark-contrast);
 		} */
+		.mobile-toggle__button .icon {
+			color: var(--fio-sys-color-primary-100);
+		}
 	}
 
 	.brand {

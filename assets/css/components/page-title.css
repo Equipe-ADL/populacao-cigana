@@ -9,8 +9,7 @@
 } */
 
 #page-title {
-	--_background-color: var(--fio-sys-color-neutral-100)
-	--_background-color2: var(--fio-sys-color-neutral-light);
+	--_background-color: var(--fio-sys-color-neutral-100) --_background-color2: var(--fio-sys-color-neutral-light);
 	--_text-color: var(--fio-sys-color-neutral-30);
 	--_label-color: var(--fio-sys-color-neutral-100);
 
@@ -31,20 +30,8 @@
 	--_label-color: var(--fio-sys-color-neutral-100);
 }
 
-#page-title.mod1 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m1.jpg);
-}
-#page-title.mod2 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m2.jpg);
-}
-#page-title.mod3 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m3.jpg);
-}
-#page-title.mod4 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m4.jpg);
-}
-#page-title.mod5 {
-	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/images/page-title-background-m5.jpg);
+#page-title {
+	background-image: linear-gradient(0deg, var(--fio-sys-color-primary-95) 0%, transparent 40%), url(../../../media/templates/page-title-background-mobile.jpg);
 }
 
 #page-title .container,
@@ -68,13 +55,14 @@
 	font-weight: 600;
 	line-height: 1.8em;
 	text-align: left;
-	padding: 0.2em 0.5em 0.3em 0.5em; 
+	padding: 0 20px 4px;
 	font-size: var(--fio-sys-typography-size-3);
-	background-color: #FFFFFFA8;
-    border-radius: 0.8em;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    display: inline;
+	background-color: #ffffffa8;
+	border-radius: 0.8em;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	display: inline;
+	margin-left: 0;
 }
 
 #page-title .title .subtitle {
@@ -107,7 +95,7 @@
 		max-width: 100%;
 		padding: 80px 0 120px;
 		overflow: hidden;
-		background-image: url("../../../media/templates/page-title-background-m1.jpg"), linear-gradient(var(--fio-sys-color-neutral-100), var(--fio-sys-color-neutral-100));
+		background-image: url("../../../media/templates/page-title-background.jpg"), linear-gradient(var(--fio-sys-color-neutral-100), var(--fio-sys-color-neutral-100));
 		/* background-position: center bottom; */
 		background-position: center 0;
 		background-repeat: no-repeat;
@@ -142,9 +130,9 @@
 	}
 
 	#page-title .title {
-		padding: 0.2em 0.5em 0.3em 0.5em; 
+		padding: 0.2em 0.5em 0.3em 0.5em;
 		font-size: var(--fio-sys-typography-size-3);
-		padding-left: 0;
+		margin-left: -20px;
 	}
 
 	/* #page-title .title {
