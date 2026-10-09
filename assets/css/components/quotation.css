@@ -55,7 +55,7 @@
 .quotation blockquote .quotation-body p {
 	color: var(--fio-sys-color-primary-40);
 	font-family: var(--fio-sys-typography-family-primary);
-	font-size: var(--fio-sys-typography-size-2);
+	font-size: var(--fio-sys-typography-size-1);
 	font-style: normal;
 	line-height: var(--fio-sys-typography-height-150);
 }
