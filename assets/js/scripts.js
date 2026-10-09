@@ -398,22 +398,26 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">BRASIL. Ministério da Saúde.<em> Plano Clima Participativo:</em> aberta consulta pública para as estratégias na área de saúde – AdaptaSUS. Disponível em: <a href='https://shre.ink/AdaptaSUS' target='_blank' rel='noopener noreferrer'>https://shre.ink/AdaptaSUS</a>. Acesso em: 16 set. 2025.</li>
-
-                                                    <li class="list-group-item">COELHO, C. A. W. et al. <em>Mudança do clima no Brasil:</em> síntese atualizada e perspectivas para decisões estratégicas. Brasília: Ministério da Ciência, Tecnologia e Inovação, 2024. Disponível em: <a href='https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/arquivos/Relatorio_Mudanca_Clima_Brasil.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/arquivos/Relatorio_Mudanca_Clima_Brasil.pdf</a>. Acesso em: 30 set. 2025.</li>
-
-                                                    <li class="list-group-item">FREITAS, C. M. de; SILVA, E. L.; ROCHA, V. <em>Brasil 2050</em> – emergência climática, os desastres e os desafios para gestão de riscos e a adaptação. Rio de Janeiro: Fiocruz, 2025. Disponível em: <a href='https://saudeamanha.fiocruz.br/textos-discussao/td-90-brasil-2050-a-emergencia-climatica-os-desastres-e-os-desafios-para-gestao-de-riscos-e-a-adaptacao' target='_blank' rel='noopener noreferrer'>https://saudeamanha.fiocruz.br/textos-discussao/td-90-brasil-2050-a-emergencia-climatica-os-desastres-e-os-desafios-para-gestao-de-riscos-e-a-adaptacao</a>. Acesso em: 27 out. 2025.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">BBC News Brasil. <em>Como podemos esfriar o planeta e frear o aquecimento global?</em> São Paulo: Canal BBC News Brasil, 2021, (8min45s.). Disponível em: <a href='https://youtu.be/uOrXw8lTmVo?si=uFMGjLgC3jtDKkuE' target='_blank' rel='noopener noreferrer'>https://youtu.be/uOrXw8lTmVo?si=uFMGjLgC3jtDKkuE</a>.</li>
-
-                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Vigilância em Saúde Ambiental e Saúde do Trabalhador. <em>Mudanças climáticas para profissionais de saúde:</em> guia de bolso [recurso eletrônico]. 2. ed. rev. Brasília: Ministério da Saúde, 2026. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2026/mudancas-climaticas-para-profissionais-de-saude-guia-de-bolso.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2026/mudancas-climaticas-para-profissionais-de-saude-guia-de-bolso.pdf</a>. Acesso em: 12 jul. 2026.</li>
-
-                                                    <li class="list-group-item">MOROSINI, L. Crise climática aumenta doenças. Desastres favorecem o aparecimento de novas doenças e produzem efeito cascata negativo na atenção à saúde. <em>Revista Radis</em>. Rio de Janeiro, 10 de maio de 2024. Disponível em: <a href='https://radis.ensp.fiocruz.br/reportagem/mudancas-climaticas/crise-climatica-aumenta-doencas/' target='_blank' rel='noopener noreferrer'>https://radis.ensp.fiocruz.br/reportagem/mudancas-climaticas/crise-climatica-aumenta-doencas/</a>. Acesso em: 30 set. 2025.</li>
+                                                    <li class="list-group-item">ALMEIDA, M. G.; BARBOSA, D. R. M.; PEDROSA, J. I. S. Trilhas da iniquidade: saúde de povos ciganos e políticas públicas no Brasil. <em>Revista Eletrônica Gestão &amp; Saúde</em>, Brasília, 2013. ISSN 1982-4785.</li>
+                                                    <li class="list-group-item">BRASIL. <em>Decreto nº 6.040, de 7 de fevereiro de 2007</em>. Institui a Política Nacional de Desenvolvimento Sustentável dos Povos e Comunidades Tradicionais. Brasília, DF: Presidência da República, 2007. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6040.html" target="_blank" rel="noopener noreferrer">https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6040.html</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">BRASIL. <em>Conheça os direitos de todos os cidadãos usuários do SUS</em>. Brasília, DF: Governo Federal, 2022. Disponível em: <a href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2022/05/conheca-os-direitos-de-todos-os-cidadaos-usuarios-do-sus" target="_blank" rel="noopener noreferrer">https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2022/05/conheca-os-direitos-de-todos-os-cidadaos-usuarios-do-sus</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. <em>Acolhimento</em>. Brasília, DF: Ministério da Saúde. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/dicas/167acolhimento.html" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/dicas/167acolhimento.html</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. <em>Acolhimento: práticas de produção de saúde</em>. Brasília, DF: Ministério da Saúde. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_praticas_producao_saude.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/acolhimento_praticas_producao_saude.pdf</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. <em>Subsídios para o cuidado à saúde do povo cigano</em>. Brasília, DF: Ministério da Saúde, 2016. 44 p. ISBN 978-85-334-2437-1. Disponível em: <a href="https://bvsms.saude.gov.br/bvs/publicacoes/subsidios_cuidado_saude_povo_cigano.pdf" target="_blank" rel="noopener noreferrer">https://bvsms.saude.gov.br/bvs/publicacoes/subsidios_cuidado_saude_povo_cigano.pdf</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">CAMPOS, J. M. S.; FOTTA, M. Ciganos no Brasil: relações entre continuidade, mudança e diferença. <em>Civitas: Revista de Ciências Sociais</em>, Porto Alegre, v. 23, e44457, 2023. DOI: <a href="https://doi.org/10.15448/1984-7289.2023.1.44457" target="_blank" rel="noopener noreferrer">https://doi.org/10.15448/1984-7289.2023.1.44457</a>.</li>
+                                                    <li class="list-group-item">CARDOSO, Priscila dos Santos Pereira. O acolhimento na rede de atenção psicossocial: conceito e importância. <em>Revista Arquivos Científicos (IMMES)</em>, Macapá, v. 4, n. 1, p. 47-53, 2021. ISSN 2595-4407.</li>
+                                                    <li class="list-group-item">CORTESÃO, Luíza; PINTO, Fátima (org.). <em>O povo cigano: cidadãos na sombra: processos explícitos e ocultos de exclusão</em>. Porto: Edições Afrontamento, 1995. v. 8, p. 13-20.</li>
+                                                    <li class="list-group-item">COSTA, E.; ROLIM, J. D. J. <em>Redução das desigualdades em saúde nas comunidades ciganas no Brasil: subsídios para a discussão</em>. Brasília, DF: AMSK/Brasil, 2014. 41 p. Disponível em: <a href="http://www.amsk.org.br/imagem/publicacao/publicacao2_AMSK_2014.pdf" target="_blank" rel="noopener noreferrer">http://www.amsk.org.br/imagem/publicacao/publicacao2_AMSK_2014.pdf</a>. Acesso em: 17 jul. 2015.</li>
+                                                    <li class="list-group-item">COSTA, Elisa; CAVALCANTE, Lucimara. O direito de existir: seguindo na trilha da geração de dados. In: BRASIL. Ministério Público Federal. 6ª Câmara de Coordenação e Revisão. <em>Coletânea de artigos: povos ciganos: direitos e instrumentos para sua defesa</em>. Brasília, DF: MPF, 2020. p. 124-150. ISBN 978-65-87377-00-1.</li>
+                                                    <li class="list-group-item">DESLANDES, S. F. Análise do discurso oficial sobre a humanização da assistência hospitalar. <em>Ciência &amp; Saúde Coletiva</em>, Rio de Janeiro, v. 9, n. 1, p. 7-14, 2004.</li>
+                                                    <li class="list-group-item">FERNANDES, A. T. Etnicização e racização no processo de exclusão social. <em>Sociologia: Revista da Faculdade de Letras da Universidade do Porto</em>, Porto, I série, v. 1, 1995.</li>
+                                                    <li class="list-group-item">MOONEN, F. <em>Anticiganismo e políticas ciganas na Europa e no Brasil</em>. ed. rev. e ampl. Recife: AMSK/Brasil, 2013.</li>
+                                                    <li class="list-group-item">SILVA, Ana Conceição da. <em>Fatores associados à utilização de serviços de saúde por ciganos na Bahia, Brasil</em>. 2016. Tese (Doutorado em Medicina e Saúde Humana) – Escola Bahiana de Medicina e Saúde Pública, Salvador, 2016.</li>
+                                                    <li class="list-group-item">SILVA JÚNIOR, Aluízio de Azevedo. <em>A liberdade na aprendizagem ambiental cigana dos mitos e ritos Kalon</em>. 2009. Dissertação (Mestrado em Educação) – Universidade Federal de Mato Grosso, Cuiabá, 2009. Disponível em: <a href="https://bit.ly/30K0vUc" target="_blank" rel="noopener noreferrer">https://bit.ly/30K0vUc</a>. Acesso em: 21 set. 2026.</li>
+                                                    <li class="list-group-item">SILVA JÚNIOR, Aluízio de Azevedo. <em>A produção social dos sentidos nos processos interculturais de comunicação e saúde: a apropriação das políticas públicas de saúde para ciganos no Brasil e em Portugal</em>. 2018. Tese (Doutorado em Informação e Comunicação em Saúde) – Instituto de Comunicação e Informação Científica e Tecnológica em Saúde, Fundação Oswaldo Cruz, Rio de Janeiro, 2018.</li>
+                                                    <li class="list-group-item">SILVA, P. C. S. e; FIGUEIRA, L. E. A luta pelos direitos ciganos no Senado Federal. <em>Revista Direito e Práxis</em>, Rio de Janeiro, v. 13, n. 1, p. 312-341, 2022. DOI: <a href="https://doi.org/10.1590/2179-8966/2021/54537" target="_blank" rel="noopener noreferrer">https://doi.org/10.1590/2179-8966/2021/54537</a>.</li>
+                                                    <li class="list-group-item">SOUSA, Carlos J. dos Santos. <em>Os Maias: retrato sociológico de uma família cigana portuguesa (1827-1957)</em>. Lisboa: Mundos Sociais, 2013.</li>
+                                                    <li class="list-group-item">UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL. <em>Vidas itinerantes</em>. Porto Alegre: UFRGS. Disponível em: <a href="https://www.ufrgs.br/cultura/vidas-itinerantes/" target="_blank" rel="noopener noreferrer">https://www.ufrgs.br/cultura/vidas-itinerantes/</a>. Acesso em: 21 set. 2026.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -428,32 +432,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. <em>Saúde Mental dos Trabalhadores dos Serviços de Saúde:</em> diretrizes para formulação de políticas públicas em Emergências em Saúde Pública. Brasília: Ministério da Saúde, 2024. </li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item">FREITAS, C. M.; BARCELLOS, C. Desastre no Rio Grande do Sul, Brasil: crise climática, resposta do Sistema Único de Saúde e desafios dos novos tempos. <em>Cadernos de Saúde Pública</em>, v. 40, n. 11, e00114424, 2024.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item">FREITAS, C. M.; SILVA, E. L.; ROCHA, V. Do risco à reconstrução: estratégias dos sistemas de saúde em desastres e emergências em saúde pública. <em>Políticas e Sistemas de Saúde no Brasil</em>. Rio de Janeiro: Fiocruz, Cebes, 2025 (no prelo). </li>
-
-                                                    <li class="list-group-item">FREITAS, C. L. S. de; PAIVA, F. S. de. Desastres socioambientais e sofrimento psicossocial no contexto latino-americano: uma revisão integrativa. <em>Psicol. Soc</em>. [Internet]. 2025; 37:e298777. Disponível em: <a href='https://doi.org/10.1590/1807-0310/2025v37298777' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/1807-0310/2025v37298777</a>. Acesso em: 05 maio 2025.</li>
-
-                                                    <li class="list-group-item">INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). Climate Change:<em></em> Impacts, Adaptation and Vulnerability. Summary for Policymakers. Cambridge: Cambridge University Press, 2022.</li>
-
-                                                    <li class="list-group-item">OXFORD LANGUAGES. Word of the Year 2019: Climate Emergency. Disponível em: <a href='https://languages.oup.com/word-of-the-year/2019/' target='_blank' rel='noopener noreferrer'>https://languages.oup.com/word-of-the-year/2019/</a>. Acesso em: 30 set. 2025.</li>
-
-                                                    <li class="list-group-item">UNITED NATIONS OFFICE FOR DISASTER RISK REDUCTION (UNDRR). Sendai Framework Terminology on Disaster Risk Reduction. 2023. Disponível em: <a href='https://www.undrr.org/terminology#R' target='_blank' rel='noopener noreferrer'>https://www.undrr.org/terminology#R</a>. Acesso em: 30 abr. 2025.</li>
-
-                                                    <li class="list-group-item">WORLD HEALTH ORGANIZATION (WHO). <em>Glossary of Health Emergency and Disaster Risk Management Terminology</em>. Geneva: WHO, 2019.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">BRASIL. Ministério do Meio Ambiente e Mudança do Clima. Secretaria Nacional de Mudança do Clima. <em>Plano Clima-Adaptação</em>. 2024. Disponível em: <a href='https://www.gov.br/mma/pt-br/composicao/smc/plano-clima/plano-clima-adaptacao' target='_blank' rel='noopener noreferrer'>https://www.gov.br/mma/pt-br/composicao/smc/plano-clima/plano-clima-adaptacao</a>. Acesso em: 30 jul. 2025.</li>
-
-                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. <em>Plano Clima Participativo:</em> aberta consulta pública para as estratégias na área de saúde – AdaptaSUS. Disponível em: <a href='https://brasilparticipativo.presidencia.gov.br/processes/planoclima/f/543/' target='_blank' rel='noopener noreferrer'>https://brasilparticipativo.presidencia.gov.br/processes/planoclima/f/543/</a>. Acesso em: 16 set. 2025.</li>
-
-                                                    <li class="list-group-item">SINIMBÚ, F. Crise climática é amplificadora de outras crises, alerta pesquisadora. Especialista analisa os efeitos das mudanças climáticas para o planeta. <em>Agência Brasil</em>. Brasília, 22 de janeiro de 2025. Disponível em: <a href='https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-01/crise-climatica-e-amplificadora-de-outras-crises-alerta-pesquisadora' target='_blank' rel='noopener noreferrer'>https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-01/crise-climatica-e-amplificadora-de-outras-crises-alerta-pesquisadora</a>. Acesso em: 16 set. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -468,16 +451,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M.; SILVA, E. L.; ROCHA, V. Do risco à reconstrução: estratégias dos sistemas de saúde em desastres e emergências em saúde pública. <em>Políticas e Sistemas de Saúde no Brasil</em>. Rio de Janeiro: Fiocruz e Cebes, 2025. (no prelo)</li>
-                                                </ul>
-                                            </div>
+                                                    <li class="list-group-item"></li>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M.; MAZOTO, M. L.; ROCHA, V. Guia de preparação e respostas do setor saúde aos desastres. Rio de Janeiro: Fundação Oswaldo Cruz e Ministério da Saúde, 2018. 159 p. Disponível em: <a href='https://arca.fiocruz.br/items/451a5442-3dc9-4ccd-95f0-6ef5b7c9a3d6' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/451a5442-3dc9-4ccd-95f0-6ef5b7c9a3d6</a>. Acesso em: 30 out. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. et al. <em>Orientações para gestão de risco de desastres e emergências em saúde pública: </em>abordagem integrada atenção primária e vigilância em saúde. Rio de Janeiro: Fundação Oswaldo Cruz e Ministério da Saúde, 2023. 116 p. Disponível em: <a href='https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e</a>. Acesso em: 30 out. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -492,24 +470,52 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. et al. <em>Orientações para gestão de risco de desastres e emergências em saúde pública:</em> abordagem integrada atenção primária e vigilância em saúde. Rio de Janeiro: Fundação Oswaldo Cruz e Ministério da Saúde, 2023. 116 p. Disponível em: <a href='https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e</a>. Acesso em: 30 out. 2025.</li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LAMBERTI-CASTRONUOVO, A. et al. Primary health care disaster preparedness: a review of the literature and the proposal of a new framework. <em>International Journal of Disaster Risk Reduction</em>, v. 81, p. 103278, 2022.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <em>Health emergency and disaster risk management framework</em>. Genebra: WHO, 2019.</li>
                                                 </ul>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="heading-m1-aula5">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m1-aula5" aria-expanded="false" aria-controls="collapse-m1-aula5">Aula 5</button>
+                                    </h5>
+                                    <div id="collapse-m1-aula5" class="accordion-collapse collapse" aria-labelledby="heading-m1-aula5" data-bs-parent="">
+                                        <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Diretriz nacional para atuação integrada dos agentes de combate às endemias e agentes comunitários de saúde no território</em> [recurso eletrônico]. Brasília: Ministério da Saúde, 2025. 51 p. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/diretriz_atuacao_integrada_agentes_combate_endemias.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/diretriz_atuacao_integrada_agentes_combate_endemias.pdf</a>. Acesso em 17 jun. 2026.</li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Vigilância em Saúde Ambiental e Saúde do Trabalhador. <em>Mudanças climáticas para profissionais de saúde:</em> guia de bolso [recurso eletrônico]. 2. ed. Brasília: Ministério da Saúde, 2025.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CARNEIRO, Fernando F. et at. (Orgs.) <em>Guia de Vigilância Popular em Saúde e Emergências Climáticas</em>. Eusébio-CE: Fiocruz Ceará, 2026. 171 p. Disponível em: <a href='https://ceara.fiocruz.br/serpovos/download/guia-de-vigilancia-popular-em-saude-e-emergencias-climaticas/' target='_blank' rel='noopener noreferrer'>https://ceara.fiocruz.br/serpovos/download/guia-de-vigilancia-popular-em-saude-e-emergencias-climaticas/</a>. Acesso em: 12 jul. 2026.</li>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="heading-m1-aula6">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m1-aula6" aria-expanded="false" aria-controls="collapse-m1-aula6">Aula 6</button>
+                                    </h5>
+                                    <div id="collapse-m1-aula6" class="accordion-collapse collapse" aria-labelledby="heading-m1-aula6" data-bs-parent="">
+                                        <div class="accordion-body">
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NOGUEIRA, P. T. A. <em>et al</em>. A necessidade de construção de assistência e Vigilância em Saúde no contexto das mudanças climáticas – ‘um passo à frente e você não estará mais no mesmo lugar’. <em>Saúde em Debate</em>, v. 48, p. e8696, 2024.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="heading-m1-aula7">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m1-aula7" aria-expanded="false" aria-controls="collapse-m1-aula7">Aula 7</button>
+                                    </h5>
+                                    <div id="collapse-m1-aula7" class="accordion-collapse collapse" aria-labelledby="heading-m1-aula7" data-bs-parent="">
+                                        <div class="accordion-body">
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -536,26 +542,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Presidência da República. Casa Civil. <em>Nota Técnica n. 2/2025/SADJ-VI/SEPAC/CC/PR</em>. Brasília: Casa Civil, 2025. Disponível em: <a href='https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/protecao-e-defesa-civil-sedec/NotaTecnica2.2025_SADJVISEPAC.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/protecao-e-defesa-civil-sedec/NotaTecnica2.2025_SADJVISEPAC.pdf</a>. Acesso em: 3 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">_BRASIL. L<em>ei n. 12.608 de 10 de abril de 2012</em>. Institui a Política Nacional de Proteção e Defesa Civil. Brasília: Presidência da República, 2012. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm' target='_blank' rel='noopener noreferrer'>https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12608.htm</a>. Acesso em: 03 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério do Desenvolvimento Regional. Secretaria Nacional de Proteção e Defesa Civil. Universidade Federal de Santa Catarina. Centro de Estudos e Pesquisas em Engenharia e Defesa Civil. <em>A P&DC e os 30 anos de desastres no Brasil: </em>(1991 - 2020). Florianópolis: Fepese, 2022. Disponível em: <a href='https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/protecao-e-defesa-civil-sedec/A_p_amp_dc_e_os_30_anos_de_desastres_no_Brasil_20221_compressed.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/mdr/pt-br/centrais-de-conteudo/publicacoes/protecao-e-defesa-civil-sedec/A_p_amp_dc_e_os_30_anos_de_desastres_no_Brasil_20221_compressed.pdf</a>. Acesso em: 03 nov. 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, Carlos Machado de; SILVA, Eliane L. e; ROCHA, Vânia. <em>Brasil 2050:</em> a emergência climática, os desastres e os desafios para gestão de riscos e a adaptação. Rio de Janeiro: ENSP/Fiocruz, 2025. (Saúde Amanhã/Textos para Discussão, 90). Disponível em: <a href='https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819</a>. Acesso em: 03 nov. 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, Carlos Machado de; ROCHA, Vânia (Orgs.). <em>Agentes locais em desastres naturais:</em> defesa civil e saúde na redução de riscos. Rio de Janeiro: Fiocruz, 2014. 169 p. Livro do Aluno. Disponível em: <a href='https://arca.fiocruz.br/items/6f0e984b-90a0-4a19-b21b-bfdc49d7688f' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/6f0e984b-90a0-4a19-b21b-bfdc49d7688f</a>. Acesso em: 03 nov. 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MARENGO, J. A. et al. Estado do clima, extremos de clima e desastres no Brasil em 2024. Brasília: Cemaden, 2024. Disponível em: <a href='http://inctmc2.cemaden.gov.br/wp-content/uploads/2025/03/Relatorio_NT-Clima_Extremos_Desastres-2024-Brasil-digital.pdf' target='_blank' rel='noopener noreferrer'>http://inctmc2.cemaden.gov.br/wp-content/uploads/2025/03/Relatorio_NT-Clima_Extremos_Desastres-2024-Brasil-digital.pdf</a>. Acesso em: 25 nov. 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SWINBURN B. A. et al. The global syndemic of obesity, undernutrition, and Climate Change: The Lancet Commission report. <em>Lancet</em>. Feb 23; 393 (10173): 791-846, 2019. </li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M.; BARCELLOS, C. Desastre no Rio Grande do Sul, Brasil: crise climática, resposta do Sistema Único de Saúde e desafios dos novos tempos. <em>Cadernos de Saúde Pública</em>. v. 40, n. 11, e00114424. Disponível em: <a href='https://doi.org/10.1590/0102-311XEN114424' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/0102-311XEN114424</a>. Acesso em: 25 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -570,20 +561,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério do Meio Ambiente e Mudança do Clima. Ministério da Ciência, Tecnologia e Inovação. Ministério da Saúde. <em>Plano Clima Adaptação</em> – Plano Setorial de Saúde: Versão preliminar. Brasília: MMA/MCTI/MS, 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Fundação Oswaldo Cruz. <em>Guia de preparação e respostas do setor saúde aos desastres</em>. Rio de Janeiro: Fiocruz, 2018.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, Carlos Machado de; SILVA, Eliane L. e; ROCHA, Vânia. <em>Brasil 2050</em>: a emergência climática, os desastres e os desafios para gestão de riscos e a adaptação. Rio de Janeiro: ENSP/Fiocruz, 2025. (Saúde Amanhã/Textos para Discussão, 90). Disponível em: <a href='https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819</a>. Acesso em: 03 nov. 2025.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Recomenda-se, ainda, aprofundar o conteúdo sobre prevenção do suicídio, incluindo orientações práticas para identificação e manejo de pessoas em risco, avaliação da urgência, medidas de proteção, acionamento da rede de atenção e acompanhamento dos casos. Sugere-se considerar, como referência também a Cartilha de Prevenção de Suicídios (2026): <a href='https://www.gov.br/saude/pt-br/centrais-deconteudo/publicacoes/cartilhas/2026/cartilha-prevencao-de-suicidios.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-deconteudo/publicacoes/cartilhas/2026/cartilha-prevencao-de-suicidios.pdf</a></li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOROSINI, Liseane. Crise climática aumenta doenças. RADIS <em>Comunicação e Saúde</em>, Rio de Janeiro, 10 maio 2024. Disponível em: <a href='https://radis.ensp.fiocruz.br/reportagem/mudancas-climaticas/crise-climatica-aumenta-doencas/' target='_blank' rel='noopener noreferrer'>https://radis.ensp.fiocruz.br/reportagem/mudancas-climaticas/crise-climatica-aumenta-doencas/</a>. Acesso em: 25 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -598,20 +580,30 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">FREITAS, Carlos Machado de; SILVA, Eliane L. e; ROCHA, Vânia. <em>Brasil 2050:</em> a emergência climática, os desastres e os desafios para gestão de riscos e a adaptação. Rio de Janeiro: ENSP/Fiocruz, 2025. (Saúde Amanhã/Textos para Discussão, 90). Disponível em: <a href='https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/d5342e72-5925-49dc-97de-17138ec27819</a>. Acesso em: 03 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item">FREITAS, C. M.; BARCELLOS, C. Reconstruir melhor: lições dos desastres para os serviços de saúde. <em>Cadernos de Saúde Pública</em>, Rio de Janeiro, v. 40, n. 1, p. e000000, 2024.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item">FREITAS, Carlos Machado <em>et al</em>. <em>Orientações para gestão de risco de desastres e emergências em saúde pública:</em> abordagem integrada, atenção primária e vigilância em saúde. Rio de Janeiro: Fiocruz/ENSP/CEPEDES, 2023. 116 p. Relatório de pesquisa. Disponível em: <a href='https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e</a>. Acesso em: 03 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="heading-m2-aula4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m2-aula4" aria-expanded="false" aria-controls="collapse-m2-aula4">Aula 4</button>
+                                    </h5>
+                                    <div id="collapse-m2-aula4" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula4" data-bs-parent="">
+                                        <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Plano de ação em saúde de Belém para a adaptação do setor da saúde às mudanças climáticas</em>. Brasília, DF: Ministério da Saúde, 2025. Disponível em: <a href='https://www.gov.br/saude/pt-br/assuntos/cop30/publicacoes/plano-de-acao-em-saude-de-belem-portugues.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/assuntos/cop30/publicacoes/plano-de-acao-em-saude-de-belem-portugues.pdf</a>. Acesso em: 25 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Vigilância em Saúde. <em>Folder</em> - Orientações à população em situação de enchentes. Brasília: Ministério da Saúde, 2026. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/enchentes/orientacoes-a-populacao-em-situacao-de-enchentes.pdf/view' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/enchentes/orientacoes-a-populacao-em-situacao-de-enchentes.pdf/view</a>. Acesso em: 12 jul. 2026.</li>
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -638,30 +630,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANAZAWA, T. M.; CARMO, R. L. do; MONTEIRO, A. M. V. <em>A grave escassez hídrica da Região Metropolitana de Campinas entre 2013 e 2015 enquanto um desastre socialmente construído:</em> abordagem metodológica multiescalar. Campinas, SP: Núcleo de Estudos de População “Elza Berquó”/Unicamp, 2017.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALPINO, T. de M. A. <em>Seca, condições de vida e saúde no Nordeste brasileiro:</em> o caso do município de Itapetim, Pernambuco. 2015. 218 f. Dissertação (Mestrado em Saúde Pública). Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz, Rio de Janeiro, 2015.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. de; MAZOTO, M. L.; ROCHA, V. da (Orgs.). G<em>uia de preparação e respostas do setor saúde aos desastres.</em> Rio de Janeiro: Fiocruz; Secretaria de Vigilância em Saúde, 2018. 161 p. Disponível em: <a href='https://docs.bvsalud.org/biblioref/2024/09/1571685/guiadepreparacaoerespostasdosetorsaudeaosdesastres.pdf' target='_blank' rel='noopener noreferrer'>https://docs.bvsalud.org/biblioref/2024/09/1571685/guiadepreparacaoerespostasdosetorsaudeaosdesastres.pdf</a>. Acesso em: 01 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. de; SILVA, E. L. e; ROCHA, V. <em>Brasil 2050:</em> a emergência climática, os desastres e os desafios para gestão de riscos e a adaptação. Rio de Janeiro: ENSP/Fiocruz, 2025. (Saúde Amanhã/ Textos para Discussão, 90).</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). <em>Climate Change 2023: Synthesis Report, Summary for Policymakers.</em> Geneva: IPCC, 2023.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SENA, A. R. M.; ALPINO, T. M. A. <em>Seca silenciosa, saúde invisível:</em> um desastre naturalizado no Semiárido do Brasil. Rio de Janeiro: Editora Fiocruz, 2021.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, E. L. <em>Transversalidade das políticas públicas na gestão de risco de inundações.</em> Brasília: Universidade de Brasília, 2019</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">UNITED NATIONS OFFICE FOR DISASTER RISK REDUCTION (UNDRR). Terminology on Disaster Risk Reduction. Genebra: UNDRR, 2022.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUZA, R. F. de; NASCIMENTO, S. L. do. Doenças e agravos no contexto das grandes inundações graduais no estado do Amazonas, BR. <em>Hygeia:</em> Revista Brasileira de Geografia Médica e da Saúde, v. 13, n. 26, 2017.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SENA, A. et al. Medindo o invisível: análise dos Objetivos de Desenvolvimento Sustentável em populações expostas à seca. <em>Ciência & Saúde Coletiva</em>, v. 21, p. 671-684, 2016.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -676,26 +649,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANAZAWA, T. M.; CARMO, R. L. do; MONTEIRO, A. M. V. <em>A grave escassez hídrica da Região Metropolitana de Campinas entre 2013 e 2015 enquanto um desastre socialmente construído:</em> abordagem metodológica multiescalar. Campinas, SP: Núcleo de Estudos de População “Elza Berquó”/Unicamp, 2017.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SENA, A. R. M.; ALPINO, T. M. A. <em>Seca silenciosa, saúde invisível:</em> um desastre naturalizado no Semiárido do Brasil. Rio de Janeiro: Editora Fiocruz, 2021.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SILVA, E. L. <em>Transversalidade das políticas públicas na gestão de risco de inundações</em>. Brasília: Universidade de Brasília, 2019.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARREIROS, R, et al. Entenda o que é justiça climática. <em>WRI Brasil</em>. São Paulo, 11 fev. 2025. Disponível em: <a href=' https://www.wribrasil.org.br/noticias/entenda-o-que-e-justica-climatica' target='_blank' rel='noopener noreferrer'>https://www.wribrasil.org.br/noticias/entenda-o-que-e-justica-climatica</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COSTA, P. V. M. Secas, desigualdades e saúde no Semiárido Brasileiro. <em>Radar Cidacs</em>. Centro de Integração de Dados e Conhecimentos para Saúde/Fiocruz Bahia. Salvador, 25 jul. 2025. Disponível em: <a href='https://cidacs.bahia.fiocruz.br/2025/07/secas-desigualdades-e-saude-no-semiarido-brasileiro/' target='_blank' rel='noopener noreferrer'>https://cidacs.bahia.fiocruz.br/2025/07/secas-desigualdades-e-saude-no-semiarido-brasileiro/</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INTERGOVERNMENTAL PANEL ON CLIMATE CHANGE (IPCC). <em>Climate Change 2023: Synthesis Report, Summary for Policymakers</em>. Geneva: IPCC, 2023.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SALDIVA, P. Crise hídrica pode afetar saúde da população, alerta Paulo Saldiva. <em>Jornal da USP</em>. São Paulo, 05 set. 2021. Disponível em: <a href='https://jornal.usp.br/?p=432668' target='_blank' rel='noopener noreferrer'>https://jornal.usp.br/?p=432668</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">UNITED NATIONS OFFICE FOR DISASTER RISK REDUCTION (UNDRR). <em>Terminology on Disaster Risk Reduction</em>. Genebra: UNDRR, 2022.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -710,32 +668,30 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALPINO, T. de M. A. <em>Seca, condições de vida e saúde no Nordeste brasileiro:</em> o caso do município de Itapetim, Pernambuco. 2015. 218 f. Dissertação (Mestrado em Saúde Pública). Escola Nacional de Saúde Pública Sergio Arouca, Fundação Oswaldo Cruz, Rio de Janeiro, 2015.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALPINO, T. de A.; SENA, A. R. M. de; FREITAS, C. M. de. Desastres relacionados à seca e saúde coletiva – uma revisão da literatura científica. <em>Ciência & Saúde Coletiva</em>, v. 21, n. 3, p. 809-820, mar. 2016.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Emergências em Saúde Pública. <em>Plano de Contingência para Emergências em Saúde Pública por chuvas intensas e desastres associados</em> [recurso eletrônico]. Brasília: Ministério da Saúde, 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Departamento de Estratégias e Políticas de Saúde Comunitária. <em>Inundações: diretrizes para profissionais de saúde: unidades básicas de saúde</em> [recurso eletrônico]. 1. ed. rev. Brasília: Ministério da Saúde, 2024.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Departamento de Atenção Básica. <em>O trabalho do agente comunitário de saúde</em>. Brasília: Ministério da Saúde, 2009. Disponível em: <a href='http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf' target='_blank' rel='noopener noreferrer'>http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. et al. <em>Orientações para gestão de risco de desastres e emergências em saúde pública:</em> abordagem integrada, atenção primária e vigilância em saúde. Rio de Janeiro: Fiocruz/ENSP/CEPEDES, 2023. 116 p. Relatório de pesquisa. Disponível em:<a href=' https://arca.fiocruz.br/handle/icict/61692' target='_blank' rel='noopener noreferrer'> https://arca.fiocruz.br/handle/icict/61692</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. de. <em>Guia</em> – Preparação para resposta à emergência em saúde pública por seca e estiagem. Rio de Janeiro: ENSP, Fiocruz, 2021. 235 p. Disponível em: <a href='https://informe.ensp.fiocruz.br/assets/anexos/c9e480d9c1f855dc86484519b372fbaa.PDF' target='_blank' rel='noopener noreferrer'>https://informe.ensp.fiocruz.br/assets/anexos/c9e480d9c1f855dc86484519b372fbaa.PDF</a>. Acesso em: 07 abr. 2026.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. de. <em>Guia</em> – Preparação para resposta à emergência em saúde pública por inundações graduais. Rio de Janeiro: ENSP, Fiocruz, 2021. 227 p. Disponível em: <a href='https://informe.ensp.fiocruz.br/assets/anexos/77f24366813d7fd4b757a3aaea7790a7.PDF' target='_blank' rel='noopener noreferrer'>https://informe.ensp.fiocruz.br/assets/anexos/77f24366813d7fd4b757a3aaea7790a7.PDF</a>. Acesso em: 07 abr. 2026.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
+                                <div class="accordion-item">
+                                    <h5 class="accordion-header" id="heading-m3-aula4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m3-aula4" aria-expanded="false" aria-controls="collapse-m3-aula4">Aula 4</button>
+                                    </h5>
+                                    <div id="collapse-m3-aula4" class="accordion-collapse collapse" aria-labelledby="heading-m3-aula4" data-bs-parent="">
+                                        <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Diretriz Nacional para Atuação Integrada dos Agentes de Combate às Endemias e Agentes Comunitários de Saúde no Território</em> [recurso eletrônico]. Brasília: Ministério da Saúde, 2025. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia-ambiental/diretriz-nacional-para-atuacao-dos-ace-e-acs-no-territorio.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia-ambiental/diretriz-nacional-para-atuacao-dos-ace-e-acs-no-territorio.pdf</a>. Acesso em: 12 jul. 2026.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Nota Técnica Conjunta</em> n. 217/2024-CGESCO/DESCO/SAPS/MS-DAHU/SAES/MS-DAPSI/SESAI/MS. Brasília: Ministério da Saúde, 2024. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2024/nota-tecnica-conjunta-no-217-2024-cgesco-desco-saps-ms-e-dahu-saes-ms-e-dapsi-sesai-ms' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2024/nota-tecnica-conjunta-no-217-2024-cgesco-desco-saps-ms-e-dahu-saes-ms-e-dapsi-sesai-ms</a>. Acesso em: 13 jul. 2026.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FAUSTO, M. C. R. et al. Sustentabilidade da Atenção Primária à Saúde em territórios rurais remotos na Amazônia fluvial: organização, estratégias e desafios. <em>Ciência & Saúde Coletiva</em>, Rio de Janeiro, v. 27, p. 1605-1618, 2022. Disponível em: <a href='https://www.scielo.br/j/csc/a/zZdBtL6QPw35vSPYz75XRPv/?format=pdf&lang=pt' target='_blank' rel='noopener noreferrer'>https://www.scielo.br/j/csc/a/zZdBtL6QPw35vSPYz75XRPv/?format=pdf&lang=pt</a>. Acesso em: 07 abr. 2026.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -762,16 +718,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Ciência, Tecnologia e Inovação (MCTI). <em>Clima em síntese:</em> estudos sobre saúde e ondas de calor no Brasil (2015-2025). Brasília: MCTI, 2025. Disponível em: <a href='https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/clima-em-sintese/clima-em-sintese_estudos-sobre-saude-e-ondas-de-calor-no-brasil-2015-2025.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/cgcl/paginas/clima-em-sintese/clima-em-sintese_estudos-sobre-saude-e-ondas-de-calor-no-brasil-2015-2025.pdf</a>. Acesso em: 20 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GARTLAND, Lisa. <em>Ilhas de calor:</em> como mitigar zonas de calor em áreas urbanas. Trad. Silvia Helena Gonçalves. São Paulo: Oficina de Textos, 2010. Disponível em: <a href='http://ofitexto.arquivos.s3.amazonaws.com/Degustacao-Ilhas-de-Calor.pdf' target='_blank' rel='noopener noreferrer'>http://ofitexto.arquivos.s3.amazonaws.com/Degustacao-Ilhas-de-Calor.pdf</a>. Acesso em: 20 nov. 2025.</li>
-                                                </ul>
-                                            </div>
+                                                    <li class="list-group-item"></li>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BECKER, L. <em>Entenda por que o aquecimento global também causa ondas de frio e deve piorá-las</em>. Um Só Planeta, Globo.com, 23 ago. 2024. Disponível em: <a href='https://umsoplaneta.globo.com/clima/noticia/2024/08/23/entenda-por-que-o-aquecimento-global-tambem-causa-ondas-de-frio-e-deve-piora-las.ghtml' target='_blank' rel='noopener noreferrer'>https://umsoplaneta.globo.com/clima/noticia/2024/08/23/entenda-por-que-o-aquecimento-global-tambem-causa-ondas-de-frio-e-deve-piora-las.ghtml</a>. Acesso em: 20 nov. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -786,20 +737,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">EBI, K. L. et al. Hot weather and heat extremes: health risks. <em>The Lancet</em>, v. 398, i. 10301, p. 698-708, ago 2021. Disponível em: <a href='https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2821%2901208-3/fulltext' target='_blank' rel='noopener noreferrer'>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2821%2901208-3/fulltext</a>. Acesso em: 18 jun. 2026.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SANTOS NOURI, A. et al. Detection and quantification of seasonal human heat and cold stress frequencies in representative existing and future urban canyons: the case of Ankara. <em>Theoretical Applied Climatololy</em>, v. 153, p. 593–620, maio 2023. Disponível em: <a href='https://link.springer.com/article/10.1007/s00704-023-04482-5?utm_source=researchgate.net&utm_medium=article#citeas' target='_blank' rel='noopener noreferrer'>https://link.springer.com/article/10.1007/s00704-023-04482-5?utm_source=researchgate.net&utm_medium=article#citeas</a>. Acesso em: 18 jun. 2026.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">TORTORA, G. J.; DERRICKSON, B. <em>Princípios de anatomia e fisiologia</em>. 14. ed. Rio de Janeiro: Guanabara Koogan, 2014.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PESQUISA FAPESP. <em>Ondas de calor e frio ameaçam a saúde</em>. YouTube. 2 mar. 2025. Vídeo (5min. 27s.). Disponível em: <a href='https://www.youtube.com/watch?v=KAOrz94tELg' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=KAOrz94tELg</a>. Acesso em: 22 nov. 2025.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO Internacional do Trabalho. Garantir a segurança e saúde no trabalho num clima em mudança. <em>Síntese do relatório</em>. Genebra: OIT, 2024. Disponível em: <a href='https://www.ilo.org/sites/default/files/2024-04/OIT_SafeDay24_S%C3%ADntese-do-Relat%C3%B3rio.pdf' target='_blank' rel='noopener noreferrer'>https://www.ilo.org/sites/default/files/2024-04/OIT_SafeDay24_S%C3%ADntese-do-Relat%C3%B3rio.pdf</a>. Acesso em: 10 dez. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -814,56 +756,11 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Departamento de Emergências em Saúde Pública. Coordenação-Geral de Preparação para as Emergências em Saúde Pública. <em>Nota Técnic</em>a nº 5/2025-CGPRESP/DEMSP/SVSA/MS. Fornece diretrizes abrangentes para a preparação e resposta às ondas de frio. Brasília: Ministério da Saúde, 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIO DE JANEIRO. Secretaria Municipal de Saúde. <em>Protocolo de enfrentamento ao calor extremo</em> [livro eletrônico]. 1. ed. Rio de Janeiro: Ed. dos Autores, 2024. Disponível em: <a href='https://saude.prefeitura.rio/wp-content/uploads/sites/47/2024/10/Livro_PlanoContingenciaEnfrentamentoCalorExtremo_PDFDigital_20241024.pdf' target='_blank' rel='noopener noreferrer'>https://saude.prefeitura.rio/wp-content/uploads/sites/47/2024/10/Livro_PlanoContingenciaEnfrentamentoCalorExtremo_PDFDigital_20241024.pdf</a>. Acesso em: 16 dez. 2025.</li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIO DE JANEIRO. Superintendência de Atenção Primária. <em>Nota Técnica</em>: dispõe sobre a atuação das equipes de atenção primária diante das ondas de calor. Rio de Janeiro, 15 dez. 2023.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NOGUEIRA, P. T. A. et al. A necessidade de construção de assistência e vigilância em saúde no contexto das mudanças climáticas - ‘um passo à frente e você não estará mais no mesmo lugar’. <em>Saúde em Debate</em>, v. 48, n. spe1, p. e8696, ago. 2024.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FLOSS, M.; BARROS, E. F. Estresse por calor na Atenção Primária à Saúde: uma revisão clínica. <em>Revista Brasileira de Medicina de Família e Comunidade</em>, v. 15, n. 42, p. 1948-1948, 2020.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h5 class="accordion-header" id="heading1-modulo5">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-modulo5" aria-expanded="false" aria-controls="collapse1-modulo5">Módulo 5</button>
-                    </h5>
-                    <div id="collapse1-modulo5" class="accordion-collapse collapse" aria-labelledby="heading1-modulo5" data-bs-parent="">
-                        <div class="accordion-body">
-                            <!-- Accordion Aulas -->
-                            <div class="accordion accordion-flush aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="800" id="accordionBibliografia-m3-aulas">
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="heading-m5-aula1">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m5-aula1" aria-expanded="true" aria-controls="collapse-m5-aula1">Aula 1</button>
-                                    </h5>
-                                    <div id="collapse-m5-aula1" class="accordion-collapse collapse" aria-labelledby="heading-m5-aula1" data-bs-parent="">
-                                        <div class="accordion-body">
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FEARNSIDE, P. M. Uso da terra na Amazônia e as mudanças climáticas globais. In: FEARNSIDE, P. M. <em>Destruição e Conservação da Floresta Amazônica</em>, vol. 1. Brasil: Editora do INPA, 2022. p. 21-38.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO de Pesquisa Ambiental da Amazônia (IPAM). Tudo o que você queria saber sobre fogo na Amazônia e no Cerrado. <em>Site IPAM Amazônia</em>, setembro 2024. Disponível em: <a href='https://ipam.org.br/cartilhas-ipam/foconofogo/' target='_blank' rel='noopener noreferrer'>https://ipam.org.br/cartilhas-ipam/foconofogo/</a>. Acesso em: 01 dez. 2025.</li>
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO Nacional de Pesquisas Espaciais (INPE). Programa Queimadas. <em>Portal INPE</em>. Disponível em: <a href='https://terrabrasilis.dpi.inpe.br/queimadas/portal/' target='_blank' rel='noopener noreferrer'>https://terrabrasilis.dpi.inpe.br/queimadas/portal/</a>. Acesso em: 01 dez. 2025.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -871,62 +768,18 @@ const modalInfos = {
                                 </div>
 
                                 <div class="accordion-item">
-                                    <h5 class="accordion-header" id="heading-m5-aula2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m5-aula2" aria-expanded="false" aria-controls="collapse-m5-aula2">Aula 2</button>
+                                    <h5 class="accordion-header" id="heading-m4-aula3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m4-aula3" aria-expanded="false" aria-controls="collapse-m4-aula3">Aula 4</button>
                                     </h5>
-                                    <div id="collapse-m5-aula2" class="accordion-collapse collapse" aria-labelledby="heading-m5-aula2" data-bs-parent="">
+                                    <div id="collapse-m4-aula3" class="accordion-collapse collapse" aria-labelledby="heading-m4-aula3" data-bs-parent="">
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Queimadas. <em>Saúde de A a Z</em>. Disponível em: <a href='https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/q/queimadas' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/q/queimadas</a>. Acesso em: 10 dez. 2025. </li>
+                                                    <li class="list-group-item"></li>
 
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FIOCRUZ. ICICT. Observatório de Clima e Saúde. <em>Vídeo</em>. Queimadas na Amazônia (2012). Disponível em: <a href='https://climaesaude.icict.fiocruz.br/video/queimadas-na-amazonia-2012' target='_blank' rel='noopener noreferrer'>https://climaesaude.icict.fiocruz.br/video/queimadas-na-amazonia-2012</a>. Acesso em: 01 dez. 2025.</li>
-                                                </ul>
-                                            </div>
+                                                    <li class="list-group-item"></li>
 
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUSA, T. C. M.; HACON, S. S.; BARCELLOS, C. Covid-19 e queimadas na Amazônia Legal e no Pantanal: aspectos cumulativos e vulnerabilidades. In: FREITAS, C. M.; </li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARCELLOS, C.; VILLELA, D. A. M. (orgs.). <em>Covid-19 no Brasil</em>: cenários epidemiológicos e vigilância em saúde [online]. Rio de Janeiro: Observatório Covid-19 Fiocruz; Editora Fiocruz, 2021, p. 159-169. <a href='https://doi.org/10.7476/9786557081211.0010' target='_blank' rel='noopener noreferrer'>https://doi.org/10.7476/9786557081211.0010</a>.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h5 class="accordion-header" id="heading-m5-aula3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-m5-aula3" aria-expanded="false" aria-controls="collapse-m5-aula3">Aula 3</button>
-                                    </h5>
-                                    <div id="collapse-m5-aula3" class="accordion-collapse collapse" aria-labelledby="heading-m5-aula3" data-bs-parent="">
-                                        <div class="accordion-body">
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FREITAS, C. M. et al. <em>Orientações para gestão de risco de desastres e emergências em saúde pública</em>: abordagem integrada atenção primária e vigilância em saúde. Rio de Janeiro: Fiocruz/ENSP/Cepedes, 2023.116 p. Disponível em: <a href='https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/40e47741-f71d-4f8c-a887-4762361d864e</a>. Acesso em: 25 maio. 26.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GRACIE, Renata; RODRIGUES, Jessica Muzy (org.). <em>Curso análise de situação de saúde ambiental</em> [recurso eletrônico]: ASISA-Queimadas. Rio de Janeiro: Edições Livres, 2024. 267 p. Disponível em: <a href='https://arca.fiocruz.br/items/d02160b3-ee30-4e1a-8387-f6c1d5eca0b8' target='_blank' rel='noopener noreferrer'>https://arca.fiocruz.br/items/d02160b3-ee30-4e1a-8387-f6c1d5eca0b8</a>. Acesso em: 25 maio 26.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIO GRANDE DO SUL. Secretaria da Saúde. Centro Estadual de Vigilância em Saúde; Departamento de Atenção Primária e Políticas de Saúde. <em>Nota Orientadora Conjunta CEVS/DAPPS n. 01/2024</em>: organização das ações da Atenção Primária à Saúde na prevenção e mitigação dos efeitos da contaminação do ar causada por queimadas. Porto Alegre: SES/RS, 17 set. 2024. Disponível em: <a href='https://saude.rs.gov.br/upload/arquivos/202409/17183002-nota-orientadora-conjunta-cevs-dapps-n-01-2024-3.pdf' target='_blank' rel='noopener noreferrer'> https://saude.rs.gov.br/upload/arquivos/202409/17183002-nota-orientadora-conjunta-cevs-dapps-n-01-2024-3.pdf</a>. Acesso em: 25 maio 26.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">VITOR, Nathan. Ministra Nísia Trindade apresenta novas ações da pasta e orientações para proteção da saúde diante das queimadas. Saúde & Meio Ambiente. <em>Ministério da Saúde</em>, 2014. Disponível em: <a href='https://www.gov.br/saude/pt-br/assuntos/noticias/2024/setembro/ministra-nisia-trindade-apresenta-novas-acoes-da-pasta-e-orientacoes-para-protecao-da-saude-diante-das-queimadas' target='_blank' rel='noopener noreferrer'> https://www.gov.br/saude/pt-br/assuntos/noticias/2024/setembro/ministra-nisia-trindade-apresenta-novas-acoes-da-pasta-e-orientacoes-para-protecao-da-saude-diante-das-queimadas </a>. Acesso em: 25 maio 26.</li>
-
-                                                </ul>
-                                            </div>
-
-                                            <span class='d-block'><em>Bibliografia complementar</em></span>
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANDERSON, L. O. et al. Modelo conceitual de sistema de alerta e de gestão de riscos e desastres associados a incêndios florestais e desafios para políticas públicas no Brasil. <em>Territorium</em>, n. 26 (I), p. 43-61, 2019. Disponível em: </li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ANDRADE, É. F. R. de et al. Letramento em saúde ambiental entre ribeirinhos da Amazônia paraense. <em>Revista da Escola de Enfermagem da USP</em>, v. 59, p. e20250015, 2025. </li>
-                                               
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NASSAR, P. et al. Avaliação em desastres como estratégia para mitigar os riscos na atenção primária à saúde. <em>Revista Saúde e Meio Ambiente</em>, v. 14, n. 2, p. 121-132, 2022.Diponível em: <a href='https://periodicos.ufms.br/index.php/sameamb/article/view/16790' target='_blank' rel='noopener noreferrer'>https://periodicos.ufms.br/index.php/sameamb/article/view/16790</a>. Acesso em: 25 maio 26.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SALDIVA, P. “Se tem um sistema de saúde que pode fazer frente à crise climática, é o SUS”. Entrevistadores: Ana Paula Evangelista e Leandro Modolo. In: <em>Repórter SUS</em>. Rio de Janeiro: EPSJV/Fiocruz, 6 set. 2024. Podcast. Disponível em:  <a href='https://www.abc.org.br/2024/09/06/paulo-saldiva-se-tem-um-sistema-de-saude-que-pode-fazer-frente-a-crise-climatica-e-o-sus/' target='_blank' rel='noopener noreferrer'>https://www.abc.org.br/2024/09/06/paulo-saldiva-se-tem-um-sistema-de-saude-que-pode-fazer-frente-a-crise-climatica-e-o-sus/</a>. Acesso em: 25 maio 26.</li>
-
-                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUSA, M. F. de et al. Potencialidades da Atenção Básica à Saúde na consolidação dos sistemas universais. <em>Saúde em Debate</em> [online]. v. 43, n. spe5, dez. 2019, p. 82-93. Disponível em: <a href='https://doi.org/10.1590/0103-11042019S507' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/0103-11042019S507</a>. Acesso em: 01 dez. 25.</li>
+                                                    <li class="list-group-item"></li>
                                                 </ul>
                                             </div>
                                         </div>
