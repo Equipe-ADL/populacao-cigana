@@ -182,9 +182,7 @@
 
 	/* Family */
 	--fio-sys-typography-family-primary: var(--fio-ref-typography-family-primary);
-	--fio-sys-typography-family-primary-italic: var(--fio-ref-typography-family-primary) italic;
-	--fio-sys-typography-family-secondary: var(--fio-ref-typography-family-primary);
-	--fio-sys-typography-family-secondary-italic: var(--fio-ref-typography-family-primary) italic;
+	--fio-sys-typography-family-secondary: var(--fio-ref-typography-family-secondary);
 
 	/* Size */
 	--fio-sys-typography-multiplier: 1; /* Caso necessário */

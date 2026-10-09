@@ -15,7 +15,9 @@
 	--_nav-link-color-sticky--hover: var(--_mobile-toggle-color);
 
 	align-items: center;
-	background: var(--_background-color);
+	/* background: var(--_background-color); */
+	background: transparent;
+	backdrop-filter: blur(32px);
 	display: flex;
 	gap: 16px;
 	height: 80px;
@@ -108,7 +110,7 @@
 			color: var(--_nav-link-color);
 
 			&.dropdown-toggle::after {
-				display:none;
+				display: none;
 			}
 		}
 
@@ -149,6 +151,7 @@
 	height: 60px;
 	background: var(--_background-color-sticky);
 	box-shadow: var(--fio-sys-size-shadow-sm);
+	backdrop-filter: blur(12px);
 
 	.mobile-toggle-open {
 		border-right: 1px solid white;

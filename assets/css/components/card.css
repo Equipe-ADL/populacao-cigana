@@ -3,7 +3,7 @@
 	--_card-background: var(--fio-sys-color-neutral-100);
 	--_card-border-color: var(--fio-sys-color-primary-light);
 	--_card-border-width: var(--fio-sys-size-stroke-xs);
-	--_card-border-radius: var(--fio-sys-size-radius-sm);
+	--_card-border-radius: var(--fio-sys-size-radius-xl);
 	--_card-shadow: var(--fio-sys-size-shadow-lg);
 
 	/* Card - thumb */
@@ -38,7 +38,7 @@
 	box-shadow: var(--_card-shadow);
 	overflow: hidden;
 }
-	
+
 .card.card-primary {
 	background-color: var(--_card-background-secondary);
 	border-color: var(--_card-border-color-primary);
@@ -82,8 +82,6 @@
 	color: var(--_card-header-color);
 }
 
-
-
 /* .card .card-body,
 .card .card-footer {
 	background-color: var(--_card-background);
@@ -97,15 +95,14 @@
 }
 
 .card .card-body .slide-title {
-	font-size: var(--fio-sys-typography-size-0)!important;
+	font-size: var(--fio-sys-typography-size-0) !important;
 	font-style: bold;
 	color: var(--fio-sys-color-accent-dark);
-	}
+}
 
 .card .card-body .slide-title p {
 	size: var(--fio-sys-typography-size--1);
 	color: var(--fio-sys-color-primary-medium);
-
 }
 
 .card .card-footer {
