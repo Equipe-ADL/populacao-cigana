@@ -404,33 +404,99 @@
 
 						<div class="row justify-content-center">
 							<div class="col-12">
-								<p class="text-muted text-center mb-5"><span class="material-symbols-rounded" style="transform: rotateX(180deg)">pan_tool_alt</span> <span class="d-none d-lg-inline-block">Clique</span> <span class="d-inline-block d-lg-none">Toque</span> e arraste os cards abaixo para visualizar as informações</p>
+								<p class="text-muted text-center mb-5"><span class="material-symbols-rounded" style="transform: rotateX(180deg)">pan_tool_alt</span> <span class="d-none d-lg-inline-block">Clique</span> <span class="d-inline-block d-lg-none">Toque</span> no botão para visualizar as informações</p>
 							</div>
-							<div class="col-12 col-md-7 col-lg-7 mb-5">
-								<!-- Swipper Effect Card -->
-								<div class="swiper swiper--effect-card card">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<div class="card-header">
-												<span class="h6">Santo Agostinho</span>
+							<div class="col-12 col-md-5 col-lg-5 mb-5">
+								<!--Flipcard-->
+								<div class="flipcard">
+									<div class="flip-card">
+										<input type="checkbox" id="flipcard1" class="more" aria-hidden="true">
+										<div class="flip-card-inner">
+											<!-- FRENTE -->
+											<div class="card shadow flip-card-front fundo1 ">
+												<div class="h-100 bg-transparent border-0 text-center">
+													<div class="card-body justify-content-center d-flex flex-column">
+														<span class="h5 card-title">Santo Agostinho</span>
+														<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->
+													</div>
+													<div class="card-footer text-white">
+														<div class="card-btn">
+															<label for="flipcard1" class="fio-button fio-button-primary" aria-hidden="true">
+																<img src="../media/templates/flipcard-icon.svg" alt="Ícone de flipcard" width="36">
+																Confira
+															</label>
+														</div>
+													</div>
+												</div>
 											</div>
 
-											<div class="card-body">
-												<p>Explora o assunto no contexto da subjetividade e da relação entre o eu e Deus, perspectiva presente durante toda a Idade Média. A identidade está profundamente ligada à autoconsciência e à relação com o divino, ela é encontrada na relação com Deus e na compreensão da alma como imortal.</p>
-											</div>
-										</div>
-
-										<div class="swiper-slide">
-											<div class="card-header">
-												<span class="h6">Tomás de Aquino</span>
-											</div>
-
-											<div class="card-body">
-												<p>Dentro do contexto da filosofia escolástica, a identidade é discutida a partir da natureza do ser e da relação entre essência e existência. Ele adapta a teoria aristotélica da forma e da matéria (substância), ao contexto cristão, argumentando que a identidade de um ser é definida pela sua essência e sua existência.</p>
+											<!-- VERSO -->
+											<div class="card flip-card-back ">
+												<div class="h-100 bg-transparent border-0 text-center">
+													<div class="card-body justify-content-center d-flex flex-column">
+														<span class="h6">Santo Agostinho</span>
+														<div class="scrollable">
+															<p>Explora o assunto no contexto da subjetividade e da relação entre o eu e Deus, perspectiva presente durante toda a Idade Média. A identidade está profundamente ligada à autoconsciência e à relação com o divino, ela é encontrada na relação com Deus e na compreensão da alma como imortal.</p>
+														</div>
+													</div>
+													<div class="card-footer">
+														<div class="card-btn">
+															<label for="flipcard1" class="fio-button fio-button-secondary return" aria-hidden="true">
+																<span class="material-symbols-rounded">arrow_back</span>
+															</label>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
-									<div class="swiper-pagination swiper-pagination3"></div>
+								</div>
+							</div>
+
+							<div class="col-12 col-md-5 col-lg-5 mb-5">
+								<!--Flipcard-->
+								<div class="flipcard">
+									<div class="flip-card">
+										<input type="checkbox" id="flipcard2" class="more" aria-hidden="true">
+										<div class="flip-card-inner">
+											<!-- FRENTE -->
+											<div class="card shadow flip-card-front fundo1 ">
+												<div class="h-100 bg-transparent border-0 text-center">
+													<div class="card-body justify-content-center d-flex flex-column">
+														<span class="h5 card-title">Tomás de Aquino</span>
+														<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->
+													</div>
+													<div class="card-footer text-white">
+														<div class="card-btn">
+															<label for="flipcard2" class="fio-button fio-button-primary" aria-hidden="true">
+																<img src="../media/templates/flipcard-icon.svg" alt="Ícone de flipcard" width="36">
+																Confira
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- VERSO -->
+											<div class="card flip-card-back ">
+												<div class="h-100 bg-transparent border-0 text-center">
+													<div class="card-body justify-content-center d-flex flex-column">
+														<span class="h6">Tomás de Aquino</span>
+														<div class="scrollable">
+															<p>Dentro do contexto da filosofia escolástica, a identidade é discutida a partir da natureza do ser e da relação entre essência e existência. Ele adapta a teoria aristotélica da forma e da matéria (substância), ao contexto cristão, argumentando que a identidade de um ser é definida pela sua essência e sua existência.</p>
+														</div>
+													</div>
+													<div class="card-footer">
+														<div class="card-btn">
+															<label for="flipcard2" class="fio-button fio-button-secondary return" aria-hidden="true">
+																<span class="material-symbols-rounded">arrow_back</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -876,7 +942,7 @@
 											<figcaption class="figure-caption fonte">Fonte: Danillo Kallón – Ilustração digital</figcaption>
 										</figure>
 									</div>
-								
+
 									<!-- Texto -->
 									<div class="order-1 order-lg-1 mb-5">
 										<p>Sobre a construção das Identidades Ciganas, vale referenciar a obra do artista Danilo Kallon, que leva a pensar o assunto como a metáfora de Rizoma para Deleuze e Guatarri, em contrapartida à metáfora de árvore, frequentemente usada para falar sobre construções “genealógicas”. O filósofo se inspirou na botânica para trazer tal relação. Não se vê uma inversão por pura inversão e sim uma inversão que leva a um deslocamento e toda uma reinscrição dos valores revelando a impossibilidade de o pensamento se organizar em torno de conceitos fechados em si mesmos, homogêneos e universais.</p>
