@@ -8,7 +8,7 @@
 	color: var(--fio-sys-color-primary-light-contrast) !important;
 }
 .color-primary-medium {
-	color: var(--fio-sys-color-primary-medium) !important;
+	color: var(--fio-sys-color-primary-40) !important;
 }
 .color-primary-medium-contrast {
 	color: var(--fio-sys-color-primary-medium-contrast) !important;
