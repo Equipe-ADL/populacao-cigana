@@ -80,6 +80,7 @@ padding: var(--fio-sys-size-padding-sm);
 strong {
 	font-weight: 700;
 	font-family: "Livvic", sans-serif;
+	color: var(--fio-sys-color-primary-30);
 }
 
 u {
