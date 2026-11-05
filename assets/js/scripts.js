@@ -171,204 +171,307 @@ const modalInfos = {
         modalSize: "modal-lg",
         modalTitle: "Créditos",
         modalBody: `
-			<div class="row justify-content-center pt-5">
-				<div class="col-12 col-md-10 col-lg-10">
-					<span class="h5 mb-3 d-block">Ministério da Saúde</span>
+			
+<div class="row justify-content-center pt-5">
+    <div class="col-12 col-md-10 col-lg-10">
 
-					<div class="mb-5">
-						<p class="mb-1">Alexandre Padilha</p>
-						<p class="small text-muted"><em>Ministro</em></p>
-					</div>
+        <!-- Ministério da Saúde -->
+        <span class="h5 mb-3 d-block">Ministério da Saúde</span>
 
-					<span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Mario Moreira</p>
-						<p class="small text-muted"><em>Presidente</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Alexandre Padilha</p>
+            <p class="small text-muted"><em>Ministro da Saúde</em></p>
+        </div>
 
-						<p class="mb-1">Marly Cruz</p>
-						<p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+        <!-- Secretaria-executiva UNA-SUS -->
+        <span class="h5 mb-3 d-block">Secretaria-executiva da Universidade Aberta do SUS – UNA-SUS</span>
 
-                        <p class="mb-1">Marco Menezes</p>
-						<p class="small text-muted"><em>Diretor da Escola Nacional de Saúde Pública Sergio Arouca (ENSP)</em></p>
-					</div>
+        <div class="mb-5">
+            <p class="mb-1">Maria Fabiana Damásio Passos</p>
+            <p class="small text-muted"><em>Secretária-executiva</em></p>
+        </div>
 
-					<span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
+        <!-- Fundação Oswaldo Cruz -->
+        <span class="h5 mb-3 d-block">Fundação Oswaldo Cruz – Fiocruz</span>
 
-					<div class="mb-5">
+        <div class="mb-5">
+            <p class="mb-1">Mário Moreira</p>
+            <p class="small text-muted"><em>Presidente</em></p>
 
-						<p class="mb-1">Ana Cristina da Matta Furniel</p>
-						<p class="small text-muted"><em>Coordenadora Geral</em></p>
+            <p class="mb-1">Marly Cruz</p>
+            <p class="small text-muted"><em>Vice-Presidência de Educação, Informação e Comunicação (VPEIC)</em></p>
+        </div>
 
-						<p class="mb-1">Rosane Mendes</p>
-						<p class="small text-muted"><em>Coordenadora Adjunta</em></p>
+        <!-- Secretaria de Atenção Primária à Saúde -->
+        <span class="h5 mb-3 d-block">Secretaria de Atenção Primária à Saúde – SAPS</span>
 
-						<p class="mb-1">Renata Bernardes David</p>
-						<p class="small text-muted"><em>Coordenadora de Produção</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Ana Luiza F.R. Caldas</p>
+            <p class="small text-muted"><em>Secretária de Atenção Primária à Saúde</em></p>
+        </div>
 
-						<p class="mb-1">Juliana Dutra</p>
-						<p class="small text-muted"><em>Gerente de Produção</em></p>
+        <!-- Departamento de Saúde da Família -->
+        <span class="h5 mb-3 d-block">Departamento de Saúde da Família – DESF</span>
 
-						<p class="mb-1">Isabela Schincariol</p>
-						<p class="small text-muted"><em>Assessora de Comunicação</em></p>
-					
-						<p class="mb-1">Alessandra Siqueira</p>
-						<p class="small text-muted"><em>Designer Educacional</em></p>
-					
-						<span class="h6 mb-3 d-block">Design de Interface</span>
-						
-						<p class="mb-1">Aline Polycarpo</p>
-						<p class="small text-muted"><em>UX/UI Designer</em></p>
+        <div class="mb-5">
+            <p class="mb-1">José Eudes Barroso Vieira</p>
+            <p class="small text-muted"><em>Diretor do Departamento de Saúde da Família</em></p>
+        </div>
 
-						<p class="mb-1">Danilo Blum</p>
-						<p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+        <!-- Departamento de Gestão do Cuidado Integral -->
+        <span class="h5 mb-3 d-block">Departamento de Gestão do Cuidado Integral - DGCI</span>
 
-						<p class="mb-1">Luciana Nunes</p>
-						<p class="small text-muted"><em>UX/UI Designer</em></p>
-					
-						
-						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
-					
-						<p class="mb-1">Bruno Athaydes</p>
-						<p class="small text-muted"><em>Editor audiovisual</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Olivia Lucena de Medeiros</p>
+            <p class="small text-muted"><em>Diretora do Departamento de Gestão do Cuidado Integral</em></p>
+        </div>
 
-						<p class="mb-1">Teo Venerando</p>
-						<p class="small text-muted"><em>Editor audiovisual</em></p>
+        <!-- Departamento de Promoção da Saúde -->
+        <span class="h5 mb-3 d-block">Departamento de Promoção da Saúde - DEPROS</span>
 
-						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
+        <div class="mb-5">
+            <p class="mb-1">Ângela Fernandes Leal da Silva</p>
+            <p class="small text-muted"><em>Diretora do Departamento de Promoção da Saúde</em></p>
+        </div>
 
-						<p class="mb-1">Natália Rasina</p>
-						<p class="small text-muted"><em>Audiodescrição</em></p>
-						
-						<span class="h6 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
-					
-						<p class="mb-1">Bruno Alexandre de Oliveira</p>
-						<p class="small text-muted"><em>Desenvolvedor</em></p>
+        <!-- Coordenação-Geral do Acesso e Equidade -->
+        <span class="h5 mb-3 d-block">Coordenação-Geral do Acesso e Equidade na Atenção Primária à Saúde – CGAEQ</span>
 
-						<p class="mb-1">Eduardo Xavier da Silva</p>
-						<p class="small text-muted"><em>Desenvolvedor</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Lilian Silva Gonçalves</p>
+            <p class="small text-muted"><em>Coordenadora-Geral de Acesso e Equidade na Atenção Primária à Saúde</em></p>
+        </div>
 
-						<p class="mb-1">Adriano Lourenço</p>
-						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+        <!-- Coordenação de Atenção às Populações em Situação de Vulnerabilidade -->
+        <span class="h5 mb-3 d-block">Coordenação de Atenção às Populações em Situação de Vulnerabilidade – COASV</span>
 
-						<p class="mb-1">Orlando Terra</p>
-						<p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Cláudio Luiz de França Neto</p>
+            <p class="small text-muted"><em>Coordenador de Atenção às Populações em Situação de Vulnerabilidade</em></p>
+        </div>
 
-						<p class="mb-1">Fábio Carneiro</p>
-						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+        <!-- Assessoria Técnica COASV -->
+        <span class="h5 mb-3 d-block">Assessoria Técnica da Coordenação de Atenção às Populações em Situação de Vulnerabilidade – COASV</span>
 
-                        <p class="mb-1">Catarina Santiago</p>
-                        <p class="small text-muted"><em>Ilustração e designer gráfico</em></p>
-					</div>
+        <div class="mb-5">
+            <p class="mb-1">Annaterra Meira Oliveira de Jesus</p>
+            <p class="mb-1">Danylo Silva Guimarães</p>
+            <p class="mb-1">Luciana da Conceição e Silva</p>
+            <p class="mb-1">Mariana Leão Soares Gomes</p>
+            <p class="mb-1">Natália dos Anjos Guimarães</p>
+            <p class="mb-1">Regina Gabriela Mesquita Dias</p>
+        </div>
 
-                    <span class="h5 mb-3 d-block">Realização</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Vice-Direção da Escola de Governo em Saúde da ENSP/Fiocruz</p>
-						<p class="small text-muted"><em>Campus Virtual Fiocruz</em></p>
-					</div>
+        <!-- Endereço UNA-SUS -->
+        <span class="h5 mb-3 d-block">Secretaria-executiva da Universidade Aberta do SUS – UNA-SUS</span>
 
-                    <span class="h5 mb-3 d-block">Apoio institucional</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Ana Luiza Ferreira Rodrigues Caldas</p>
-						<p class="small text-muted"><em>Secretária de Atenção Primária à Saúde (SAPS)</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Campus Universitário Darcy Ribeiro</p>
+            <p class="mb-1">Av. L3 Norte, s/n, Gleba A</p>
+            <p class="mb-1">Ed. Administrativo da Fiocruz Brasília, 2º andar</p>
+            <p class="mb-1">Asa Norte, Brasília/DF - 70.904-130</p>
+            <p class="mb-1">Telefone: (61) 3329-4598</p>
+        </div>
 
-                        <p class="mb-1">José Eudes Barroso Vieira</p>
-						<p class="small text-muted"><em>Diretor do Departamento de Saúde da Família (DESF)</em></p>
+        <!-- Curso -->
+        <span class="h5 mb-3 d-block">Atenção Integral à Saúde para Povos Ciganos</span>
 
-                        <p class="mb-1">Ana Cláudia Cardozo Chaves</p>
-						<p class="small text-muted"><em>Coordenadora-Geral de Saúde da Família e Comunidade (CGESCO)</em></p>
+        <!-- Coordenação do curso -->
+        <span class="h5 mb-3 d-block">Coordenador do Curso</span>
 
-                        <p class="mb-1">Lilian Silva Gonçalves</p>
-						<p class="small text-muted"><em>Coordenadora-Geral de Acesso e Equidade na Atenção Primária à Saúde (CGAEQ)</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Aluízio de Azevedo Silva Júnior</p>
+            <p class="small text-muted"><em>Fiocruz/RJ / Coletivo Ciganagens / Associação Estadual das Etnias Ciganas de Mato Grosso (AEEC/MT)</em></p>
+        </div>
 
-                        <p class="mb-1">Juliana Azevedo Fernandes</p>
-						<p class="small text-muted"><em>Coordenadora de Atributos e Ações Estratégicas da Atenção Primária à Saúde (COAE)</em></p>
+        <!-- Conteudistas e autores -->
+        <span class="h5 mb-3 d-block">Conteudista/Autor</span>
 
-                        <p class="mb-1">Samara Carolina Rodrigues</p>
-						<p class="small text-muted"><em>Técnica da Coordenação de Atributos e Ações Estratégicas da Atenção Primária à Saúde (COAE)</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Aluízio de Azevedo Silva Júnior</p>
+            <p class="small text-muted"><em>Fiocruz/RJ / Coletivo Ciganagens e Associação Estadual das Etnias Ciganas de Mato Grosso (AEEC-MT)</em></p>
 
-                        <p class="mb-1">Sueli Zeferino Ferreira Almeida</p>
-						<p class="small text-muted"><em>Técnica da Coordenação de Atributos e Ações Estratégicas da Atenção Primária à Saúde (COAE)</em></p>
+            <p class="mb-1">Antônio José Gomes Alcântara</p>
+            <p class="small text-muted"><em>Faculdade Santa Maria (FSM)</em></p>
 
-                        <p class="mb-1">Hannah Shiva Ludgero Farias</p>
-						<p class="small text-muted"><em>Tecnologista na Coordenação de Atributos e Ações Estratégicas da Atenção Primária à Saúde (COAE)</em></p>
+            <p class="mb-1">Brenna Carolaine Lopes Vaz</p>
+            <p class="small text-muted"><em>Universidade do Estado da Bahia</em></p>
 
-                        <p class="mb-1">Cláudio Luiz de França Neto</p>
-						<p class="small text-muted"><em>Tecnologista na Coordenação-Geral de Acesso e Equidade na Atenção Primária à Saúde (CGAEQ)</em></p>
+            <p class="mb-1">Cícera Suênia Soares Mangueira</p>
+            <p class="small text-muted"><em>Mestre em Saúde coletiva- UFPB / Coordenação da ESF DS II - Secretaria municipal de saúde de Sousa-PB</em></p>
 
-                        <p class="mb-1">Daniela de Macêdo Pimentel</p>
-						<p class="small text-muted"><em>Assessora Técnica na Coordenação-Geral de Acesso e Equidade na Atenção Primária à Saúde (CGAEQ)</em></p>
+            <p class="mb-1">Danillo Amaral Nascimento (Danillo Kalón)</p>
+            <p class="small text-muted"><em>Membro do Coletivo Ciganagens</em></p>
 
-                        <p class="mb-1">Flávia Santana Lima</p>
-						<p class="small text-muted"><em>Tecnologista na Coordenação-Geral de Acesso e Equidade na Atenção Primária à Saúde (CGAEQ)</em></p>
+            <p class="mb-1">Desirée Mattos Almeida</p>
+            <p class="small text-muted"><em>Secretaria Municipal de Educação do Rio de Janeiro / Coletivo Ciganagens</em></p>
 
-                        <p class="mb-1">Vanessa de Souza Hacon</p>
-						<p class="small text-muted"><em>Assessora Técnica na Coordenação-Geral de Mudanças Climáticas e Equidade em Saúde (CGCLIMA)</em></p>
-					</div>
+            <p class="mb-1">Irisma Fernandes Calvo</p>
+            <p class="small text-muted"><em>Artista da Comunidade Tradicional Cigana Circense Fazenda Umburaninha - Povoado Creguenhem - Tucano (BA) / Creche Vovó Maria Rosa</em></p>
 
-					<span class="h5 mb-3 d-block">Mudanças climáticas e a atuação da Atenção Primária à Saúde – 1ª oferta (2026-2027)</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Carlos Machado de Freitas</p>
-						<p class="small text-muted"><em>Coordenação Institucional</em></p>
+            <p class="mb-1">Hayanne Giovana Iovanovitchi</p>
+            <p class="small text-muted"><em>FAE Centro Universitário / Coletivo Ciganagens</em></p>
 
-                        <p class="mb-1">Vânia Rocha</p>
-						<p class="small text-muted"><em>Coordenação Acadêmica</em></p>
+            <p class="mb-1">Marcilânia Gomes Alcântara Figueiredo</p>
+            <p class="small text-muted"><em>Rede Municipal de Ensino de Sousa/PB – Escola Municipal Irmã Maria Iraides Holanda Lavor</em></p>
 
-                        <p class="mb-1">Luciana Alves Pereira</p>
-						<p class="small text-muted"><em>Coordenação de Produção</em></p>
-					</div>
+            <p class="mb-1">Marcos Toyansk Guimarãis</p>
+            <p class="small text-muted"><em>Laboratório de Estudos sobre Etnicidade, Racismo e Discriminação da USP.</em></p>
 
-					<span class="h5 mb-3 d-block">Autoria</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Eliane Lima e Silva</p>
-						<p class="small text-muted"><em>Pesquisadora do Centro de Estudos e Pesquisas em Emergências e Desastres em Saúde da Fiocruz (Cepedes/Fiocruz) e do Laboratório de Geografia, Ambiente e Saúde da UnB (LAGAS/UnB)</em></p>
+            <p class="mb-1">Roi Rogeres Fernandes Filho</p>
+            <p class="small text-muted"><em>Universidade Federal da Bahia (UFBA) / Coletivo @ciganagens</em></p>
 
-						<p class="mb-1">Maria Mitsuko Peres </p>
-						<p class="small text-muted"><em>Enfermeira da Estratégia de Saúde da Família da Secretaria Municipal de Saúde do Rio de Janeiro, pesquisadora do Centro de Estudos e Pesquisas em Emergências e Desastres em Saúde (Cepedes/Fiocruz)</em></p>
+            <p class="mb-1">Sara Macêdo de Paula</p>
+            <p class="small text-muted"><em>Universidade Federal de Goiás (UFG) / Coletivo Ciganagens</em></p>
+        </div>
 
-						<p class="mb-1">Tatiane Moraes</p>
-						<p class="small text-muted"><em>Pesquisadora do Observatório do Clima e Saúde (ICICT/Fiocruz) e do Departamento de Epidemiologia do Instituto de Medicina Social da UERJ (IMS/UERJ)</em></p>
+        <!-- Revisão técnico-científica -->
+        <span class="h5 mb-3 d-block">Revisor Técnico-científico</span>
 
-						<p class="mb-1">Vânia Rocha</p>
-						<p class="small text-muted"><em>Pesquisadora do Centro de Estudos e Pesquisas em Emergências e Desastres em Saúde da Fiocruz (Cepedes/Fiocruz)</em></p>
-					</div>
+        <div class="mb-5">
+            <p class="mb-1">Aluízio de Azevedo Silva Júnior</p>
+            <p class="small text-muted"><em>Fiocruz/RJ / Coletivo Ciganagens / Associação Estadual das Etnias Ciganas de Mato Grosso (AEEC/MT)</em></p>
 
-                    <span class="h5 mb-3 d-block">Colaboração</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Carlos Machado de Freitas</p>
-						<p class="small text-muted"><em>Coordenador do Centro de Estudos e Pesquisas em Emergências e Desastres em Saúde da Fiocruz (Cepedes/Fiocruz) e Pesquisador da Escola Nacional de Saúde Pública Sergio Arouca/Fiocruz </em></p>
+            <p class="mb-1">Roi Rogeres Fernandes Filho</p>
+            <p class="small text-muted"><em>Universidade Federal da Bahia (UFBA) / Coletivo @ciganagens</em></p>
+        </div>
 
-						<p class="mb-1">Jacqueline Santos da Silva</p>
-						<p class="small text-muted"><em>Enfermeira, Agente Comunitária de Saúde da Estratégia de Saúde da Família da Secretaria Municipal de Saúde do Rio de Janeiro</em></p>
+        <!-- Artes e ilustrações -->
+        <span class="h5 mb-3 d-block">Artes e ilustrações</span>
 
-						<p class="mb-1">Michele da Conceição Galdino</p>
-						<p class="small text-muted"><em>Enfermeira residente da Estratégia de Saúde da Família da Secretaria Municipal de Saúde do Rio de Janeiro</em></p>
+        <div class="mb-5">
+            <p class="mb-1">Danillo Amaral Nascimento (Danillo Kalón)</p>
+            <p class="small text-muted"><em>Membro do Coletivo Ciganagens</em></p>
+        </div>
 
-						<p class="mb-1">Pedro Ruiz Barbosa Nassar</p>
-						<p class="small text-muted"><em>Professor Adjunto da Universidade Federal Fluminense (UFF) e especialista em Gestão em Emergências e Desastres na Atenção Primária à Saúde</em></p>
-					</div>
+        <!-- Validação externa -->
+        <span class="h5 mb-3 d-block">Validador Externo (equipe Ministério da Saúde)</span>
 
-                    <span class="h5 mb-3 d-block">Revisão Ortográfica</span>
-					
-					<div class="mb-5">
-						<p class="mb-1">Luciana Alves Pereira</p>
-						<p class="small text-muted"><em>Assessora didático-pedagógica da VDEGS/ENSP</em></p>
-					</div>
+        <div class="mb-5">
+            <p class="mb-1">XXXXXXXXXX</p>
+        </div>
 
-                    <span class="h5 mb-3 d-block">Agradecimento Especial</span>
-					
-					<div class="mb-5">
-						<p class="mb-3">Este curso foi construído de forma colaborativa e ganha ainda mais significado com a generosa contribuição dos profissionais de saúde de diferentes regiões do Brasil que compartilharam seus relatos de experiência diante de secas, inundações, deslizamentos, queimadas e os demais eventos climáticos extremos.</p>
+        <!-- Campus Virtual Fiocruz -->
+        <span class="h5 mb-3 d-block">Campus Virtual Fiocruz</span>
 
-                        <p>Nosso sincero agradecimento a cada profissional que disponibilizou seu tempo, sua escuta sensível e sua vivência nos territórios para a gravação dos áudios que ilustram as aulas. Seus depoimentos dão voz às realidades locais, aproximam o conhecimento teórico do cotidiano do trabalho em saúde e evidenciam o compromisso do Sistema Único de Saúde com o cuidado, a solidariedade e a defesa da vida.</p>
-					</div>
-				</div>
-			</div>
+        <div class="mb-5">
+            <p class="mb-1">Ana Cristina da Matta Furniel</p>
+            <p class="small text-muted"><em>Coordenadora-Geral</em></p>
+
+            <p class="mb-1">Rosane Mendes</p>
+            <p class="small text-muted"><em>Coordenadora Adjunta</em></p>
+
+            <p class="mb-1">Renata Bernardes David</p>
+            <p class="small text-muted"><em>Coordenação de Produção</em></p>
+
+            <p class="mb-1">Juliana Dutra</p>
+            <p class="small text-muted"><em>Gerente de Produção</em></p>
+
+            <p class="mb-1">Isabela Schincariol</p>
+            <p class="small text-muted"><em>Assessora de Comunicação</em></p>
+
+            <p class="mb-1">Alessandra Guedes</p>
+            <p class="small text-muted"><em>Designer Educacional</em></p>
+
+            <p class="mb-1">Alessandra Siqueira</p>
+            <p class="small text-muted"><em>Designer Educacional</em></p>
+
+            <p class="mb-1">Aline Polycarpo</p>
+            <p class="small text-muted"><em>UX/UI Designer</em></p>
+
+            <p class="mb-1">Danilo Blum</p>
+            <p class="small text-muted"><em>UX/UI Designer e Front-end</em></p>
+
+            <p class="mb-1">Luciana Nunes</p>
+            <p class="small text-muted"><em>UX/UI Designer</em></p>
+        </div>
+
+        <!-- Recursos Audiovisuais -->
+        <span class="h5 mb-3 d-block">Recursos Audiovisuais</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Bruno Athaydes</p>
+            <p class="small text-muted"><em>Editor audiovisual</em></p>
+
+            <p class="mb-1">Teo Venerando</p>
+            <p class="small text-muted"><em>Editor audiovisual</em></p>
+        </div>
+
+        <!-- Recursos Educacionais -->
+        <span class="h5 mb-3 d-block">Recursos Educacionais</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Natália Rasina</p>
+            <p class="small text-muted"><em>Audiodescrição</em></p>
+        </div>
+
+        <!-- Revisão Ortográfica -->
+        <span class="h5 mb-3 d-block">Revisão Ortográfica</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Angélica Drska</p>
+        </div>
+
+        <!-- Assessoria Pedagógica -->
+        <span class="h5 mb-3 d-block">Assessoria Pedagógica</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Cláudia Reis</p>
+            <p class="small text-muted"><em>Pedagoga</em></p>
+        </div>
+
+        <!-- Suporte Técnico de Tecnologia da Informação -->
+        <span class="h5 mb-3 d-block">Suporte Técnico de Tecnologia da Informação</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Bruno Alexandre de Oliveira</p>
+            <p class="small text-muted"><em>Desenvolvedor</em></p>
+
+            <p class="mb-1">Eduardo Xavier da Silva</p>
+            <p class="small text-muted"><em>Desenvolvedor</em></p>
+
+            <p class="mb-1">Adriano Lourenço</p>
+            <p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+
+            <p class="mb-1">Orlando Terra</p>
+            <p class="small text-muted"><em>Analista de tecnologias educacionais</em></p>
+
+            <p class="mb-1">Fábio Carneiro</p>
+            <p class="small text-muted"><em>Designer gráfico e web designer</em></p>
+
+            <p class="mb-1">Catarina Santiago</p>
+            <p class="small text-muted"><em>Designer gráfico</em></p>
+        </div>
+
+        <!-- Assessoria Técnica SE/UNASUS -->
+        <span class="h5 mb-3 d-block">Assessoria Técnica – SE/UNASUS</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Débora Dupas Gonçalves do Nascimento</p>
+            <p class="mb-1">Edinalva Neves Nascimento</p>
+            <p class="mb-1">Jakeline Ribeiro Barbosa</p>
+        </div>
+
+        <!-- Apoio Técnico -->
+        <span class="h5 mb-3 d-block">Apoio Técnico</span>
+
+        <div class="mb-5">
+            <p class="mb-1">Aline Santos Jacob</p>
+            <p class="mb-1">Ilma F Santos</p>
+            <p class="mb-1">Pollyana dos Santos Pereira</p>
+        </div>
+
+         <!-- Ficha técnica e direitos autorais -->
+        
+
+        <div class="mb-5">
+            <p>©2026. Ministério da Saúde. Sistema Universidade Aberta do SUS. Fundação Oswaldo Cruz</p>
+            <p>Alguns direitos reservados. É permitida a reprodução, disseminação e utilização dessa obra, em parte ou em sua totalidade, nos termos da licença para usuário final do Acervo de Recursos Educacionais em Saúde (ARES). Deve ser citada a fonte e é vedada a sua utilização comercial.</p>
+        </div>
+
+    </div>
+</div>
+
 		`,
     },
     bibliografia: {
@@ -692,16 +795,26 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m2-aula4" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula4" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <div class="list mb-5">
-                                                <ul class="list-group">
-                                                    <li class="list-group-item"></li>
+										    <div class="list mb-5">
+										        <ul class="list-group">
+										            <li class="list-group-item">AZEVEDO SILVA JÚNIOR, Aluízio de; TOYANSK, Marcos. Saúde das comunidades ciganas no Brasil: contextos e políticas públicas. Revista do Centro de Pesquisa e Formação, n. 10, ago. 2020.</li>
 
-                                                    <li class="list-group-item"></li>
+										            <li class="list-group-item">COSTA, Elisa; JUAREZ ROLIM, José Daniel. Redução das desigualdades em saúde nas comunidades ciganas no Brasil: subsídios para discussão. 1. ed. Brasília, DF: AMSK/Brasil, 2014.</li>
 
-                                                    <li class="list-group-item"></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+										            <li class="list-group-item">GUIMARAIS, M. T. S. O associativismo transnacional cigano: identidades, diásporas e territórios. 2012. 231 f. Tese (Doutorado em Geografia) – Departamento de Geografia da Faculdade de Filosofia, Letras e Ciências Humanas da Universidade de São Paulo, São Paulo (SP), 2012.</li>
+
+										            <li class="list-group-item">MOONEN, Frans. Políticas ciganas no Brasil e na Europa: subsídios para encontros e congressos ciganos no Brasil. 2. ed. rev. e ampl. Recife: [s.n.], 2013.</li>
+
+										            <li class="list-group-item">SILVA JÚNIOR, A. A. Produção social dos sentidos em processos interculturais de comunicação e saúde: a apropriação das políticas públicas de saúde para ciganos no Brasil e em Portugal. 2018. 522 f. Tese (Doutorado em Informação e Comunicação da Saúde) – Instituto de Comunicação e Informação Científica e Tecnológica em Saúde, Fundação Oswaldo Cruz, Rio de Janeiro/RJ, 2018. Disponível em: https://www.icict.fiocruz.br/sites/www.icict.fiocruz.br/files/Tese%20PPGICS%20Aluizio %20de%20Azevedo%20Silva%20Junior_2018.pdf. Acesso em: 04 out. 2024.</li>
+
+										            <li class="list-group-item">SILVA JÚNIOR, Aluízio de Azevedo; TOYANSK, Marcos. Saúde das comunidades ciganas no Brasil: contextos e políticas públicas. Revista do Centro de Pesquisa e Formação, n. 10, ago. 2020.</li>
+
+										            <li class="list-group-item">SILVA JÚNIOR, A. A. Comunidades ciganas e a pandemia: desafios étnico-raciais e perspectivas comunicacionais. Revista Comunicação, Cultura e Sociedade, [S. l.], v. 7, n. 1, p. 042–061, 2020. Disponível em: https://periodicos.unemat.br/index.php/ccs/article/view/5097. Acesso em: 5 out. 2024.</li>
+
+										            <li class="list-group-item">SILVA JÚNIOR, A. A.; GONÇALVES, G. M. A Pandemia da COVID-19 e a Potencialização das Desigualdades: Comunidades Ciganas e Meios de Comunicação. Comunicação e sociedade [online], 42 | 2022, posto online no dia 16 dezembro 2022. Disponível em: http://journals.openedition.org/cs/8284. Acesso em: 05 out 2024.</li>
+										        </ul>
+										    </div>
+										</div>
                                     </div>
                                 </div>
                             </div>
