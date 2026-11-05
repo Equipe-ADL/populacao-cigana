@@ -67,9 +67,8 @@ p:last-child {
 
 /* Anchors and Links */
 
-a,
-a:visited {
-	color: var(--fio-sys-color-primary-30);
+a, a:visited {
+	color: var(--fio-sys-color-primary-40);
 	text-decoration: none;
 	text-transform: none;
 	overflow-wrap: anywhere;
@@ -80,9 +79,8 @@ a[role="button"] {
 }
 
 a:hover {
-	background-color: var(--fio-sys-color-primary-30);
-	color: #fff;
-	/* color: var(--fio-sys-color-accent-medium); */
+	background-color: var(--fio-sys-color-primary-40);
+	color: #FFFFFF!important;
 	text-decoration: underline;
 }
 
