@@ -1,7 +1,7 @@
 /* --- QUOTATION --- */
 
 .quotation blockquote {
-	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
+	background: linear-gradient(0deg, rgba(204, 237, 221, 0.8), rgba(244, 213, 212, 0.8));
 	border-radius: calc(var(--fio-sys-size-radius-xl) * 1.5);
 	align-items: center;
 	display: flex;

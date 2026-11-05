@@ -413,8 +413,8 @@ section .page-nav .fio-button {
 
 /* Estilização do Box de Objetivos */
 .box-objetivos {
-	background-color: #fdfbfb;
-	background-image: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
+	background-color: none;
+	background-image: linear-gradient(0deg, rgba(204, 237, 221, 0.6), rgba(244, 213, 212, 0.6));
 	border: var(--fio-sys-size-stroke-sm) solid var(--fio-sys-color-primary-50);
 	border-radius: 10px;
 	overflow: hidden;

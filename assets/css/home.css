@@ -80,25 +80,24 @@ html {
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
 	letter-spacing: var(--fio-sys-typography-spacing-small);
-	margin-bottom: var(--fio-sys-size-margin-lg);
+	margin-bottom: var(--fio-sys-size-margin-sm);
 }
 
 .hero-title h2 .description {
 	display: inline-block;
 	color: var(--fio-sys-color-neutral-30);
-	line-height: var(--fio-sys-typography-height-150);
-	font-size: var(--fio-sys-typography-size-3);
-	margin-bottom: var(--fio-sys-size-margin-md);
+	line-height: var(--fio-sys-typography-height-120);
+	font-size: var(--fio-sys-typography-size-4);
 	text-transform: uppercase;
 	letter-spacing: var(--fio-sys-typography-spacing-wide);
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.5);
 	padding: 0 20px 4px;
 	border-radius: var(--fio-sys-size-radius-full);
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
-	margin-bottom: var(--fio-sys-size-margin-md);
-	margin-left: -20px;
-	font-weight: 400;
+	margin-bottom: var(--fio-sys-size-margin-sm);
+	margin-left: -10px;
+	font-weight: 300;
 }
 
 .hero-title h2 .name {
@@ -108,8 +107,8 @@ html {
 	font-family: var(--fio-sys-typography-family-primary);
 	line-height: var(--fio-sys-typography-height-125);
 	font-weight: 600;
-	background: rgba(255, 255, 255, 0.2);
-	padding: 0 20px 4px;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 0 25px 10px;
 	border-radius: var(--fio-sys-size-radius-full);
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
@@ -127,7 +126,7 @@ html {
 
 @media (min-width: 1200px) {
 	.hero-title h2 .name {
-		font-size: calc(var(--fio-sys-typography-size-5) * 1.2);
+		font-size: calc(var(--fio-sys-typography-size-5) * 1.3);
 	}
 }
 
