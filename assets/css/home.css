@@ -470,9 +470,9 @@ section {
 	.main {
 		background: #f2f2f2;
 		overflow: hidden;
-		background: transparent; 
-		overflow: hidden; 
-		backdrop-filter: blur(40px); 
+		background: transparent;
+		overflow: hidden;
+		backdrop-filter: blur(40px);
 		-webkit-backdrop-filter: blur(40px);
 	}
 }
@@ -482,7 +482,7 @@ section {
 .wave-container {
 	height: 168px;
 	background-color: transparent;
-	position: relative; 
+	position: relative;
 	isolation: isolate;
 }
 
