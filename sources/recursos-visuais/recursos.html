@@ -2752,210 +2752,194 @@
 
                 <!-- Bloco - Timeline Horizontal -->
                 <section id="timeline-horizontal">
-                    <div class="container-fluid timeline-horizontal mb-5 aos-animate aos-init my-5" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="600">
-                        <div class="row justify-content-center pt-0">
-                            <div class="col">
-                                <!-- Timeline Horizontal -->
-                                <div class="cd-h-timeline js-cd-h-timeline cd-h-timeline--loaded">
-                                    <div class="container" style="min-height: 500px">
-                                        <div class="row justify-content-center py-5">
-                                            <div class="col-12 mb-0">
-                                                <span class="h5 d-block text-center">Criação e implementação dos
-                                                    principais SIS em âmbito nacional</span>
-                                            </div>
-                                        </div>
-                                        <div class="row justify-content-center">
-                                            <div class="col-12">
-                                                <div class="cd-h-timeline__container">
-                                                    <div class="cd-h-timeline__dates">
-                                                        <div class="cd-h-timeline__line">
-                                                            <ol>
-                                                                <li><a href="#0" data-date="01/01/1975" class="cd-h-timeline__date cd-h-timeline__date--selected">1975</a>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-8 mb-5">
+
+                                <!-- Heading Block (Título h2 ou h3 + Lead (se houver)) -->
+                                <div class="heading__block">
+                                    <span class="heading__before">Recurso 18</span>
+                                    <h3>Timeline Horizontal</h3>
+                                    <p class="heading__lead">Indicada para exibir informações com ordem cronológica.</p>
+                                </div>
+                                <!-- Fim do Heading Block (Título h2 ou h3 + Lead (se houver)) -->
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <!-- Abas -->
+                                <div class="aba">
+                                    <ul class="nav nav-pills nav-fill mb-5" id="pills-timeline-horizontal" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-timeline-horizontal-exemplos-tab" data-bs-toggle="pill" data-bs-target="#pills-timeline-hrizontal-exemplos" type="button" role="tab" aria-controls="pills-timeline-horizontal-exemplos" aria-selected="true">Exemplos</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-timeline-horizontal-construcao-tab" data-bs-toggle="pill" data-bs-target="#pills-timeline-horizontal-construcao" type="button" role="tab" aria-controls="pills-timeline-horizontal-construcao" aria-selected="false">Construção</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-timeline-horizontal-boas-praticas-tab" data-bs-toggle="pill" data-bs-target="#pills-timeline-horizontal-boas-praticas" type="button" role="tab" aria-controls="pills-timeline-horizontal-boas-praticas" aria-selected="false">Boas práticas</button>
+                                        </li>
+
+                                    </ul>
+                                    <div class="tab-content p-0 border-0 bg-transparent" id="pills-tabContent">
+                                        <!-- Aba 1 -->
+                                        <div class="tab-pane fade show active" id="pills-timeline-hrizontal-exemplos" role="tabpanel" aria-labelledby="pills-timeline-hrizontal-exemplos-tab">
+                                            <div class="row justify-content-center">
+                                                <div class="col-12">
+                                                    <!-- ============================================================
+                                                    TIMELINE HORIZONTAL
+                                                    - data-date no formato DD/MM/AAAA (opcional: DD/MM/AAAATHH:mm)
+                                                    - O data-date do botão deve ser igual ao data-date do item de conteúdo
+                                                    - Opcional no class="htl":
+                                                        data-htl-min-distance="60"  -> distância mínima (px) entre datas
+                                                        data-htl-keyboard="false"   -> desativa navegação pelas setas do teclado
+                                                        data-htl-autoinit="false"   -> não inicializa automaticamente
+                                                    ============================================================ -->
+                                                    <div class="htl" aria-label="Linha do tempo" data-htl-min-distance="80">
+
+                                                        <div class="htl__timeline">
+                                                            <div class="htl__events-wrapper">
+                                                                <div class="htl__events">
+                                                                    <ol class="htl__dates">
+                                                                        <li><button type="button" class="htl__date is-selected" data-date="16/01/2014">16 Jan</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="28/02/2014">Sec. XI</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="20/03/2014">20 Mar</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="20/05/2014">20 Mai</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="09/07/2014">09 Jul</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="30/08/2014">30 Ago</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="15/09/2014">15 Set</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="01/11/2014">01 Nov</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="10/12/2014">10 Dez</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="19/01/2015">19 Jan</button></li>
+                                                                        <li><button type="button" class="htl__date" data-date="03/03/2015">03 Mar</button></li>
+                                                                    </ol>
+                                                                    <span class="htl__filling-line" aria-hidden="true"></span>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="htl__nav">
+                                                                <button type="button" class="htl__nav-btn htl__nav-btn--prev" aria-label="Anterior"></button>
+                                                                <button type="button" class="htl__nav-btn htl__nav-btn--next" aria-label="Próximo"></button>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="htl__content" aria-live="polite">
+                                                            <ol class="htl__content-list">
+                                                                <li class="htl__item is-selected" data-date="16/01/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Timeline Horizontal</h2>
+                                                                        <em class="htl__item-date">16 de janeiro de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
                                                                 </li>
 
-                                                                <li><a href="#0" data-date="01/01/1984" class="cd-h-timeline__date">1984</a></li>
+                                                                <li class="htl__item" data-date="28/02/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">28 de fevereiro de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/1990" class="cd-h-timeline__date">1990</a></li>
+                                                                <li class="htl__item" data-date="20/03/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">20 de março de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/1993" class="cd-h-timeline__date">1990-93</a>
-                                                                <li>
+                                                                <li class="htl__item" data-date="20/05/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">20 de maio de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/1994" class="cd-h-timeline__date">1992-94</a></li>
+                                                                <li class="htl__item" data-date="09/07/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">9 de julho de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/1998" class="cd-h-timeline__date">1998</a></li>
+                                                                <li class="htl__item" data-date="30/08/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">30 de agosto de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/2000" class="cd-h-timeline__date">2000</a></li>
+                                                                <li class="htl__item" data-date="15/09/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">15 de setembro de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/2003" class="cd-h-timeline__date">2003</a></li>
+                                                                <li class="htl__item" data-date="01/11/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">1 de novembro de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
 
-                                                                <li><a href="#0" data-date="01/01/2013" class="cd-h-timeline__date">2013</a></li>
+                                                                <li class="htl__item" data-date="10/12/2014">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">10 de dezembro de 2014</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="htl__item" data-date="19/01/2015">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">19 de janeiro de 2015</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="htl__item" data-date="03/03/2015">
+                                                                    <div class="htl__card">
+                                                                        <h2 class="htl__item-title">Título do evento</h2>
+                                                                        <em class="htl__item-date">3 de março de 2015</em>
+                                                                        <p class="htl__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi!</p>
+                                                                    </div>
+                                                                </li>
                                                             </ol>
-
-                                                            <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
                                                         </div>
-                                                    </div>
 
-                                                    <ul>
-                                                        <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev">Prev</a>
-                                                        </li>
-                                                        <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a>
-                                                        </li>
-                                                    </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row justify-content-center">
-                                            <div class="col-12">
-                                                <div class="cd-h-timeline__events">
-                                                    <ol>
-                                                        <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1975</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
 
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema Nacional de Informações sobre Mortalidade
-                                                                        (SIM) - implementado gradualmente desde 1994
-                                                                        pelo Ministério da Saúde nas Unidades da
-                                                                        Federação</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
+                                        <!-- Aba 2-->
+                                        <div class="tab-pane fade" id="pills-timeline-hrizontal-construcao" role="tabpanel" aria-labelledby="pills-timeline-hrizontal-construcao-tab">
+                                            <p><strong>Obs: Atente-se para o <strong>nome dado ao id</strong> do
+                                                    accordion!</strong>
+                                            </p>
+                                        </div>
 
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1984</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informações Hospitalares (SIH-SUS) -
-                                                                        descentralizado para os Gestores de Secretaria
-                                                                        de Saúde em 2006</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1990</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informações sobre Nascidos Vivos
-                                                                        (SINASC)</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1990-1993</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informações de Agravos de Notificação
-                                                                        (SINAN)</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1992-1994</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informações Ambulatoriais do SUS
-                                                                        (SIA/SUS)</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">1998</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informação de Atenção Básica (SIAB)
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">2000</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informações sobre Orçamentos Públicos
-                                                                        em Saúde (SIOPS)</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">2003</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Cadastro Nacional de Estabelecimentos de Saúde
-                                                                        (CNES)</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li class="cd-h-timeline__event text-component">
-                                                            <div class="heading__block">
-                                                                <span class="heading__before"></span>
-                                                                <h4 class="heading__title">2013</h4>
-                                                                <span class="heading__subtitle h6"></span>
-                                                            </div>
-                                                            <div class="row justify-content-center d-lg-block">
-                                                                <div class="col-12">
-                                                                    <p>Sistema de Informação em Saúde para a Atenção
-                                                                        Básica (SISAB) - substitui o SIAB</p>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ol>
-                                                </div>
-                                            </div>
+                                        <!-- Aba 3 -->
+                                        <div class="tab-pane fade" id="pills-timeline-hrizontal-boas-praticas" role="tabpanel" aria-labelledby="pills-timeline-hrizontal-boas-praticas-tab">
+                                            <p>Conteúdo Sobre boas práticas de uso deste componente</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row px-0 background-tertiary-extra-light">
-                            <img src="../../media/templates/bg-timeline-horizontal-bottom.svg">
-                        </div>
                     </div>
                 </section>
+
+
 
                 <!-- Bloco - Timeline Vertical -->
                 <section id="timeline-vertical" class="bg-secondary-light">
@@ -3282,95 +3266,95 @@
                                             </video>
                                         </div>
                                         <div class="media__transcription text-end mt-3">
-                                        <a class="fio-button button-sm fio-button-secondary transcription-button collapsed" data-bs-toggle="collapse" href="#mediatranscription3" role="button" aria-expanded="false" aria-controls="mediatranscription3">
-                                            <span class="transcription-button-label">Transcrição
-                                                do vídeo <span class="icone material-symbols-rounded" aria-hidden="true"></span></span>
-                                        </a>
-                                        <div class="transcription-content collapse text-start" id="mediatranscription3">
-                                            <span class="my-4 h6 d-block">Transcrição do Vídeo: nome do vídeo</span>
+                                            <a class="fio-button button-sm fio-button-secondary transcription-button collapsed" data-bs-toggle="collapse" href="#mediatranscription3" role="button" aria-expanded="false" aria-controls="mediatranscription3">
+                                                <span class="transcription-button-label">Transcrição
+                                                    do vídeo <span class="icone material-symbols-rounded" aria-hidden="true"></span></span>
+                                            </a>
+                                            <div class="transcription-content collapse text-start" id="mediatranscription3">
+                                                <span class="my-4 h6 d-block">Transcrição do Vídeo: nome do vídeo</span>
 
-                                            <p>[Toca música inicial]</p>
+                                                <p>[Toca música inicial]</p>
 
-                                            <p>Apesar do processo de decadência da
-                                                escravidão a partir de 1850 e do
-                                                movimento abolicionista em 1880
-                                                (representado por influentes negros como
-                                                Luís Gama e André Rebouças), somente em
-                                                1888 foi decretada a Lei Áurea que
-                                                determinou o fim da abominável
-                                                escravidão no Brasil. No entanto, a
-                                                referida Lei não implicou no
-                                                estabelecimento efetivo de suporte,
-                                                atenção e cuidado para com a situação
-                                                das pessoas negras que foram libertadas,
-                                                conservando-se a desigualdade social,
-                                                econômica e política. Isso significa que
-                                                a libertação não lhes deu cidadania,
-                                                porque se tornaram reféns da falta de
-                                                trabalho e de moradia.</p>
+                                                <p>Apesar do processo de decadência da
+                                                    escravidão a partir de 1850 e do
+                                                    movimento abolicionista em 1880
+                                                    (representado por influentes negros como
+                                                    Luís Gama e André Rebouças), somente em
+                                                    1888 foi decretada a Lei Áurea que
+                                                    determinou o fim da abominável
+                                                    escravidão no Brasil. No entanto, a
+                                                    referida Lei não implicou no
+                                                    estabelecimento efetivo de suporte,
+                                                    atenção e cuidado para com a situação
+                                                    das pessoas negras que foram libertadas,
+                                                    conservando-se a desigualdade social,
+                                                    econômica e política. Isso significa que
+                                                    a libertação não lhes deu cidadania,
+                                                    porque se tornaram reféns da falta de
+                                                    trabalho e de moradia.</p>
 
-                                            <p>[Pausa musical entre assuntos]</p>
+                                                <p>[Pausa musical entre assuntos]</p>
 
-                                            <p>Apesar da luta histórica de movimentos e
-                                                grupos sociais negros, somente em tempos
-                                                muito recentes foram elaboradas
-                                                legislações e políticas públicas
-                                                voltadas para a promoção e salvaguarda
-                                                de direitos de grupos populacionais
-                                                historicamente marginalizados,
-                                                discriminados e vulnerabilizados. Como
-                                                exemplos dessas políticas temos:</p>
-                                            <p>A Lei Nº 7.716, de 5 de janeiro de 1989
-                                                (conhecida como “Lei Caó”), que define
-                                                os crimes resultantes de preconceito de
-                                                raça ou de cor; </p>
-                                            <p>A Lei Nº 12.711, de 29 de agosto de 2012
-                                                (conhecida como “Lei de Cotas”), que
-                                                garante a reserva de 50% das matrículas
-                                                por curso e turno nas universidades
-                                                federais e nos institutos federais de
-                                                educação, ciência e tecnologia a alunos
-                                                oriundos integralmente do ensino médio
-                                                público, em cursos regulares ou da
-                                                educação de jovens e adultos.</p>
-                                            <p>Na área da saúde pode-se destacar a
-                                                Política Nacional de Saúde Integral da
-                                                População Negra (PNSIPN) de 2009 que tem
-                                                como objetivo “promover a saúde integral
-                                                da população negra, priorizando a
-                                                redução das desigualdades
-                                                étnico-raciais, o combate ao racismo e à
-                                                discriminação nas instituições e
-                                                serviços do SUS”.</p>
-                                            <p>[Pausa musical entre assuntos]</p>
+                                                <p>Apesar da luta histórica de movimentos e
+                                                    grupos sociais negros, somente em tempos
+                                                    muito recentes foram elaboradas
+                                                    legislações e políticas públicas
+                                                    voltadas para a promoção e salvaguarda
+                                                    de direitos de grupos populacionais
+                                                    historicamente marginalizados,
+                                                    discriminados e vulnerabilizados. Como
+                                                    exemplos dessas políticas temos:</p>
+                                                <p>A Lei Nº 7.716, de 5 de janeiro de 1989
+                                                    (conhecida como “Lei Caó”), que define
+                                                    os crimes resultantes de preconceito de
+                                                    raça ou de cor; </p>
+                                                <p>A Lei Nº 12.711, de 29 de agosto de 2012
+                                                    (conhecida como “Lei de Cotas”), que
+                                                    garante a reserva de 50% das matrículas
+                                                    por curso e turno nas universidades
+                                                    federais e nos institutos federais de
+                                                    educação, ciência e tecnologia a alunos
+                                                    oriundos integralmente do ensino médio
+                                                    público, em cursos regulares ou da
+                                                    educação de jovens e adultos.</p>
+                                                <p>Na área da saúde pode-se destacar a
+                                                    Política Nacional de Saúde Integral da
+                                                    População Negra (PNSIPN) de 2009 que tem
+                                                    como objetivo “promover a saúde integral
+                                                    da população negra, priorizando a
+                                                    redução das desigualdades
+                                                    étnico-raciais, o combate ao racismo e à
+                                                    discriminação nas instituições e
+                                                    serviços do SUS”.</p>
+                                                <p>[Pausa musical entre assuntos]</p>
 
-                                            <p>Uma reflexão importante: a Lei Áurea
-                                                declarou extinta a escravidão, mas não
-                                                significou mudanças significativas no
-                                                racismo nem na desigualdade tão
-                                                impregnados na sociedade brasileira.
-                                                Ainda hoje, 135 anos depois, é possível
-                                                sentir as sequelas dessa que é a marca
-                                                mais cruel da herança da escravidão e
-                                                que mantém uma cultura de opressão e
-                                                violência.</p>
-                                            <p>Sendo assim, o racismo que estrutura a
-                                                sociedade também é resultado do processo
-                                                de escravidão e tem impacto direto na
-                                                desigualdade social, com repercussões
-                                                nas relações econômicas, sociais,
-                                                culturais e institucionais do país. Este
-                                                é um processo em que as condições de
-                                                organização da sociedade privilegiam
-                                                grupos de determinada cor ou etnia em
-                                                detrimento de outros. No Brasil e em
-                                                outros países, essa distinção favorece
-                                                os brancos e coloca como subalternos
-                                                negros e indígenas.</p>
+                                                <p>Uma reflexão importante: a Lei Áurea
+                                                    declarou extinta a escravidão, mas não
+                                                    significou mudanças significativas no
+                                                    racismo nem na desigualdade tão
+                                                    impregnados na sociedade brasileira.
+                                                    Ainda hoje, 135 anos depois, é possível
+                                                    sentir as sequelas dessa que é a marca
+                                                    mais cruel da herança da escravidão e
+                                                    que mantém uma cultura de opressão e
+                                                    violência.</p>
+                                                <p>Sendo assim, o racismo que estrutura a
+                                                    sociedade também é resultado do processo
+                                                    de escravidão e tem impacto direto na
+                                                    desigualdade social, com repercussões
+                                                    nas relações econômicas, sociais,
+                                                    culturais e institucionais do país. Este
+                                                    é um processo em que as condições de
+                                                    organização da sociedade privilegiam
+                                                    grupos de determinada cor ou etnia em
+                                                    detrimento de outros. No Brasil e em
+                                                    outros países, essa distinção favorece
+                                                    os brancos e coloca como subalternos
+                                                    negros e indígenas.</p>
 
-                                            <p>[Toca música final]</p>
+                                                <p>[Toca música final]</p>
+                                            </div>
                                         </div>
-                                    </div>
                                     </div>
 
                                 </div>
@@ -3629,6 +3613,7 @@
     <script src="../../assets/js/custom-anime.js"></script>
     <script src="../../sources/animate/aos/dist/aos.js"></script>
     <script src="../../assets/js/exercise.js"></script>
+    <script src="../../assets/js/timeline-horizontal.js"></script>
 
     <!-- Swiper -->
     <script src="../../assets/js/swiper-bundle.min.js"></script>

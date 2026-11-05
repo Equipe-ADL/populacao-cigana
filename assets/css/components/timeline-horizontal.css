@@ -1,400 +1,465 @@
-/* --- TIMELINE HORIZONTAL --- */
+/* ==========================================================================
+    TIMELINE HORIZONTAL — compatível com Bootstrap 5.1.3
+    Todo o CSS fica escopado em .htl (prefixo próprio) para não conflitar
+    com o Reboot/utilitários do Bootstrap. Nenhum estilo global (html/body/a).
+   ========================================================================== */
 
+/* --------------------------------------------------------------------------
+    1. TOKENS — altere aqui para personalizar
+    Dica: para usar a cor do tema Bootstrap, troque por var(--bs-primary)
+   -------------------------------------------------------------------------- */
+.htl {
+	/* Cores */
+	--htl-color-primary: var(--fio-sys-color-primary-40); /* destaque: linha preenchida, ponto ativo */
+	--htl-color-text: var(--fio-sys-color-text-dark); /* texto das datas e títulos */
+	--htl-color-muted: var(--fio-sys-color-text-light); /* parágrafos */
+	--htl-color-line: var(--fio-sys-color-primary-80); /* linha base, bordas inativas */
+	--htl-color-bg: transparent; /* deve ser igual ao fundo da seção (fade lateral + miolo dos pontos) */
+	--htl-color-bullet: var(--fio-sys-color-primary-80); /* deve ser igual ao fundo da seção (fade lateral + miolo dos pontos) */
 
-.timeline-horizontal {
-	background-color: var(--fio-sys-color-tertiary-extra-light);
-	background-image: url(../../../media/templates/bg-timeline-horizontal.svg); 
-	background-repeat: no-repeat; 
-	background-position: 0 top; 
-	background-size: 100%;
+	/* Tipografia */
+	--htl-font-family: inherit;
+	--htl-heading-font-family: inherit;
+	--htl-heading-font-weight: 700;
+	--htl-date-font-size: 0.8125rem;
+	--htl-title-font-size: 1.625rem;
+	--htl-title-font-size-md: 3.5rem;
+	--htl-subtitle-font-size: 1rem;
+	--htl-subtitle-font-size-md: 1.25rem;
+	--htl-text-font-size: 0.875rem;
+	--htl-text-font-size-md: 1.125rem;
+	--htl-line-height: 1.6;
+
+	/* Barra da timeline */
+	--htl-timeline-height: 100px;
+	--htl-timeline-width: 90%;
+	--htl-timeline-max-width: 800px;
+	--htl-track-thickness: 2px;
+	--htl-track-top: 49px;
+	--htl-track-radius: 0;
+	--htl-gutter: 40px; /* espaço lateral reservado às setas */
+	--htl-fade-width: 20px; /* sombra/fade nas laterais */
+	--htl-date-gap: 15px; /* distância entre o texto da data e a linha */
+
+	/* Pontos (eventos) */
+	--htl-dot-size: 12px;
+	--htl-dot-border-width: 2px;
+	--htl-dot-radius: 50%;
+
+	/* Setas de navegação */
+	--htl-nav-size: 34px;
+	--htl-nav-radius: 50%;
+	--htl-nav-border-width: 2px;
+	--htl-nav-bg: transparent;
+	--htl-nav-icon-size: 8px;
+	--htl-nav-icon-thickness: 2px;
+	--htl-nav-icon-color: var(--htl-color-primary);
+	--htl-nav-inactive-opacity: 0.4;
+
+	/* Foco (acessibilidade) */
+	--htl-focus-ring-width: 3px;
+	--htl-focus-ring-color: rgba(123, 157, 111, 0.35);
+
+	/* Conteúdo / card */
+	--htl-content-margin-y: 2rem;
+	--htl-content-padding-x: 5%;
+	--htl-content-max-width: 800px;
+	--htl-card-bg: transparent;
+	--htl-card-border: 0; /* ex.: 1px solid var(--htl-color-line) */
+	--htl-card-radius: 0; /* ex.: 0.75rem */
+	--htl-card-padding: 0; /* ex.: 1.5rem */
+	--htl-card-shadow: none; /* ex.: 0 .5rem 1rem rgba(0,0,0,.08) */
+
+	/* Espaçamento externo */
+	--htl-margin-y: 2rem;
+	--htl-margin-y-lg: 6rem;
+
+	/* Animações */
+	--htl-transition: 0.3s;
+	--htl-slide-duration: 0.4s;
+	--htl-easing: ease-in-out;
 }
 
-.timeline-horizontal .cd-h-timeline > .container {
-	background: linear-gradient(to bottom, rgba(255,255,255,.4) 40%, var(--fio-sys-color-tertiary-extra-light) 75%);
-	/* background:rgba(255,255,255, .4); */
-}
-
-.js .cd-h-timeline {
+/* --------------------------------------------------------------------------
+    2. CONTAINER
+   -------------------------------------------------------------------------- */
+.htl {
+	font-family: var(--htl-font-family);
+	color: var(--htl-color-text);
+	margin: var(--htl-margin-y) auto;
 	opacity: 0;
 	transition: opacity 0.2s;
 }
 
-.js .cd-h-timeline ol,
-.js .cd-h-timeline ul {
+.htl.is-loaded {
+	opacity: 1; /* exibido somente depois que o JS posiciona os eventos */
+}
+
+.htl *,
+.htl *::before,
+.htl *::after {
+	box-sizing: border-box;
+}
+
+/* Reset de listas (Bootstrap Reboot aplica padding/margin em ol) */
+.htl ol {
 	list-style: none;
-	padding-left: 0;
-	margin-left: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.js .cd-h-timeline--loaded {
-	opacity: 1;
-}
-
-.js .cd-h-timeline .cd-h-timeline__container {
+/* --------------------------------------------------------------------------
+    3. BARRA DA TIMELINE
+   -------------------------------------------------------------------------- */
+.htl__timeline {
 	position: relative;
-	height: 100px;
-	margin-bottom: var(--fio-sys-spacing-margin-lg);
+	height: var(--htl-timeline-height);
+	width: var(--htl-timeline-width);
+	max-width: var(--htl-timeline-max-width);
+	margin: 0 auto;
 }
 
-.js .text-replace {
-	overflow: hidden;
-	color: transparent;
-	text-indent: 100%;
-	white-space: nowrap;
-}
-
-.js .cd-h-timeline__dates {
+.htl__events-wrapper {
 	position: relative;
 	height: 100%;
-	margin: 0 60px;
+	margin: 0 var(--htl-gutter);
 	overflow: hidden;
 }
 
-.js .cd-h-timeline__dates::after,
-.js .cd-h-timeline__dates::before {
-	content: '';
+/* Fade nas laterais */
+.htl__events-wrapper::before,
+.htl__events-wrapper::after {
+	content: "";
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	top: 0;
 	height: 100%;
-	width: 20px;
-}
-
-/* .js .cd-h-timeline__dates::before {
-	left: 0;
-	background: linear-gradient(to right, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
-}
-
-.js .cd-h-timeline__dates::after {
-	right: 0;
-	background: linear-gradient(to left, hsl(var(--fio-ref-color-primary), 95%), hsl(var(--fio-ref-color-primary), 95%, 0));
-} */
-
-.js .cd-h-timeline__line {
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	top: 49px;
-	height: 2px;
-	background-color: var(--fio-sys-color-primary-70);
-	transition: -webkit-transform 0.4s;
-	transition: transform 0.4s;
-	transition: transform 0.4s, -webkit-transform 0.4s;
-}
-
-.js .cd-h-timeline__line a {
-	background:transparent;
-	color: var(--fio-sys-color-neutral-40) !important;
-}
-
-.js .cd-h-timeline__line a:hover {
-	color:#fff !important;
-}
-
-.js a.cd-h-timeline__date--selected{
-	background:var(--fio-sys-color-primary-30);
-	color:var(--fio-sys-color-neutral-white);
-	padding: 5px 15px 5px;
-}
-
-.js .cd-h-timeline__filling-line {
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: var(--fio-sys-color-secondary-medium);
-	-webkit-transform: scaleX(0);
-	-ms-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transform-origin: left center;
-	-ms-transform-origin: left center;
-	transform-origin: left center;
-	transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
-	transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.js .cd-h-timeline__date {
-	position: absolute;
-	bottom: 0;
-	z-index: 2;
-	text-align: center;
-	padding-bottom: var(--fio-sys-size-padding-xs);
-	padding-left: var(--fio-sys-size-padding-xs);
-    padding-right: var(--fio-sys-size-padding-xs);
-    color: var(--fio-sys-color-accent-dark);
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	text-decoration: none;
-	font-family: var(--fio-sys-typography-family-primary-extra-bold);
-}
-
-.js .cd-h-timeline__date::after {
-	content: '';
-	position: absolute;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-	bottom: -5px;
-	height: 12px;
-	width: 12px;
-	border-radius: 50%;
-	border-width: 2px;
-	border-style: solid;
-	border-color: var(--fio-sys-color-accent-dark);
-    background-color: var(--fio-sys-color-accent-contrast);
-	transition: background-color 0.3s, border-color 0.3s;
-}
-
-.js .cd-h-timeline__date:hover::after {
-	background-color: var(--fio-sys-color-primary-30);
-	border-color: var(--fio-sys-color-accent-extradark);
-}
-
-.js .cd-h-timeline__date--selected {
+	width: var(--htl-fade-width);
 	pointer-events: none;
 }
 
-.js .cd-h-timeline__date--selected::after {
-	background-color: var(--fio-sys-color-primary-30);
-	border-color: var(--fio-sys-color-accent-extradark);
+.htl__events-wrapper::before {
+	left: 0;
+	background-image: linear-gradient(to right, var(--htl-color-bg), transparent);
 }
 
-.js .cd-h-timeline__date--older-event::after {
-	border-color: var(--fio-sys-color-accent-dark);
-    background-color: var(--fio-sys-color-accent-light);
-}
-
-.js .cd-h-timeline__navigation {
-	position: absolute;
-	z-index: 1;
-	top: 25%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	height: 48px;
-	width: 48px;
-	border:none;
-	border-radius: 50%;
-	background-color: var(--fio-sys-color-accent-medium);
-	transition: border-color 0.3s;
-}
-
-.js .cd-h-timeline__navigation::after {
-	content: '';
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    top: 14%;
-    left: 18%;
-    background-image: url(../../../media/templates/slider-button-icon.svg) !important;
-}
-
-.js .cd-h-timeline__navigation:hover {
-	background-color: var(--fio-sys-color-accent-light);
-}
-
-.js .cd-h-timeline__navigation--prev {
-	/* left: 0;
-	-webkit-transform: translateY(-50%) rotate(180deg);
-	-ms-transform: translateY(-50%) rotate(180deg);
-	transform: translateY(-50%) rotate(180deg); */
-	transform:rotate(180deg);
-}
-
-.js .cd-h-timeline__navigation--next {
+.htl__events-wrapper::after {
 	right: 0;
-	transform: rotate(0deg);
+	background-image: linear-gradient(to left, var(--htl-color-bg), transparent);
 }
 
-.js .cd-h-timeline__navigation--inactive {
-	border-color: var(--fio-sys-color-neutral-medium);
-	background-color: var(--fio-sys-color-neutral-medium);
-	cursor: not-allowed;
-}
-
-.js .cd-h-timeline__navigation--inactive:hover {
-	border-color: var(--fio-sys-color-neutral-medium);
-	background-color: var(--fio-sys-color-neutral-medium);
-}
-
-.js .cd-h-timeline__events {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	transition: height 0.4s;
-}
-
-.js .cd-h-timeline__event {
+/* Linha base (largura definida via JS) */
+.htl__events {
 	position: absolute;
 	z-index: 1;
-	width: 100%;
+	left: 0;
+	top: var(--htl-track-top);
+	height: var(--htl-track-thickness);
+	border-radius: var(--htl-track-radius);
+	background: var(--htl-color-line);
+	transition: transform var(--htl-slide-duration);
+}
+
+/* Linha preenchida até o evento ativo */
+.htl__filling-line {
+	position: absolute;
+	z-index: 1;
 	left: 0;
 	top: 0;
-	-webkit-transform: translateX(-100%);
-	-ms-transform: translateX(-100%);
-	transform: translateX(-100%);
-	padding: 1px 5%;
-	opacity: 0;
-	-webkit-animation-duration: 0.4s;
-	animation-duration: 0.4s;
-	-webkit-animation-timing-function: ease-in-out;
-	animation-timing-function: ease-in-out;
+	height: 100%;
+	width: 100%;
+	border-radius: inherit;
+	background-color: var(--htl-color-primary);
+	transform: scaleX(0);
+	transform-origin: left center;
+	transition: transform var(--htl-transition);
 }
 
-.js .cd-h-timeline__event--selected {
+/* --------------------------------------------------------------------------
+    4. DATAS / PONTOS
+   -------------------------------------------------------------------------- */
+.htl__date {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	margin: 0;
+	padding: 0 0 var(--htl-date-gap);
+	border: 0;
+	border-radius: 0;
+	background: none;
+	font: inherit;
+	font-size: var(--htl-date-font-size);
+	line-height: 1.2;
+	color: var(--htl-color-text);
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	transform: translateZ(0); /* evita flicker no Safari durante o translate */
+}
+
+.htl__date::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: calc((var(--htl-track-thickness) - var(--htl-dot-size)) / 2);
+	width: var(--htl-dot-size);
+	height: var(--htl-dot-size);
+	border: var(--htl-dot-border-width) solid var(--htl-color-line);
+	border-radius: var(--htl-dot-radius);
+	background-color: var(--htl-color-bullet);
+	transform: translateX(-50%);
+	transition:
+		background-color var(--htl-transition),
+		border-color var(--htl-transition),
+		box-shadow var(--htl-transition);
+}
+
+.htl__date:focus {
+	outline: none;
+}
+
+.htl__date:focus-visible::after {
+	box-shadow: 0 0 0 var(--htl-focus-ring-width) var(--htl-focus-ring-color);
+}
+
+@media (hover: hover) {
+	.htl__date:hover::after {
+		background-color: var(--htl-color-primary);
+		border-color: var(--htl-color-primary);
+	}
+}
+
+.htl__date.is-older::after {
+	border-color: var(--htl-color-primary);
+}
+
+.htl__date.is-selected {
+	pointer-events: none;
+}
+
+.htl__date.is-selected::after {
+	background-color: var(--htl-color-primary);
+	border-color: var(--htl-color-primary);
+}
+
+/* --------------------------------------------------------------------------
+    5. SETAS DE NAVEGAÇÃO (ícone em CSS, sem imagem externa)
+   -------------------------------------------------------------------------- */
+.htl__nav-btn {
+	position: absolute;
+	z-index: 4;
+	top: 50%;
+	width: var(--htl-nav-size);
+	height: var(--htl-nav-size);
+	margin: 0;
+	padding: 0;
+	border: var(--htl-nav-border-width) solid var(--htl-color-line);
+	border-radius: var(--htl-nav-radius);
+	background: var(--htl-nav-bg);
+	cursor: pointer;
+	transform: translateY(-50%);
+	transition:
+		border-color var(--htl-transition),
+		opacity var(--htl-transition),
+		box-shadow var(--htl-transition);
+}
+
+.htl__nav-btn::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: var(--htl-nav-icon-size);
+	height: var(--htl-nav-icon-size);
+	border-top: var(--htl-nav-icon-thickness) solid var(--htl-nav-icon-color);
+	border-right: var(--htl-nav-icon-thickness) solid var(--htl-nav-icon-color);
+}
+
+.htl__nav-btn--prev {
+	left: 0;
+}
+
+.htl__nav-btn--prev::after {
+	transform: translate(-30%, -50%) rotate(-135deg);
+}
+
+.htl__nav-btn--next {
+	right: 0;
+}
+
+.htl__nav-btn--next::after {
+	transform: translate(-70%, -50%) rotate(45deg);
+}
+
+.htl__nav-btn:focus {
+	outline: none;
+}
+
+.htl__nav-btn:focus-visible {
+	box-shadow: 0 0 0 var(--htl-focus-ring-width) var(--htl-focus-ring-color);
+}
+
+@media (hover: hover) {
+	.htl__nav-btn:hover {
+		border-color: var(--htl-color-primary);
+	}
+}
+
+.htl__nav-btn.is-inactive {
+	cursor: not-allowed;
+	opacity: var(--htl-nav-inactive-opacity);
+}
+
+.htl__nav-btn.is-inactive:hover {
+	border-color: var(--htl-color-line);
+}
+
+/* --------------------------------------------------------------------------
+    6. CONTEÚDO DOS EVENTOS
+   -------------------------------------------------------------------------- */
+.htl__content {
+	position: relative;
+	width: 100%;
+	margin: var(--htl-content-margin-y) 0;
+	overflow: hidden;
+	transition: height var(--htl-slide-duration);
+}
+
+.htl__item {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 var(--htl-content-padding-x);
+	opacity: 0;
+	transform: translateX(-100%);
+	animation-duration: var(--htl-slide-duration);
+	animation-timing-function: var(--htl-easing);
+}
+
+.htl__item.is-selected {
 	position: relative;
 	z-index: 2;
 	opacity: 1;
-	-webkit-transform: translateX(0);
-	-ms-transform: translateX(0);
 	transform: translateX(0);
 }
 
-.js .cd-h-timeline__event--enter-right,
-.js .cd-h-timeline__event--leave-right {
-	-webkit-animation-name: cd-enter-right;
-	animation-name: cd-enter-right;
+.htl__item.enter-right,
+.htl__item.leave-right {
+	animation-name: htl-enter-right;
 }
 
-.js .cd-h-timeline__event--enter-left,
-.js .cd-h-timeline__event--leave-left {
-	-webkit-animation-name: cd-enter-left;
-	animation-name: cd-enter-left;
+.htl__item.enter-left,
+.htl__item.leave-left {
+	animation-name: htl-enter-left;
 }
 
-.js .cd-h-timeline__event--leave-right,
-.js .cd-h-timeline__event--leave-left {
+.htl__item.leave-right,
+.htl__item.leave-left {
 	animation-direction: reverse;
 }
 
-.js .cd-h-timeline__event-content {
-	max-width: 800px;
+.htl__card {
+	max-width: var(--htl-content-max-width);
+	margin: 0 auto;
+	padding: var(--htl-card-padding);
+	background: var(--htl-card-bg);
+	border: var(--htl-card-border);
+	border-radius: var(--htl-card-radius);
+	box-shadow: var(--htl-card-shadow);
 }
 
-.js .cd-h-timeline__event-date::before {
-	content: '- ';
+.htl__item-title {
+	margin: 0;
+	font-family: var(--htl-heading-font-family);
+	font-size: var(--htl-title-font-size);
+	font-weight: var(--htl-heading-font-weight);
+	line-height: 1.2;
+	color: var(--htl-color-text);
 }
 
-.timeline-horizontal .cd-h-timeline__event .card .card-header span {
-	color:var(--_card-header-color);
+.htl__item-date {
+	display: block;
+	margin: 10px 0;
+	font-size: var(--htl-subtitle-font-size);
+	font-style: italic;
+	line-height: var(--htl-line-height);
 }
 
-.timeline-horizontal .heading__block .heading__before {
-	color: var(--fio-sys-color-neutral-40);
-	font-size: var(--fio-sys-typography-size-1) !important
+.htl__item-date::before {
+	content: "- ";
 }
 
-@-webkit-keyframes cd-enter-right {
+.htl__item-text {
+	margin: 0;
+	font-size: var(--htl-text-font-size);
+	line-height: var(--htl-line-height);
+	color: var(--htl-color-muted);
+}
+
+/* --------------------------------------------------------------------------
+    7. RESPONSIVO (breakpoints do Bootstrap: md 768px / xl 1200px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+	.htl__item-title {
+		font-size: var(--htl-title-font-size-md);
+	}
+
+	.htl__item-date {
+		font-size: var(--htl-subtitle-font-size-md);
+	}
+
+	.htl__item-text {
+		font-size: var(--htl-text-font-size-md);
+	}
+}
+
+@media (min-width: 1200px) {
+	.htl {
+		margin: 0 auto;
+	}
+}
+
+/* --------------------------------------------------------------------------
+    8. ACESSIBILIDADE — movimento reduzido
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+	.htl,
+	.htl__events,
+	.htl__filling-line,
+	.htl__content,
+	.htl__date::after,
+	.htl__nav-btn {
+		transition: none;
+	}
+
+	.htl__item {
+		animation: none !important;
+	}
+}
+
+/* --------------------------------------------------------------------------
+    9. KEYFRAMES
+   -------------------------------------------------------------------------- */
+@keyframes htl-enter-right {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(100%);
 		transform: translateX(100%);
 	}
-
 	100% {
 		opacity: 1;
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);
+		transform: translateX(0);
 	}
 }
 
-@keyframes cd-enter-right {
+@keyframes htl-enter-left {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateX(100%);
-		transform: translateX(100%);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);
-	}
-}
-
-@-webkit-keyframes cd-enter-left {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
-
 	100% {
 		opacity: 1;
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);
+		transform: translateX(0);
 	}
 }
-
-@keyframes cd-enter-left {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(-100%);
-		transform: translateX(-100%);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);
-	}
-}
-
-html:not(.js) .cd-h-timeline__dates,
-html:not(.js) .cd-h-timeline__navigation {
-	display: none;
-}
-
-.timeline-horizontal .card .card-body p {
-	font-size:var(--fio-sys-typography-size-0);
-}
-
-#modulo1 .timeline-horizontal .heading__block span.heading__before,
-#modulo2 .timeline-horizontal .heading__block span.heading__before,
-#modulo3 .timeline-horizontal .heading__block span.heading__before,
-#modulo4 .timeline-horizontal .heading__block span.heading__before,
-#modulo5 .timeline-horizontal .heading__block span.heading__before {
-    background: var(--fio-sys-color-primary-30);
-    color: var(--fio-sys-color-accent-contrast);
-    display: table;
-	margin-bottom: var(--fio-sys-size-margin-0);
-    padding: 0 10px;
-}
-
-#page-content .timeline-horizontal li > a.cd-h-timeline__date--selected {
-    background-color: var(--fio-sys-color-primary-30);
-	border-color: var(--fio-sys-color-primary-50);
-	color:var(--fio-sys-color-primary-100) !important;
-}
-
-#page-content .timeline-horizontal li > a.cd-h-timeline__navigation {
-	/* background:var(--fio-sys-color-primary-50); */
-	background:var(--fio-sys-color-primary-30);
-	overflow: hidden;
-    text-indent: -99999px;
-}
-
-#page-content .timeline-horizontal li > a.cd-h-timeline__navigation--inactive {
-	background:var(--fio-sys-color-neutral-80);
-}
-
-#page-content .timeline-horizontal li > a.cd-h-timeline__navigation--inactive:hover {
-	background:var(--fio-sys-color-neutral-80);
-}
-
-/* #modulo1 .timeline-horizontal .destaque-parallax .card .card-header span,
-#modulo2 .timeline-horizontal .destaque-parallax .card .card-header span,
-#modulo3 .timeline-horizontal .destaque-parallax .card .card-header span,
-#modulo4 .timeline-horizontal .destaque-parallax .card .card-header span,
-#modulo5 .timeline-horizontal .destaque-parallax .card .card-header span {
-	color:var(--_card-header-color);
-	margin:0;
-} */
-
-
