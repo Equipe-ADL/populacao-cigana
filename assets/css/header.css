@@ -182,7 +182,7 @@
 			}
 			.nav-link:hover {
 				color: var(--_nav-link-color-sticky--hover);
-				text-decoration: solid;
+				text-decoration: underline;
 			}
 			.nav-link .material-symbols-rounded,
 			.nav-link:visited .material-symbols-rounded {
@@ -217,6 +217,11 @@
 	.header .nav .nav-item .nav-link {
 		color: var(--_nav-link-color);
 	}
+
+	.header .nav .nav-item .nav-link:hover {
+		text-decoration: underline;
+	}
+
 	.header .nav .desktop-toggle {
 		display: block;
 	}

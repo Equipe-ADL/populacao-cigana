@@ -261,6 +261,7 @@
 }
 
 #sidebar .sidebar__section .sidebar__section-accordion .accordion .list-group-item:hover {
+	color:var(--fio-sys-color-primary-30);
 	outline: 1px solid var(--_sidebar-link-item--hover);
 	border-radius: 8px;
 	text-decoration: none;

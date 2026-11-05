@@ -81,7 +81,6 @@ a[role="button"] {
 a:hover {
 	background-color: var(--fio-sys-color-primary-40);
 	color: var(--fio-sys-color-primary-100);
-	text-decoration: underline;
 }
 
 a:active {
