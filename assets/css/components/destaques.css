@@ -166,8 +166,9 @@
 .destaque-parallax p, 
 .destaque-parallax li, 
 .destaque-parallax .list .list-group .list-group-item {
-	color: var(--fio-sys-color-primary-20);
+	color: var(--fio-sys-color-primary-40);
 	font-size: var(--fio-sys-typography-size-1);
+	font-weight: 700;
 }
 
 .destaque-parallax .list .list-group .list-group-item::before {
