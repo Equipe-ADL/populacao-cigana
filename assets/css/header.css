@@ -16,8 +16,8 @@
 
 	align-items: center;
 	/* background: var(--_background-color); */
-	background: transparent;
-	backdrop-filter: blur(32px);
+	background: color-mix(in srgb, var(--fio-sys-color-neutral-70) 15%, transparent);
+	backdrop-filter: blur(22px);
 	display: flex;
 	gap: 16px;
 	height: 80px;
