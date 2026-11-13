@@ -20,15 +20,19 @@
 
 #infograficoSaudeIntegral .svg-popover-trigger:hover > .svg-plus-indicator,
 #infograficoSaudeIntegral .svg-popover-trigger:focus > .svg-plus-indicator,
+#infograficoSaudeIntegral .svg-popover-trigger > .svg-plus-indicator:focus,
 #infograficoAcolhimento .svg-popover-trigger:hover > .svg-plus-indicator,
-#infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator {
+#infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator,
+#infograficoAcolhimento .svg-popover-trigger > .svg-plus-indicator:focus {
     animation: none;
     transform: translateY(-5px);
     filter: drop-shadow(0 4px 4px rgba(11, 41, 39, 0.45));
 }
 
 #infograficoSaudeIntegral .svg-popover-trigger:focus > .svg-plus-indicator circle,
-#infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator circle {
+#infograficoSaudeIntegral .svg-popover-trigger > .svg-plus-indicator:focus circle,
+#infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator circle,
+#infograficoAcolhimento .svg-popover-trigger > .svg-plus-indicator:focus circle {
     stroke: #f8e6ba;
     stroke-width: 5px;
 }
@@ -41,8 +45,10 @@
 
     #infograficoSaudeIntegral .svg-popover-trigger:hover > .svg-plus-indicator,
     #infograficoSaudeIntegral .svg-popover-trigger:focus > .svg-plus-indicator,
+    #infograficoSaudeIntegral .svg-popover-trigger > .svg-plus-indicator:focus,
     #infograficoAcolhimento .svg-popover-trigger:hover > .svg-plus-indicator,
-    #infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator {
+    #infograficoAcolhimento .svg-popover-trigger:focus > .svg-plus-indicator,
+    #infograficoAcolhimento .svg-popover-trigger > .svg-plus-indicator:focus {
         transform: none;
     }
 }
