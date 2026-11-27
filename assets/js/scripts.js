@@ -1053,11 +1053,18 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
+                                                    <li class="list-group-item">SAÚDE DAS COMUNIDADES CIGANAS NO BRASIL: CONTEXTOS E POLÍTICAS PÚBLICAS - Aluízio De Azevedo e Marcos Toyansk - 2020.</li>
+                                                    <li class="list-group-item">PRODUÇÃO SOCIAL DOS SENTIDOS EM PROCESSOS INTERCULTURAIS DE COMUNICAÇÃO E SAÚDE: A APROPRIAÇÃO DAS POLÍTICAS PÚBLICAS DE SAÚDE PARA CIGANOS NO BRASIL E EM PORTUGAL - Aluízio de Azevedo - 2018.</li>
+                                                    <li class="list-group-item">SAÚDE MENTAL DOS POVOS CIGANOS: REVISÃO DE LITERATURA INTEGRATIVA - Aluízio de Azevedo - 2024.</li>
+                                                    <li class="list-group-item">AÇÕES EDUCATIVAS COMO POSSIBILIDADE NO REPENSAR DO HOMEM CIGANO FRENTE AO CONSUMO DO CIGARRO - Revista Enfermagem Atual, 2021.</li>
+                                                    <li class="list-group-item">GUIA ORIENTADOR PARA A ATENÇÃO INTEGRAL À SAÚDE DO POVO CIGANO - Ministério da Saúde, 2022.</li>
+                                                    <li class="list-group-item">OS MANICÔMIOS HOJE SE CHAMAM COMUNIDADES TERAPÊUTICAS - Fiocruz, 2022.</li>
+                                                    <li class="list-group-item">CARTILHA DIVERSIDADES CIGANAS - Coletivo Ciganagens, 2022.</li>
+                                                    <li class="list-group-item">LINHA DO TEMPO. Disponível em: <a href="https://portal.fiocruz.br/sites/portal.fiocruz.br/files/documentos/guia_de_integridade_em_pesquisa_da_fiocruz-final.pdf" target="_blank" rel="noopener noreferrer">https://portal.fiocruz.br/sites/portal.fiocruz.br/files/documentos/guia_de_integridade_em_pesquisa_da_fiocruz-final.pdf</a>
+                                                    </li>
+                                                    <li class="list-group-item">INTEGRIDADE E PESQUISA NA FIOCRUZ. Disponível em: <a href="https://portal.fiocruz.br/sites/portal.fiocruz.br/files/documentos/guia_de_integridade_em_pesquisa_da_fiocruz_-_final.pdf" target="_blank" rel="noopener noreferrer">Guia de integridade em pesquisa da Fiocruz</a></li>
+                                                    <li class="list-group-item">PESQUISA SOBRE POVOS CIGANOS E POLÍTICAS DE SAÚDE CONQUISTA PRÊMIO COMPÓS DE TESES E DISSERTAÇÕES. Disponível em: <a href="https://www.icict.fiocruz.br/node/5148" target="_blank" rel="noopener noreferrer">https://www.icict.fiocruz.br/node/5148</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

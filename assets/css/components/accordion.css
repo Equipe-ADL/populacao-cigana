@@ -22,7 +22,7 @@
 	font-size: 18px;
 	color: var(--_botton-color);
 	background-color: var(--_button-background-color);
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -32,18 +32,19 @@
 
 
 .accordion p {
-	font-size: var(--fio-sys-typography-size-0);
+	font-size: var(--fio-sys-typography-size--1);
+	margin-bottom: var(--fio-sys-size-margin-md);
 }
 
 #page-content 
 .accordion .accordion-body {
-	background: linear-gradient(0deg, rgba(204, 237, 221), rgba(244, 213, 212));
+	background: linear-gradient(0deg, rgba(204, 237, 221, 0.8), rgba(244, 213, 212, 0.6));
 }
 
 #page-content 
 .accordion p {
-	color:  var(--fio-sys-color-primary-30);
-	font-weight: 200;
+	color:  var(--fio-sys-color-primary-40);
+	font-weight: 500;
 }
 
 #page-content 
